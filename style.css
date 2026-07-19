@@ -1255,3 +1255,10 @@ color:#ddd;
     text-decoration:none;
     font-weight:bold;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+#contact {
+    scroll-margin-top: 120px;
+}
