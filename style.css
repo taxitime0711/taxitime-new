@@ -1204,3 +1204,14 @@ color:#ddd;
     text-decoration:none;
     font-weight:600;
 }
+.contact{
+    color: #222;
+}
+
+.contact-item{
+    color: #222;
+}
+
+.contact-item a{
+    color: #007bff;
+}
