@@ -54,16 +54,6 @@ color:#d4af37;
 
 }
 
-nav a:hover{
-    color:#d4af37;
-}
-
-
-nav a:hover{
-    color:#d4af37;
-}
-
-
 
 /* HERO */
 
@@ -1175,65 +1165,51 @@ color:#ddd;
 
 }
 
-.contact-item a:hover {
-    color: #f5d76e;
-    text-decoration: underline;
-}
+/* ===== BIZIMLE ELAQE ===== */
 
 .contact{
-    background: #000;
-    color: #d4af37;
-    padding: 30px;
-    border-radius: 15px;
-}
-
-.contact-item{
-    color: #d4af37;
-    font-size: 18px;
-    margin: 15px 0;
-}
-
-.contact-item a{
-    color: #d4af37;
-    text-decoration: none;
-}
-
-.contact-item a:hover{
-    color: #ffd700;
-}
-.contact{
+    width:90%;
+    max-width:700px;
+    margin:50px auto;
+    padding:35px;
     background:#000;
     color:#d4af37;
-    padding:35px;
-    border-radius:15px;
+    border-radius:20px;
     border:2px solid #d4af37;
-    max-width:700px;
-    margin:40px auto;
+    box-shadow:0 0 25px rgba(212,175,55,.3);
+    text-align:center;
 }
+
 
 .contact h2{
     color:#d4af37;
-    text-align:center;
-    margin-bottom:25px;
+    font-size:35px;
+    margin-bottom:30px;
 }
+
 
 .contact-item{
     color:#d4af37;
     font-size:18px;
+    font-weight:600;
     padding:15px;
     margin:10px 0;
     border-bottom:1px solid #333;
 }
+
 
 .contact-item a{
     color:#d4af37;
     text-decoration:none;
     font-weight:bold;
 }
-html {
-    scroll-behavior: smooth;
+
+
+.contact-item a:hover{
+    color:#ffd700;
 }
 
-#contact {
-    scroll-margin-top: 120px;
+
+#contact{
+    scroll-margin-top:120px;
 }
