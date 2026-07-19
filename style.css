@@ -1205,3 +1205,24 @@ color:#ddd;
     text-decoration: underline;
 }
 }
+.contact{
+    background: #000;
+    color: #d4af37;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.contact-item{
+    color: #d4af37;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.contact-item a{
+    color: #d4af37;
+    text-decoration: none;
+}
+
+.contact-item a:hover{
+    color: #ffd700;
+}
