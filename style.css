@@ -1174,30 +1174,6 @@ color:#ddd;
     display:block;
 
 }
-.contact{
-    width: 90%;
-    max-width: 700px;
-    margin: 50px auto;
-    padding: 30px;
-    background: #fff;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.12);
-    border: 1px solid #e8e8e8;
-}
-
-.contact {
-    color: #d4af37; /* Qızılı */
-}
-
-.contact-item {
-    color: #d4af37;
-    font-weight: 600;
-}
-
-.contact-item a {
-    color: #d4af37;
-    text-decoration: none;
-}
 
 .contact-item a:hover {
     color: #f5d76e;
