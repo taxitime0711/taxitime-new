@@ -1186,32 +1186,22 @@ color:#ddd;
     border: 1px solid #e8e8e8;
 }
 
-.contact-item{
-    padding:18px;
-    margin:12px 0;
-    background:#f8f8f8;
-    border-radius:12px;
-    transition:.3s;
+.contact {
+    color: #d4af37; /* Qızılı */
 }
 
-.contact-item:hover{
-    transform:translateX(8px);
-    background:#f1f7ff;
+.contact-item {
+    color: #d4af37;
+    font-weight: 600;
 }
 
-.contact-item a{
-    color:#0077ff;
-    text-decoration:none;
-    font-weight:600;
-}
-.contact{
-    color: #222;
+.contact-item a {
+    color: #d4af37;
+    text-decoration: none;
 }
 
-.contact-item{
-    color: #222;
+.contact-item a:hover {
+    color: #f5d76e;
+    text-decoration: underline;
 }
-
-.contact-item a{
-    color: #007bff;
 }
