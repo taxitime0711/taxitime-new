@@ -15,14 +15,20 @@ function orderTaxi(){
 
 }
 function sendOrder(){
-    console.log(document.getElementById("name"));
-console.log(document.getElementById("phone"));
-console.log(document.getElementById("from"));
-console.log(document.getElementById("to"));
-console.log(document.getElementById("date"));
-console.log(document.getElementById("time"));
-console.log(document.getElementById("person"));
-console.log(document.getElementById("car"));
+    function sendOrder(){
+
+    console.log("name:", document.getElementById("name"));
+    console.log("phone:", document.getElementById("phone"));
+    console.log("from:", document.getElementById("from"));
+    console.log("to:", document.getElementById("to"));
+    console.log("date:", document.getElementById("date"));
+    console.log("time:", document.getElementById("time"));
+    console.log("person:", document.getElementById("person"));
+    console.log("car:", document.getElementById("car"));
+
+    return;
+
+}
 
 let name = document.getElementById("name").value;
 let phone = document.getElementById("phone").value;
