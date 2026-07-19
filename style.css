@@ -1167,6 +1167,8 @@ color:#ddd;
 
 /* ===== BIZIMLE ELAQE ===== */
 
+/* ===== BIZIMLE ELAQE ===== */
+
 .contact{
     width:90%;
     max-width:700px;
@@ -1176,7 +1178,7 @@ color:#ddd;
     color:#d4af37;
     border-radius:20px;
     border:2px solid #d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,.3);
+    box-shadow:0 0 25px rgba(212,175,55,0.35);
     text-align:center;
 }
 
@@ -1189,12 +1191,14 @@ color:#ddd;
 
 
 .contact-item{
+    background:#111;
     color:#d4af37;
     font-size:18px;
     font-weight:600;
-    padding:15px;
-    margin:10px 0;
-    border-bottom:1px solid #333;
+    padding:18px;
+    margin:12px 0;
+    border-radius:12px;
+    border:1px solid #333;
 }
 
 
@@ -1210,6 +1214,7 @@ color:#ddd;
 }
 
 
+/* menyudan keçid üçün */
 #contact{
     scroll-margin-top:120px;
 }
