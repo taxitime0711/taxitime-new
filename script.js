@@ -14,6 +14,14 @@ function orderTaxi(){
 
 }
 function sendOrder(){
+    console.log(document.getElementById("name"));
+console.log(document.getElementById("phone"));
+console.log(document.getElementById("from"));
+console.log(document.getElementById("to"));
+console.log(document.getElementById("date"));
+console.log(document.getElementById("time"));
+console.log(document.getElementById("person"));
+console.log(document.getElementById("car"));
 
 let name = document.getElementById("name").value;
 let phone = document.getElementById("phone").value;
@@ -21,7 +29,7 @@ let from = document.getElementById("from").value;
 let to = document.getElementById("to").value;
 let date = document.getElementById("date").value;
 let time = document.getElementById("time").value;
-let passengers = document.getElementById("passengers").value;
+let passengers = document.getElementById("person").value;
 let car = document.getElementById("car").value;
 
 
