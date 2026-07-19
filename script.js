@@ -14,31 +14,24 @@ function orderTaxi(){
     window.open(url, "_blank");
 
 }
-function sendOrder(){
-    function sendOrder(){
+function sendOrder() {
 
-    console.log("name:", document.getElementById("name"));
-    console.log("phone:", document.getElementById("phone"));
-    console.log("from:", document.getElementById("from"));
-    console.log("to:", document.getElementById("to"));
-    console.log("date:", document.getElementById("date"));
-    console.log("time:", document.getElementById("time"));
-    console.log("person:", document.getElementById("person"));
-    console.log("car:", document.getElementById("car"));
+    let name = document.getElementById("name");
+    let phone = document.getElementById("phone");
+    let from = document.getElementById("from");
+    let to = document.getElementById("to");
+    let date = document.getElementById("date");
+    let time = document.getElementById("time");
+    let passengers = document.getElementById("passengers");
+    let car = document.getElementById("car");
 
-    return;
+    if (!name || !phone || !from || !to || !date || !time || !passengers || !car) {
+        alert("Form elementlərindən biri tapılmadı.");
+        return;
+    }
 
+    alert("Form düzgün tapıldı.");
 }
-
-let name = document.getElementById("name").value;
-let phone = document.getElementById("phone").value;
-let from = document.getElementById("from").value;
-let to = document.getElementById("to").value;
-let date = document.getElementById("date").value;
-let time = document.getElementById("time").value;
-let passengers = document.getElementById("person").value;
-let car = document.getElementById("car").value;
-
 
 // Tarixi Azərbaycan formatına çevirir
 let dateText = new Date(date).toLocaleDateString("az-AZ", {
