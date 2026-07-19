@@ -1175,3 +1175,32 @@ color:#ddd;
     display:block;
 
 }
+.contact{
+    width: 90%;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    border: 1px solid #e8e8e8;
+}
+
+.contact-item{
+    padding:18px;
+    margin:12px 0;
+    background:#f8f8f8;
+    border-radius:12px;
+    transition:.3s;
+}
+
+.contact-item:hover{
+    transform:translateX(8px);
+    background:#f1f7ff;
+}
+
+.contact-item a{
+    color:#0077ff;
+    text-decoration:none;
+    font-weight:600;
+}
