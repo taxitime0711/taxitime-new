@@ -75,8 +75,7 @@ nav a:hover{
     justify-content:space-between;
     padding:50px 8%;
     background:
-    linear-gradient(90deg,#000 40%,transparent),
-    url("bg.jpg");
+    background: linear-gradient(135deg, #111111, #1f1f1f);
 
     background-size:cover;
 }
