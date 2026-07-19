@@ -1226,3 +1226,32 @@ color:#ddd;
 .contact-item a:hover{
     color: #ffd700;
 }
+.contact{
+    background:#000;
+    color:#d4af37;
+    padding:35px;
+    border-radius:15px;
+    border:2px solid #d4af37;
+    max-width:700px;
+    margin:40px auto;
+}
+
+.contact h2{
+    color:#d4af37;
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.contact-item{
+    color:#d4af37;
+    font-size:18px;
+    padding:15px;
+    margin:10px 0;
+    border-bottom:1px solid #333;
+}
+
+.contact-item a{
+    color:#d4af37;
+    text-decoration:none;
+    font-weight:bold;
+}
