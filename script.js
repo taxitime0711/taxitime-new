@@ -1,3 +1,4 @@
+alert("YENI SCRIPT ISLEYIR");
 function orderTaxi(){
 
     let message = 
