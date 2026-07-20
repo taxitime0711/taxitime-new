@@ -908,9 +908,17 @@ to{
 
 .review-cards{
 
+    width:100%;
+
+    max-width:1200px;
+
+    margin:0 auto;
+
     display:flex;
 
     justify-content:center;
+
+    align-items:center;
 
     gap:25px;
 
@@ -924,8 +932,9 @@ to{
 
     width:300px;
 
-    padding:30px;
+    min-height:220px;
 
+    padding:30px;
 
     background:rgba(20,20,20,.8);
 
@@ -933,6 +942,9 @@ to{
 
     border:1px solid #333;
 
+    text-align:center;
+
+    box-sizing:border-box;
 
     transition:.4s;
 
@@ -1660,5 +1672,74 @@ nav{
     text-align:center;
 
     display:block;
+
+}
+/* ================================
+   STATISTICS PREMIUM FIX
+================================ */
+
+.stats{
+
+    width:100%;
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.55);
+
+    text-align:center;
+
+}
+
+
+.stat-box{
+
+    padding:35px 20px;
+
+    background:rgba(20,20,20,.85);
+
+    border-radius:20px;
+
+    border:1px solid rgba(212,175,55,.4);
+
+    transition:.4s;
+
+}
+
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#d4af37;
+
+    box-shadow:
+    0 0 25px rgba(212,175,55,.4);
+
+}
+
+
+.stat-box h2{
+
+    color:#d4af37;
+
+    font-size:45px;
+
+    margin-bottom:15px;
+
+}
+
+
+.stat-box p{
+
+    color:#ddd;
+
+    font-size:18px;
 
 }
