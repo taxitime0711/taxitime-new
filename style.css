@@ -1643,3 +1643,110 @@ header{
 .hero-text{
     max-width:700px;
 }
+/* CONTACT FIX */
+
+.contact{
+
+    width:90%;
+    max-width:750px;
+    margin:60px auto;
+    padding:40px;
+
+    background:rgba(0,0,0,.85);
+
+    border:2px solid #d4af37;
+
+    border-radius:25px;
+
+    text-align:center;
+
+}
+
+
+.contact-item{
+
+    padding:18px;
+
+    margin:15px 0;
+
+    background:#111;
+
+    border-radius:15px;
+
+    border:1px solid rgba(212,175,55,.4);
+
+    color:#ffd700;
+
+}
+#contact{
+    scroll-margin-top:150px;
+}
+
+.contact{
+    display:block;
+    position:relative;
+    z-index:10;
+}
+
+.contact a{
+    color:#ffd700;
+    text-decoration:none;
+    font-weight:bold;
+}
+/* TAXI TIME HERO IMAGE FIX */
+
+.hero{
+    position:relative;
+    overflow:hidden;
+    padding-top:140px;
+}
+
+
+.car{
+    width:45%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.car img{
+
+    width:100%;
+    max-width:420px;
+    max-height:300px;
+
+    object-fit:contain;
+
+    display:block;
+
+    filter:drop-shadow(0 0 25px gold);
+}
+
+
+/* mobil görünüş */
+
+@media(max-width:768px){
+
+.hero{
+
+    padding-top:120px;
+}
+
+
+.car{
+
+    width:100%;
+    margin-top:30px;
+
+}
+
+
+.car img{
+
+    max-width:300px;
+    max-height:220px;
+
+}
+
+}
