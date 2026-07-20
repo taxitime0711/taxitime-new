@@ -1,13 +1,10 @@
-/* ================================
-   TAXI TIME PREMIUM CSS v2
-   PART 1 - CORE / HEADER / HERO
-================================ */
+/* =====================================
+      TAXI TIME PREMIUM CSS v3
+      PART 1
+===================================== */
 
 
-html{
-    scroll-behavior:smooth;
-}
-
+/* RESET */
 
 *{
     margin:0;
@@ -17,75 +14,58 @@ html{
 }
 
 
+html{
+    scroll-behavior:smooth;
+}
+
+
 body{
 
-    background-image:url("bg.jpg");
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.55)
+    ),
+    url("bg.jpg");
+
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
-    background-repeat:no-repeat;
-
-    background-color:#111;
 
     color:white;
+
     overflow-x:hidden;
 
 }
 
 
-/* DARK OVERLAY EFFECT */
 
-body::before{
-
-    content:"";
-    position:fixed;
-    inset:0;
-
-    background:rgba(0,0,0,0.45);
-
-    z-index:-1;
-
-}
-
-
-
-/* =================
-      HEADER
-================= */
+/* =====================================
+              HEADER
+===================================== */
 
 
 header{
 
     width:100%;
+
     padding:20px 8%;
 
     display:flex;
+
     justify-content:space-between;
+
     align-items:center;
 
-    background:rgba(0,0,0,0.85);
+    background:rgba(0,0,0,.85);
 
     border-bottom:2px solid #d4af37;
 
-    backdrop-filter:blur(10px);
-
     position:sticky;
+
     top:0;
+
     z-index:1000;
-
-}
-
-
-
-.logo{
-
-    display:flex;
-    align-items:center;
-
-    font-size:32px;
-    font-weight:bold;
-
-    color:#d4af37;
 
 }
 
@@ -95,21 +75,20 @@ header{
 
     width:150px;
 
-    filter:drop-shadow(0 0 15px #d4af37);
+    filter:drop-shadow(0 0 15px gold);
 
 }
 
-
-
-/* MENU */
 
 
 nav{
 
     display:flex;
+
     gap:25px;
 
 }
+
 
 
 nav a{
@@ -118,11 +97,9 @@ nav a{
 
     text-decoration:none;
 
-    font-weight:600;
+    font-weight:bold;
 
     transition:.3s;
-
-    position:relative;
 
 }
 
@@ -136,42 +113,16 @@ nav a:hover{
 
 
 
-nav a::after{
 
-    content:"";
-
-    position:absolute;
-
-    bottom:-8px;
-    left:0;
-
-    width:0;
-    height:2px;
-
-    background:#d4af37;
-
-    transition:.3s;
-
-}
-
-
-
-nav a:hover::after{
-
-    width:100%;
-
-}
-
-
-
-/* =================
-       BUTTON
-================= */
+/* =====================================
+              BUTTON
+===================================== */
 
 
 button{
 
-    background:linear-gradient(
+    background:
+    linear-gradient(
         45deg,
         #b8860b,
         #ffd700
@@ -193,27 +144,24 @@ button{
 
     transition:.3s;
 
-    box-shadow:0 0 20px rgba(212,175,55,.5);
-
 }
 
 
 
 button:hover{
 
-    transform:translateY(-5px) scale(1.05);
+    transform:scale(1.05);
 
-    background:white;
-
-    box-shadow:0 0 30px #d4af37;
+    box-shadow:0 0 25px gold;
 
 }
 
 
 
-/* =================
-        HERO
-================= */
+
+/* =====================================
+              HERO
+===================================== */
 
 
 .hero{
@@ -228,10 +176,6 @@ button:hover{
 
     padding:60px 8%;
 
-
-    background:rgba(0,0,0,.55);
-
-
 }
 
 
@@ -239,8 +183,6 @@ button:hover{
 .hero-text{
 
     max-width:600px;
-
-    animation:fadeIn 1.5s ease;
 
 }
 
@@ -253,8 +195,6 @@ button:hover{
     line-height:1.2;
 
     margin-bottom:20px;
-
-    color:#fff;
 
 }
 
@@ -274,9 +214,9 @@ button:hover{
 
     color:#ddd;
 
-    margin-bottom:30px;
-
     line-height:1.6;
+
+    margin-bottom:30px;
 
 }
 
@@ -289,10 +229,10 @@ button:hover{
     max-width:100%;
 
     filter:
+    drop-shadow(0 0 30px gold);
 
-    drop-shadow(0 0 30px #d4af37);
-
-    animation:carMove 4s infinite alternate ease-in-out;
+    animation:
+    carMove 4s infinite alternate;
 
 }
 
@@ -303,14 +243,14 @@ button:hover{
 
 from{
 
-    transform:translateX(20px);
+transform:translateX(20px);
 
 }
 
 
 to{
 
-    transform:translateX(-20px);
+transform:translateX(-20px);
 
 }
 
@@ -318,56 +258,22 @@ to{
 }
 
 
-
-@keyframes fadeIn{
-
-
-from{
-
-    opacity:0;
-
-    transform:translateY(40px);
-
-}
+/* =====================================
+              SECTIONS
+===================================== */
 
 
-to{
-
-    opacity:1;
-
-    transform:translateY(0);
-
-}
-
-
-}
-/* ================================
-   PART 2 - SERVICES / ROUTES /
-   PRICES / FLEET
-================================ */
-
-
-/* =================
-      SERVICES
-================= */
-
-
-.services{
-
-    text-align:center;
+section{
 
     padding:70px 8%;
 
-    background:rgba(0,0,0,.45);
-
 }
 
 
 
-.services h2,
-.routes h2,
-.prices h2,
-.fleet h2{
+h2{
+
+    text-align:center;
 
     color:#d4af37;
 
@@ -375,23 +281,57 @@ to{
 
     margin-bottom:40px;
 
+    text-shadow:
+    0 0 15px rgba(212,175,55,.5);
+
+}
+/* ================================
+   TAXI TIME PREMIUM CSS v3
+   PART 2
+   SERVICES / ROUTES / PRICES / FLEET
+================================ */
+
+
+/* =================
+      SERVICES
+================= */
+
+.services{
+
+    width:100%;
+    padding:80px 8%;
+    text-align:center;
+    background:rgba(0,0,0,.45);
+
+}
+
+
+.services h2,
+.routes h2,
+.prices h2,
+.fleet h2,
+.gallery h2,
+.reviews h2,
+.order h2,
+.map-section h2{
+
+    color:#d4af37;
+    font-size:38px;
+    margin-bottom:40px;
     text-shadow:0 0 15px rgba(212,175,55,.5);
 
 }
 
 
 
-/* CARDS */
-
+/* SERVICE CARDS */
 
 .cards{
 
     display:flex;
-
     justify-content:center;
-
-    gap:25px;
-
+    align-items:stretch;
+    gap:30px;
     flex-wrap:wrap;
 
 }
@@ -400,24 +340,20 @@ to{
 
 .card{
 
-    width:270px;
-
-    min-height:260px;
+    width:280px;
+    min-height:280px;
 
     padding:30px 20px;
 
+    background:rgba(20,20,20,.85);
 
-    background:rgba(20,20,20,.75);
+    border:1px solid rgba(212,175,55,.5);
 
-    border:1px solid rgba(212,175,55,.4);
-
-    border-radius:20px;
-
-
-    backdrop-filter:blur(10px);
-
+    border-radius:25px;
 
     transition:.4s;
+
+    backdrop-filter:blur(10px);
 
 }
 
@@ -427,11 +363,10 @@ to{
 
     transform:translateY(-12px);
 
-    border-color:#d4af37;
+    border-color:#ffd700;
 
     box-shadow:
-
-    0 0 30px rgba(212,175,55,.45);
+    0 0 30px rgba(212,175,55,.5);
 
 }
 
@@ -440,12 +375,11 @@ to{
 .card img{
 
     width:90px;
-
     height:90px;
 
-    object-fit:cover;
-
     border-radius:50%;
+
+    object-fit:cover;
 
     margin-bottom:20px;
 
@@ -455,7 +389,7 @@ to{
 
 .card h3{
 
-    color:#d4af37;
+    color:#ffd700;
 
     margin-bottom:15px;
 
@@ -482,9 +416,11 @@ to{
 
 .routes{
 
-    text-align:center;
+    width:100%;
 
-    padding:70px 8%;
+    padding:80px 8%;
+
+    text-align:center;
 
     background:rgba(0,0,0,.65);
 
@@ -510,7 +446,7 @@ to{
 
     justify-content:center;
 
-    gap:25px;
+    gap:30px;
 
     flex-wrap:wrap;
 
@@ -520,15 +456,16 @@ to{
 
 .route-card{
 
-    width:300px;
+    width:320px;
 
-    padding:30px;
-
-
-    background:rgba(25,25,25,.8);
+    padding:35px;
 
 
-    border-radius:20px;
+    background:rgba(25,25,25,.9);
+
+
+    border-radius:25px;
+
 
     border:1px solid #333;
 
@@ -545,7 +482,8 @@ to{
 
     border-color:#d4af37;
 
-    box-shadow:0 0 25px rgba(212,175,55,.4);
+    box-shadow:
+    0 0 25px rgba(212,175,55,.4);
 
 }
 
@@ -578,12 +516,13 @@ to{
 
 .prices{
 
+    width:100%;
+
+    padding:80px 8%;
+
     text-align:center;
 
-    padding:70px 8%;
-
-
-    background:rgba(0,0,0,.55);
+    background:rgba(0,0,0,.45);
 
 }
 
@@ -595,7 +534,7 @@ to{
 
     justify-content:center;
 
-    gap:25px;
+    gap:30px;
 
     flex-wrap:wrap;
 
@@ -605,20 +544,24 @@ to{
 
 .price-card{
 
-    width:300px;
+
+    width:320px;
+
 
     padding:35px;
 
 
-    background:rgba(20,20,20,.8);
+    background:rgba(20,20,20,.85);
 
 
-    border-radius:20px;
+    border-radius:25px;
 
-    border:1px solid #333;
+
+    border:1px solid rgba(212,175,55,.4);
 
 
     transition:.4s;
+
 
 }
 
@@ -628,7 +571,7 @@ to{
 
     transform:translateY(-10px);
 
-    border-color:#d4af37;
+    border-color:#ffd700;
 
 }
 
@@ -638,19 +581,31 @@ to{
 
     color:#d4af37;
 
+    font-size:24px;
+
 }
 
 
 
 .price{
 
-    font-size:36px;
+
+    font-size:38px;
 
     font-weight:bold;
 
     color:white;
 
     margin:20px 0;
+
+
+}
+
+
+
+.price-card p{
+
+    color:#ccc;
 
 }
 
@@ -665,9 +620,11 @@ to{
 
 .fleet{
 
-    text-align:center;
+    width:100%;
 
-    padding:70px 8%;
+    padding:80px 8%;
+
+    text-align:center;
 
     background:rgba(0,0,0,.65);
 
@@ -677,13 +634,15 @@ to{
 
 .fleet-cards{
 
+
     display:flex;
 
     justify-content:center;
 
-    gap:25px;
+    gap:30px;
 
     flex-wrap:wrap;
+
 
 }
 
@@ -691,20 +650,24 @@ to{
 
 .fleet-card{
 
-    width:300px;
+
+    width:320px;
+
 
     padding:20px;
 
 
-    background:rgba(20,20,20,.8);
+    background:rgba(20,20,20,.9);
 
 
-    border-radius:20px;
+    border-radius:25px;
+
 
     border:1px solid #333;
 
 
     transition:.4s;
+
 
 }
 
@@ -712,13 +675,16 @@ to{
 
 .fleet-card:hover{
 
+
     transform:translateY(-12px);
+
 
     border-color:#d4af37;
 
-    box-shadow:
 
+    box-shadow:
     0 0 30px rgba(212,175,55,.4);
+
 
 }
 
@@ -726,13 +692,18 @@ to{
 
 .fleet-card img{
 
+
     width:100%;
 
-    height:190px;
+
+    height:200px;
+
 
     object-fit:cover;
 
-    border-radius:15px;
+
+    border-radius:18px;
+
 
 }
 
@@ -740,9 +711,12 @@ to{
 
 .fleet-card h3{
 
-    margin:15px 0;
 
-    color:#d4af37;
+    margin:18px 0;
+
+
+    color:#ffd700;
+
 
 }
 
@@ -750,9 +724,12 @@ to{
 
 .fleet-card p{
 
+
     color:#ccc;
 
-    line-height:1.5;
+
+    line-height:1.6;
+
 
 }
 
@@ -760,11 +737,13 @@ to{
 
 .vip{
 
+
     border:2px solid #d4af37;
 
-    box-shadow:
 
-    0 0 25px rgba(212,175,55,.5);
+    box-shadow:
+    0 0 30px rgba(212,175,55,.5);
+
 
 }
 
@@ -772,26 +751,32 @@ to{
 
 .vip-badge{
 
+
     display:inline-block;
+
 
     margin-top:15px;
 
+
     padding:8px 20px;
+
 
     border-radius:30px;
 
 
     background:#d4af37;
 
+
     color:#000;
+
 
     font-weight:bold;
 
+
 }
 /* ================================
-   PART 3 - GALLERY / REVIEWS /
-   MAP / CONTACT / WHATSAPP /
-   MOBILE
+   TAXI TIME PREMIUM CSS v3
+   PART 3
 ================================ */
 
 
@@ -802,9 +787,11 @@ to{
 
 .gallery{
 
-    text-align:center;
+    width:100%;
 
-    padding:70px 8%;
+    padding:80px 8%;
+
+    text-align:center;
 
     background:rgba(0,0,0,.55);
 
@@ -812,19 +799,9 @@ to{
 
 
 
-.gallery h2{
-
-    color:#d4af37;
-
-    font-size:38px;
-
-    margin-bottom:40px;
-
-}
-
-
-
 .gallery-grid{
+
+    width:100%;
 
     display:grid;
 
@@ -841,9 +818,9 @@ to{
 
     overflow:hidden;
 
-    border-radius:20px;
+    border-radius:25px;
 
-    border:1px solid rgba(212,175,55,.4);
+    border:1px solid rgba(212,175,55,.5);
 
     background:#111;
 
@@ -861,6 +838,8 @@ to{
 
     object-fit:cover;
 
+    display:block;
+
     transition:.5s;
 
 }
@@ -872,8 +851,7 @@ to{
     transform:translateY(-10px);
 
     box-shadow:
-
-    0 0 30px rgba(212,175,55,.45);
+    0 0 30px rgba(212,175,55,.5);
 
 }
 
@@ -890,17 +868,21 @@ to{
 
 
 /* =================
-       REVIEWS
+      REVIEWS
 ================= */
 
 
 .reviews{
 
+    width:100%;
+
+    padding:80px 8%;
+
     text-align:center;
 
-    padding:70px 8%;
-
     background:rgba(0,0,0,.65);
+
+    overflow:hidden;
 
 }
 
@@ -908,21 +890,25 @@ to{
 
 .review-cards{
 
+
     width:100%;
 
     max-width:1200px;
 
-    margin:0 auto;
+    margin:auto;
+
 
     display:flex;
 
     justify-content:center;
 
-    align-items:center;
+    align-items:stretch;
 
-    gap:25px;
+
+    gap:30px;
 
     flex-wrap:wrap;
+
 
 }
 
@@ -930,23 +916,27 @@ to{
 
 .review{
 
+
     width:300px;
 
-    min-height:220px;
+
+    min-height:230px;
+
 
     padding:30px;
 
-    background:rgba(20,20,20,.8);
 
-    border-radius:20px;
+    background:rgba(20,20,20,.9);
 
-    border:1px solid #333;
 
-    text-align:center;
+    border-radius:25px;
 
-    box-sizing:border-box;
+
+    border:1px solid rgba(212,175,55,.5);
+
 
     transition:.4s;
+
 
 }
 
@@ -954,9 +944,16 @@ to{
 
 .review:hover{
 
+
     transform:translateY(-10px);
 
-    border-color:#d4af37;
+
+    border-color:#ffd700;
+
+
+    box-shadow:
+    0 0 25px rgba(212,175,55,.4);
+
 
 }
 
@@ -964,7 +961,7 @@ to{
 
 .review h3{
 
-    color:#d4af37;
+    color:#ffd700;
 
     margin-bottom:15px;
 
@@ -986,7 +983,7 @@ to{
 
     display:block;
 
-    margin-top:15px;
+    margin-top:20px;
 
     color:#d4af37;
 
@@ -997,39 +994,239 @@ to{
 
 
 /* =================
-       MAP
+      STATISTICS
+================= */
+
+
+.stats{
+
+
+    width:100%;
+
+
+    padding:80px 8%;
+
+
+    display:grid;
+
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(220px,1fr));
+
+
+    gap:30px;
+
+
+    text-align:center;
+
+
+    background:rgba(0,0,0,.45);
+
+
+}
+
+
+
+.stat-box{
+
+
+    padding:35px 20px;
+
+
+    background:rgba(20,20,20,.85);
+
+
+    border-radius:25px;
+
+
+    border:1px solid rgba(212,175,55,.5);
+
+
+    transition:.4s;
+
+
+}
+
+
+
+.stat-box:hover{
+
+
+    transform:translateY(-10px);
+
+
+    border-color:#ffd700;
+
+
+}
+
+
+
+.stat-box h2{
+
+
+    font-size:45px;
+
+
+    color:#d4af37;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+.stat-box p{
+
+
+    color:#ddd;
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+/* =================
+      ONLINE ORDER
+================= */
+
+
+.order{
+
+
+    width:100%;
+
+
+    padding:80px 8%;
+
+
+    text-align:center;
+
+
+    background:rgba(0,0,0,.55);
+
+
+}
+
+
+
+.order-box{
+
+
+    width:100%;
+
+
+    max-width:650px;
+
+
+    margin:0 auto;
+
+
+    padding:40px;
+
+
+    background:rgba(20,20,20,.9);
+
+
+    border-radius:30px;
+
+
+    border:2px solid rgba(212,175,55,.5);
+
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.25);
+
+
+}
+
+
+
+.order-box input,
+.order-box textarea,
+.order-box select{
+
+
+    width:100%;
+
+
+    padding:18px;
+
+
+    margin:12px 0;
+
+
+    border:none;
+
+
+    border-radius:15px;
+
+
+    font-size:17px;
+
+
+    outline:none;
+
+
+}
+
+
+
+.order-box textarea{
+
+
+    min-height:120px;
+
+
+    resize:none;
+
+
+}
+
+
+
+.order-box button{
+
+
+    width:100%;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+
+/* =================
+          MAP
 ================= */
 
 
 .map-section{
 
+
+    width:100%;
+
+
     padding:80px 8%;
+
 
     text-align:center;
 
+
     background:rgba(0,0,0,.55);
 
-}
-
-
-
-.map-section h2{
-
-    color:#d4af37;
-
-    font-size:40px;
-
-    margin-bottom:20px;
-
-}
-
-
-
-.map-section p{
-
-    color:#ddd;
-
-    margin-bottom:35px;
 
 }
 
@@ -1037,15 +1234,18 @@ to{
 
 .map-box{
 
+
+    width:100%;
+
+
     border-radius:25px;
+
 
     overflow:hidden;
 
+
     border:3px solid #d4af37;
 
-    box-shadow:
-
-    0 0 30px rgba(212,175,55,.4);
 
 }
 
@@ -1053,9 +1253,15 @@ to{
 
 .map-box iframe{
 
+
     width:100%;
 
+
     height:450px;
+
+
+    border:0;
+
 
 }
 
@@ -1070,9 +1276,12 @@ to{
 
 .contact{
 
+
     width:90%;
 
+
     max-width:750px;
+
 
     margin:60px auto;
 
@@ -1083,25 +1292,14 @@ to{
     background:rgba(0,0,0,.85);
 
 
-    border:2px solid #d4af37;
-
     border-radius:25px;
+
+
+    border:2px solid #d4af37;
 
 
     text-align:center;
 
-
-    box-shadow:
-
-    0 0 30px rgba(212,175,55,.35);
-
-}
-
-
-
-.contact h2{
-
-    color:#d4af37;
 
 }
 
@@ -1109,27 +1307,21 @@ to{
 
 .contact-item{
 
-    background:rgba(20,20,20,.8);
 
     padding:18px;
 
+
     margin:15px 0;
+
+
+    background:#111;
+
 
     border-radius:15px;
 
-    color:#d4af37;
-
-    font-size:18px;
-
-}
-
-
-
-.contact-item a{
 
     color:#ffd700;
 
-    text-decoration:none;
 
 }
 
@@ -1138,37 +1330,44 @@ to{
 
 
 /* =================
-       WHATSAPP
+      WHATSAPP
 ================= */
 
 
 .whatsapp{
 
+
     position:fixed;
 
+
     right:25px;
+
 
     bottom:25px;
 
 
     width:65px;
 
+
     height:65px;
+
+
+    border-radius:50%;
 
 
     display:flex;
 
+
     align-items:center;
+
 
     justify-content:center;
 
 
     background:#25D366;
 
+
     color:white;
-
-
-    border-radius:50%;
 
 
     font-size:32px;
@@ -1180,20 +1379,8 @@ to{
     z-index:9999;
 
 
-    box-shadow:
+    box-shadow:0 0 25px #25D366;
 
-    0 0 25px #25D366;
-
-
-    transition:.3s;
-
-}
-
-
-
-.whatsapp:hover{
-
-    transform:scale(1.15);
 
 }
 
@@ -1209,20 +1396,11 @@ to{
 @media(max-width:768px){
 
 
-
 header{
-
-    padding:20px;
 
     flex-direction:column;
 
-}
-
-
-
-.logo img{
-
-    width:120px;
+    padding:20px;
 
 }
 
@@ -1236,8 +1414,6 @@ nav{
 
     justify-content:center;
 
-    gap:15px;
-
 }
 
 
@@ -1247,8 +1423,6 @@ nav{
     flex-direction:column;
 
     text-align:center;
-
-    padding:40px 20px;
 
 }
 
@@ -1262,45 +1436,21 @@ nav{
 
 
 
-.hero p{
-
-    font-size:17px;
-
-}
-
-
-
 .car img{
 
     width:320px;
 
     margin-top:40px;
 
-    animation:none;
-
 }
 
 
 
-.cards,
-.route-cards,
-.price-cards,
-.fleet-cards,
-.review-cards{
-
-    flex-direction:column;
-
-    align-items:center;
-
-}
-
-
-
+.review,
 .card,
 .route-card,
 .price-card,
-.fleet-card,
-.review{
+.fleet-card{
 
     width:90%;
 
@@ -1308,9 +1458,9 @@ nav{
 
 
 
-.gallery-grid{
+.order-box{
 
-    grid-template-columns:1fr;
+    padding:25px;
 
 }
 
@@ -1319,14 +1469,6 @@ nav{
 .map-box iframe{
 
     height:300px;
-
-}
-
-
-
-.contact{
-
-    padding:25px;
 
 }
 
@@ -1342,404 +1484,5 @@ nav{
 
 }
 
-
-
-}
-/* ================================
-   ONLINE SİFARİŞ FORMU DÜZƏLİŞ
-================================ */
-
-
-.order{
-
-    text-align:center;
-    padding:70px 8%;
-    background:rgba(0,0,0,.55);
-
-}
-
-
-.order-box{
-
-    width:100%;
-    max-width:600px;
-
-    margin:0 auto;
-
-    padding:35px;
-
-    background:rgba(20,20,20,.85);
-
-    border-radius:25px;
-
-    border:1px solid rgba(212,175,55,.5);
-
-    box-shadow:
-    0 0 30px rgba(212,175,55,.25);
-
-}
-
-
-.order-box input,
-.order-box textarea,
-.order-box select{
-
-
-    width:100%;
-
-    padding:18px 20px;
-
-    margin:12px 0;
-
-    border-radius:12px;
-
-    border:none;
-
-    font-size:17px;
-
-    background:#fff;
-
-    color:#111;
-
-}
-
-
-.order-box textarea{
-
-    min-height:120px;
-
-    resize:vertical;
-
-}
-
-
-.order-box button{
-
-    width:100%;
-
-    margin-top:15px;
-
-}
-
-
-
-/* MOBİL */
-
-@media(max-width:768px){
-
-.order-box{
-
-    width:95%;
-
-    padding:25px;
-
-}
-
-
-.order-box input,
-.order-box textarea,
-.order-box select{
-
-    font-size:16px;
-
-}
-
-}
-/* ================================
-   MÜŞTƏRİ RƏYLƏRİ DÜZƏLİŞ
-================================ */
-
-
-.reviews{
-
-    width:100%;
-
-    text-align:center;
-
-    padding:70px 8%;
-
-    background:rgba(0,0,0,.55);
-
-    overflow:hidden;
-
-}
-
-
-.review-cards{
-
-    width:100%;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:center;
-
-    gap:25px;
-
-    flex-wrap:wrap;
-
-}
-
-
-.review{
-
-    width:300px;
-
-    max-width:100%;
-
-    padding:30px;
-
-    background:rgba(20,20,20,.85);
-
-    border-radius:20px;
-
-    border:1px solid rgba(212,175,55,.5);
-
-    text-align:center;
-
-    box-sizing:border-box;
-
-    transition:.4s;
-
-}
-
-
-.review:hover{
-
-    transform:translateY(-10px);
-
-    border-color:#d4af37;
-
-    box-shadow:0 0 25px rgba(212,175,55,.4);
-
-}
-
-
-.review h3{
-
-    color:#d4af37;
-
-    margin-bottom:15px;
-
-}
-
-
-.review p{
-
-    color:#ddd;
-
-    line-height:1.6;
-
-}
-
-
-.review strong{
-
-    display:block;
-
-    margin-top:15px;
-
-    color:#ffd700;
-
-}
-
-
-
-@media(max-width:768px){
-
-    .review{
-
-        width:90%;
-
-    }
-
-}
-/* MÜŞTƏRİ RƏYLƏRİ SON DÜZƏLİŞ */
-
-.reviews{
-    width:100%;
-    display:block;
-    text-align:center;
-    padding:70px 8%;
-    overflow:hidden;
-}
-
-
-.review-cards{
-
-    width:100%;
-
-    display:flex !important;
-
-    justify-content:center !important;
-
-    align-items:center !important;
-
-    flex-wrap:wrap !important;
-
-    margin:0 auto;
-
-}
-
-
-.review{
-
-    display:block;
-
-    width:300px;
-
-    margin:15px auto;
-
-    text-align:center;
-
-}
-/* ================================
-   REVIEWS FINAL FIX
-================================ */
-
-.reviews{
-    width:100%;
-    padding:70px 8%;
-    text-align:center;
-    display:block;
-    clear:both;
-}
-
-
-.review-cards{
-
-    width:100%;
-
-    max-width:1200px;
-
-    margin:0 auto;
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:stretch;
-
-    gap:25px;
-
-    flex-wrap:wrap;
-
-}
-
-
-.review{
-
-    flex:0 1 300px;
-
-    width:300px;
-
-    min-height:220px;
-
-    margin:0;
-
-    padding:30px;
-
-    background:rgba(20,20,20,.85);
-
-    border-radius:20px;
-
-    border:1px solid #d4af37;
-
-    text-align:center;
-
-    box-sizing:border-box;
-
-}
-
-
-.review h3{
-
-    text-align:center;
-
-}
-
-
-.review p{
-
-    text-align:center;
-
-}
-
-
-.review strong{
-
-    text-align:center;
-
-    display:block;
-
-}
-/* ================================
-   STATISTICS PREMIUM FIX
-================================ */
-
-.stats{
-
-    width:100%;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(220px,1fr));
-
-    gap:25px;
-
-    padding:70px 8%;
-
-    background:rgba(0,0,0,.55);
-
-    text-align:center;
-
-}
-
-
-.stat-box{
-
-    padding:35px 20px;
-
-    background:rgba(20,20,20,.85);
-
-    border-radius:20px;
-
-    border:1px solid rgba(212,175,55,.4);
-
-    transition:.4s;
-
-}
-
-
-.stat-box:hover{
-
-    transform:translateY(-10px);
-
-    border-color:#d4af37;
-
-    box-shadow:
-    0 0 25px rgba(212,175,55,.4);
-
-}
-
-
-.stat-box h2{
-
-    color:#d4af37;
-
-    font-size:45px;
-
-    margin-bottom:15px;
-
-}
-
-
-.stat-box p{
-
-    color:#ddd;
-
-    font-size:18px;
 
 }
