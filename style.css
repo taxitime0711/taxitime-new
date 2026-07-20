@@ -1,10 +1,9 @@
-body {
-    background-image: url("bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
+/* ================================
+   TAXI TIME PREMIUM CSS v2
+   PART 1 - CORE / HEADER / HERO
+================================ */
+
+
 html{
     scroll-behavior:smooth;
 }
@@ -14,325 +13,552 @@ html{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial,sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
 body{
-    background:#111;
+
+    background-image:url("bg.jpg");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+
+    background-color:#111;
+
     color:white;
     overflow-x:hidden;
+
 }
 
 
-/* HEADER */
+/* DARK OVERLAY EFFECT */
+
+body::before{
+
+    content:"";
+    position:fixed;
+    inset:0;
+
+    background:rgba(0,0,0,0.45);
+
+    z-index:-1;
+
+}
+
+
+
+/* =================
+      HEADER
+================= */
+
 
 header{
+
     width:100%;
     padding:20px 8%;
+
     display:flex;
     justify-content:space-between;
     align-items:center;
-    background:#000;
+
+    background:rgba(0,0,0,0.85);
+
     border-bottom:2px solid #d4af37;
+
+    backdrop-filter:blur(10px);
+
+    position:sticky;
+    top:0;
+    z-index:1000;
+
 }
+
 
 
 .logo{
+
     display:flex;
     align-items:center;
+
     font-size:32px;
     font-weight:bold;
+
     color:#d4af37;
+
 }
+
 
 
 .logo img{
+
     width:150px;
+
+    filter:drop-shadow(0 0 15px #d4af37);
+
 }
+
 
 
 /* MENU */
 
+
 nav{
+
     display:flex;
     gap:25px;
+
 }
 
 
 nav a{
+
     color:white;
+
     text-decoration:none;
+
     font-weight:600;
-    position:relative;
+
     transition:.3s;
+
+    position:relative;
+
 }
 
 
-nav a:hover,
-nav a.active{
+
+nav a:hover{
+
     color:#d4af37;
+
 }
+
 
 
 nav a::after{
+
     content:"";
+
     position:absolute;
+
+    bottom:-8px;
     left:0;
-    bottom:-6px;
-    width:0%;
+
+    width:0;
     height:2px;
+
     background:#d4af37;
+
     transition:.3s;
+
 }
 
 
-nav a:hover::after,
-nav a.active::after{
+
+nav a:hover::after{
+
     width:100%;
+
 }
 
 
-/* BUTTON */
+
+/* =================
+       BUTTON
+================= */
+
 
 button{
 
-    background:#d4af37;
+    background:linear-gradient(
+        45deg,
+        #b8860b,
+        #ffd700
+    );
+
     color:#000;
+
     border:none;
+
     padding:15px 35px;
-    border-radius:30px;
+
+    border-radius:40px;
+
     font-size:18px;
+
     font-weight:bold;
+
     cursor:pointer;
+
     transition:.3s;
 
+    box-shadow:0 0 20px rgba(212,175,55,.5);
+
 }
+
 
 
 button:hover{
 
+    transform:translateY(-5px) scale(1.05);
+
     background:white;
-    transform:scale(1.05);
-    box-shadow:0 0 20px #d4af37;
+
+    box-shadow:0 0 30px #d4af37;
 
 }
 
 
-/* HERO */
+
+/* =================
+        HERO
+================= */
 
 
 .hero{
 
-    min-height:80vh;
+    min-height:85vh;
+
     display:flex;
+
     align-items:center;
+
     justify-content:space-between;
-    padding:50px 8%;
-    background:linear-gradient(135deg,#000,#222,#444);
+
+    padding:60px 8%;
+
+
+    background:rgba(0,0,0,.55);
+
 
 }
 
 
+
 .hero-text{
 
-    max-width:550px;
+    max-width:600px;
+
     animation:fadeIn 1.5s ease;
 
 }
 
 
+
 .hero h1{
 
-    font-size:48px;
+    font-size:52px;
+
     line-height:1.2;
+
     margin-bottom:20px;
 
+    color:#fff;
+
 }
+
+
+
+.hero h1 span{
+
+    color:#d4af37;
+
+}
+
 
 
 .hero p{
 
-    font-size:20px;
+    font-size:21px;
+
     color:#ddd;
+
     margin-bottom:30px;
 
+    line-height:1.6;
+
 }
+
 
 
 .car img{
 
     width:520px;
+
     max-width:100%;
-    filter:drop-shadow(0 0 30px #d4af37);
-    animation:carMove 3s ease-in-out infinite alternate;
+
+    filter:
+
+    drop-shadow(0 0 30px #d4af37);
+
+    animation:carMove 4s infinite alternate ease-in-out;
 
 }
+
 
 
 @keyframes carMove{
 
+
 from{
+
     transform:translateX(20px);
+
 }
+
 
 to{
+
     transform:translateX(-20px);
-}
 
 }
+
+
+}
+
 
 
 @keyframes fadeIn{
 
+
 from{
+
     opacity:0;
-    transform:translateY(30px);
+
+    transform:translateY(40px);
+
 }
+
 
 to{
+
     opacity:1;
+
     transform:translateY(0);
-}
 
 }
 
-/* SERVICES */
+
+}
+/* ================================
+   PART 2 - SERVICES / ROUTES /
+   PRICES / FLEET
+================================ */
+
+
+/* =================
+      SERVICES
+================= */
+
 
 .services{
 
     text-align:center;
-    padding:60px 8%;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.45);
+
 }
+
 
 
 .services h2,
 .routes h2,
 .prices h2,
-.fleet h2,
-.gallery h2,
-.contact h2,
-.reviews h2,
-.order h2{
+.fleet h2{
 
     color:#d4af37;
-    font-size:35px;
+
+    font-size:38px;
+
     margin-bottom:40px;
+
+    text-shadow:0 0 15px rgba(212,175,55,.5);
 
 }
 
 
-/* XİDMƏT KARTLARI */
+
+/* CARDS */
+
 
 .cards{
 
     display:flex;
+
     justify-content:center;
-    gap:20px;
+
+    gap:25px;
+
     flex-wrap:wrap;
 
 }
 
 
+
 .card{
 
-    width:260px;
+    width:270px;
+
     min-height:260px;
-    background:#181818;
-    border:1px solid #444;
-    border-radius:15px;
-    padding:20px;
-    text-align:center;
-    overflow:hidden;
+
+    padding:30px 20px;
+
+
+    background:rgba(20,20,20,.75);
+
+    border:1px solid rgba(212,175,55,.4);
+
+    border-radius:20px;
+
+
+    backdrop-filter:blur(10px);
+
+
     transition:.4s;
 
 }
+
+
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#d4af37;
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.45);
+
+}
+
 
 
 .card img{
 
     width:90px;
+
     height:90px;
+
     object-fit:cover;
+
     border-radius:50%;
-    margin-bottom:15px;
+
+    margin-bottom:20px;
 
 }
+
 
 
 .card h3{
 
     color:#d4af37;
+
     margin-bottom:15px;
 
 }
 
 
+
 .card p{
 
-    color:#ccc;
-    line-height:1.5;
+    color:#ddd;
+
+    line-height:1.6;
 
 }
 
 
-.card:hover{
-
-    transform:translateY(-10px);
-    border-color:#d4af37;
-    box-shadow:0 0 20px rgba(212,175,55,.35);
-
-}
 
 
-/* ROUTES */
+
+/* =================
+        ROUTES
+================= */
+
 
 .routes{
 
     text-align:center;
-    padding:60px 8%;
-    background:#0b0b0b;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.65);
 
 }
 
 
+
 .route-text{
 
-    color:#ccc;
+    color:#ddd;
+
     font-size:18px;
+
     margin-bottom:40px;
 
 }
 
 
+
 .route-cards{
 
     display:flex;
+
     justify-content:center;
+
     gap:25px;
+
     flex-wrap:wrap;
 
 }
 
 
+
 .route-card{
 
     width:300px;
-    background:#1b1b1b;
+
     padding:30px;
-    border-radius:15px;
+
+
+    background:rgba(25,25,25,.8);
+
+
+    border-radius:20px;
+
     border:1px solid #333;
+
+
     transition:.4s;
 
 }
 
 
+
+.route-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#d4af37;
+
+    box-shadow:0 0 25px rgba(212,175,55,.4);
+
+}
+
+
+
 .route-card h3{
 
     color:#d4af37;
+
     margin-bottom:15px;
 
 }
+
 
 
 .route-card p{
@@ -342,53 +568,70 @@ to{
 }
 
 
-.route-card:hover{
-
-    transform:translateY(-10px);
-    border-color:#d4af37;
-
-}
 
 
-/* PRICES */
+
+/* =================
+        PRICES
+================= */
+
 
 .prices{
 
     text-align:center;
-    padding:60px 8%;
-    background:#111;
+
+    padding:70px 8%;
+
+
+    background:rgba(0,0,0,.55);
 
 }
+
 
 
 .price-cards{
 
     display:flex;
+
     justify-content:center;
+
     gap:25px;
+
     flex-wrap:wrap;
 
 }
 
 
+
 .price-card{
 
     width:300px;
-    background:#1b1b1b;
-    padding:30px;
-    border-radius:15px;
+
+    padding:35px;
+
+
+    background:rgba(20,20,20,.8);
+
+
+    border-radius:20px;
+
     border:1px solid #333;
+
+
     transition:.4s;
 
 }
 
 
+
 .price-card:hover{
 
     transform:translateY(-10px);
+
     border-color:#d4af37;
 
 }
+
 
 
 .price-card h3{
@@ -398,192 +641,242 @@ to{
 }
 
 
+
 .price{
 
-    font-size:32px;
+    font-size:36px;
+
     font-weight:bold;
+
+    color:white;
+
     margin:20px 0;
 
 }
 
 
-.price-card p:last-child{
-
-    color:#aaa;
-
-}
 
 
-/* ORDER */
 
-.order{
+/* =================
+        FLEET
+================= */
 
-    text-align:center;
-    padding:60px 8%;
-    background:#111;
-
-}
-
-
-.order-box{
-
-    max-width:450px;
-    margin:auto;
-
-}
-
-
-.order-box input{
-
-    width:100%;
-    padding:15px;
-    margin:10px 0;
-    border-radius:10px;
-    border:none;
-    font-size:16px;
-
-}
-
-
-/* AVTOPARK */
 
 .fleet{
 
     text-align:center;
-    padding:60px 8%;
-    background:#0b0b0b;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.65);
 
 }
+
 
 
 .fleet-cards{
 
     display:flex;
+
     justify-content:center;
-    gap:20px;
+
+    gap:25px;
+
     flex-wrap:wrap;
 
 }
 
 
+
 .fleet-card{
 
-    width:280px;
-    background:#181818;
-    border-radius:15px;
-    padding:15px;
-    overflow:hidden;
+    width:300px;
+
+    padding:20px;
+
+
+    background:rgba(20,20,20,.8);
+
+
+    border-radius:20px;
+
     border:1px solid #333;
+
+
     transition:.4s;
 
 }
+
+
+
+.fleet-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#d4af37;
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.4);
+
+}
+
 
 
 .fleet-card img{
 
     width:100%;
-    height:180px;
+
+    height:190px;
+
     object-fit:cover;
-    border-radius:12px;
+
+    border-radius:15px;
 
 }
+
 
 
 .fleet-card h3{
 
-    color:#d4af37;
     margin:15px 0;
 
+    color:#d4af37;
+
 }
+
 
 
 .fleet-card p{
 
     color:#ccc;
+
     line-height:1.5;
 
 }
 
 
-.fleet-card:hover{
-
-    transform:translateY(-8px);
-    border-color:#d4af37;
-
-}
-
 
 .vip{
 
-    border:2px solid gold;
-    box-shadow:0 0 20px rgba(212,175,55,.4);
+    border:2px solid #d4af37;
+
+    box-shadow:
+
+    0 0 25px rgba(212,175,55,.5);
 
 }
+
 
 
 .vip-badge{
 
     display:inline-block;
-    background:gold;
-    color:#000;
-    padding:8px 18px;
-    border-radius:30px;
-    font-weight:bold;
+
     margin-top:15px;
 
-}
+    padding:8px 20px;
 
-/* GALLERY */
+    border-radius:30px;
+
+
+    background:#d4af37;
+
+    color:#000;
+
+    font-weight:bold;
+
+}
+/* ================================
+   PART 3 - GALLERY / REVIEWS /
+   MAP / CONTACT / WHATSAPP /
+   MOBILE
+================================ */
+
+
+/* =================
+       GALLERY
+================= */
+
 
 .gallery{
 
     text-align:center;
-    padding:60px 8%;
-    background:#0b0b0b;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.55);
 
 }
+
+
+
+.gallery h2{
+
+    color:#d4af37;
+
+    font-size:38px;
+
+    margin-bottom:40px;
+
+}
+
 
 
 .gallery-grid{
 
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+
     gap:25px;
-    margin-top:40px;
 
 }
+
 
 
 .gallery-item{
 
     overflow:hidden;
-    border-radius:18px;
-    border:2px solid #222;
+
+    border-radius:20px;
+
+    border:1px solid rgba(212,175,55,.4);
+
+    background:#111;
+
     transition:.4s;
-    cursor:pointer;
-    background:#1a1a1a;
 
 }
+
 
 
 .gallery-item img{
 
     width:100%;
-    height:240px;
+
+    height:250px;
+
     object-fit:cover;
-    display:block;
+
     transition:.5s;
 
 }
 
 
+
 .gallery-item:hover{
 
-    border-color:#d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,.45);
-    transform:translateY(-8px);
+    transform:translateY(-10px);
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.45);
 
 }
+
 
 
 .gallery-item:hover img{
@@ -593,335 +886,326 @@ to{
 }
 
 
-/* LIGHTBOX */
-
-.lightbox{
-
-    display:none;
-    position:fixed;
-    z-index:9999;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.95);
-    justify-content:center;
-    align-items:center;
-
-}
 
 
-.lightbox-content{
 
-    max-width:90%;
-    max-height:90%;
-    border-radius:15px;
-    box-shadow:0 0 40px gold;
+/* =================
+       REVIEWS
+================= */
 
-}
-
-
-.close{
-
-    position:absolute;
-    top:25px;
-    right:40px;
-    color:white;
-    font-size:45px;
-    cursor:pointer;
-
-}
-
-
-/* REVIEWS */
 
 .reviews{
 
     text-align:center;
-    padding:60px 8%;
-    background:#111;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.65);
 
 }
+
 
 
 .review-cards{
 
     display:flex;
+
     justify-content:center;
+
     gap:25px;
+
     flex-wrap:wrap;
 
 }
 
 
+
 .review{
 
-    background:#1b1b1b;
     width:300px;
+
     padding:30px;
-    border-radius:15px;
+
+
+    background:rgba(20,20,20,.8);
+
+    border-radius:20px;
+
     border:1px solid #333;
+
+
     transition:.4s;
 
 }
 
 
+
 .review:hover{
 
-    transform:translateY(-8px);
+    transform:translateY(-10px);
+
     border-color:#d4af37;
 
 }
+
 
 
 .review h3{
 
     color:#d4af37;
+
     margin-bottom:15px;
 
 }
 
 
+
 .review p{
 
-    color:#ccc;
-    line-height:1.5;
+    color:#ddd;
+
+    line-height:1.6;
 
 }
+
 
 
 .review strong{
 
     display:block;
+
     margin-top:15px;
-    color:#d4af37;
-
-}
-
-
-/* STATISTICS */
-
-.stats{
-
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:25px;
-    padding:70px 8%;
-    background:#111;
-    text-align:center;
-
-}
-
-
-.stat-box{
-
-    background:#1a1a1a;
-    border:1px solid #333;
-    border-radius:18px;
-    padding:30px;
-    transition:.4s;
-
-}
-
-
-.stat-box:hover{
-
-    transform:translateY(-8px);
-    border-color:#d4af37;
-    box-shadow:0 0 20px rgba(212,175,55,.35);
-
-}
-
-
-.stat-box h2{
 
     color:#d4af37;
-    font-size:42px;
-    margin-bottom:10px;
 
 }
 
 
-.stat-box p{
-
-    color:#ddd;
-    font-size:18px;
-
-}
 
 
-/* MAP */
+
+/* =================
+       MAP
+================= */
+
 
 .map-section{
 
     padding:80px 8%;
+
     text-align:center;
-    background:#111;
+
+    background:rgba(0,0,0,.55);
 
 }
+
 
 
 .map-section h2{
 
     color:#d4af37;
+
     font-size:40px;
-    margin-bottom:15px;
+
+    margin-bottom:20px;
 
 }
+
 
 
 .map-section p{
 
     color:#ddd;
+
     margin-bottom:35px;
 
 }
 
 
+
 .map-box{
 
-    border:3px solid #d4af37;
-    border-radius:20px;
+    border-radius:25px;
+
     overflow:hidden;
-    box-shadow:0 0 25px rgba(212,175,55,.4);
+
+    border:3px solid #d4af37;
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.4);
 
 }
+
 
 
 .map-box iframe{
 
-    display:block;
+    width:100%;
+
+    height:450px;
 
 }
 
 
-/* CONTACT */
+
+
+
+/* =================
+       CONTACT
+================= */
+
 
 .contact{
 
     width:90%;
-    max-width:700px;
-    margin:50px auto;
-    padding:35px;
-    background:#000;
-    color:#d4af37;
-    border-radius:20px;
+
+    max-width:750px;
+
+    margin:60px auto;
+
+
+    padding:40px;
+
+
+    background:rgba(0,0,0,.85);
+
+
     border:2px solid #d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,.35);
+
+    border-radius:25px;
+
+
     text-align:center;
 
+
+    box-shadow:
+
+    0 0 30px rgba(212,175,55,.35);
+
 }
+
+
+
+.contact h2{
+
+    color:#d4af37;
+
+}
+
 
 
 .contact-item{
 
-    background:#111;
-    color:#d4af37;
-    font-size:18px;
-    font-weight:600;
+    background:rgba(20,20,20,.8);
+
     padding:18px;
-    margin:12px 0;
-    border-radius:12px;
-    border:1px solid #333;
+
+    margin:15px 0;
+
+    border-radius:15px;
+
+    color:#d4af37;
+
+    font-size:18px;
 
 }
+
 
 
 .contact-item a{
 
-    color:#d4af37;
-    text-decoration:none;
-    font-weight:bold;
-
-}
-
-
-.contact-item a:hover{
-
     color:#ffd700;
 
+    text-decoration:none;
+
 }
 
 
-/* WHATSAPP */
+
+
+
+/* =================
+       WHATSAPP
+================= */
+
 
 .whatsapp{
 
     position:fixed;
+
     right:25px;
+
     bottom:25px;
-    width:60px;
-    height:60px;
-    background:#25D366;
-    color:white;
-    border-radius:50%;
+
+
+    width:65px;
+
+    height:65px;
+
+
     display:flex;
+
     align-items:center;
+
     justify-content:center;
+
+
+    background:#25D366;
+
+    color:white;
+
+
+    border-radius:50%;
+
+
     font-size:32px;
+
+
     text-decoration:none;
-    box-shadow:0 0 20px #25D366;
-    z-index:1000;
+
+
+    z-index:9999;
+
+
+    box-shadow:
+
+    0 0 25px #25D366;
+
+
     transition:.3s;
 
 }
 
 
+
 .whatsapp:hover{
 
-    transform:scale(1.1);
-
-}
-
-/* ADMIN PANEL */
-
-.admin{
-
-    text-align:center;
-    padding:80px 20px;
+    transform:scale(1.15);
 
 }
 
 
-.admin input{
-
-    padding:15px;
-    width:300px;
-    max-width:90%;
-    border-radius:10px;
-    border:none;
-    margin:20px;
-
-}
 
 
-.admin button{
 
-    cursor:pointer;
+/* =================
+       MOBILE
+================= */
 
-}
-
-
-/* SCROLL KEÇİDİ */
-
-#contact{
-
-    scroll-margin-top:120px;
-
-}
-
-
-/* MOBİL OPTİMİZASİYA */
 
 @media(max-width:768px){
+
 
 
 header{
 
     padding:20px;
+
     flex-direction:column;
 
 }
+
 
 
 .logo img{
@@ -931,45 +1215,39 @@ header{
 }
 
 
-.logo{
-
-    font-size:28px;
-
-}
-
 
 nav{
 
     margin-top:20px;
-    display:flex;
+
     flex-wrap:wrap;
+
     justify-content:center;
+
     gap:15px;
 
 }
 
 
-nav a{
-
-    font-size:16px;
-
-}
-
 
 .hero{
 
     flex-direction:column;
+
     text-align:center;
+
     padding:40px 20px;
 
 }
 
 
+
 .hero h1{
 
-    font-size:32px;
+    font-size:34px;
 
 }
+
 
 
 .hero p{
@@ -979,23 +1257,18 @@ nav a{
 }
 
 
-.hero button{
-
-    width:100%;
-
-}
-
 
 .car img{
 
     width:320px;
+
     margin-top:40px;
+
     animation:none;
 
 }
 
 
-/* KARTLAR */
 
 .cards,
 .route-cards,
@@ -1004,9 +1277,11 @@ nav a{
 .review-cards{
 
     flex-direction:column;
+
     align-items:center;
 
 }
+
 
 
 .card,
@@ -1020,7 +1295,6 @@ nav a{
 }
 
 
-/* QALEREYA */
 
 .gallery-grid{
 
@@ -1029,30 +1303,6 @@ nav a{
 }
 
 
-.gallery-item img{
-
-    height:220px;
-
-}
-
-
-/* FORM */
-
-.order-box{
-
-    width:100%;
-
-}
-
-
-.order-box input{
-
-    font-size:15px;
-
-}
-
-
-/* XƏRİTƏ */
 
 .map-box iframe{
 
@@ -1061,52 +1311,25 @@ nav a{
 }
 
 
-/* WHATSAPP */
+
+.contact{
+
+    padding:25px;
+
+}
+
+
 
 .whatsapp{
 
     width:55px;
+
     height:55px;
-    font-size:28px;
-    right:15px;
-    bottom:15px;
-
-}
-
-
-}
-
-
-/* ÇOX KİÇİK EKRANLAR */
-
-@media(max-width:400px){
-
-
-.hero h1{
 
     font-size:28px;
 
 }
 
-
-.services h2,
-.routes h2,
-.prices h2,
-.fleet h2,
-.gallery h2,
-.contact h2{
-
-    font-size:30px;
-
-}
-
-
-button{
-
-    font-size:16px;
-    padding:13px 25px;
-
-}
 
 
 }
