@@ -1,3 +1,20 @@
+console.log("DATA SISTEMI ISLEYIR");
+
+let taxiData = {};
+
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+
+    taxiData = data;
+
+    console.log(taxiData);
+
+    loadServices();
+    loadPrices();
+    loadCars();
+
+});
 // TAXI TIME DATA SİSTEMİ
 
 let taxiData = {};
@@ -348,5 +365,110 @@ box.innerHTML += `
 
 });
 
+
+}
+
+function loadServices(){
+
+    let box = document.getElementById("servicesBox");
+
+    if(!box) return;
+
+    box.innerHTML = "";
+
+
+    taxiData.services.forEach(service => {
+
+        box.innerHTML += `
+
+        <div class="card">
+
+            <img src="${service.image}">
+
+            <h3>${service.title}</h3>
+
+            <p>${service.description}</p>
+
+        </div>
+
+        `;
+
+    });
+
+}
+
+
+
+function loadPrices(){
+
+    let box = document.getElementById("priceList");
+
+    if(!box) return;
+
+    box.innerHTML = "";
+
+
+    box.innerHTML += `
+
+    <div class="price-card">
+
+        <h3>🚕 Quba → Bakı</h3>
+
+        <div class="price">
+        ${taxiData.prices.quba_baki}
+        </div>
+
+        <p>Gündəlik rahat reyslər</p>
+
+    </div>
+
+
+    <div class="price-card">
+
+        <h3>🚘 Bakı → Quba</h3>
+
+        <div class="price">
+        ${taxiData.prices.baki_quba}
+        </div>
+
+        <p>Vaxtında götürmə</p>
+
+    </div>
+
+    `;
+
+}
+
+
+
+
+function loadCars(){
+
+    let box = document.getElementById("carsBox");
+
+    if(!box) return;
+
+    box.innerHTML = "";
+
+
+    taxiData.cars.forEach(car => {
+
+
+        box.innerHTML += `
+
+        <div class="fleet-card">
+
+            <img src="${car.image}">
+
+            <h3>${car.name}</h3>
+
+            <p>${car.info}</p>
+
+        </div>
+
+        `;
+
+
+    });
 
 }
