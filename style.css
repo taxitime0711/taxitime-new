@@ -14,11 +14,9 @@ html{
     scroll-behavior:smooth;
 }
 body{
-    padding-top:90px;
-}
     background:
-    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url("bg.jpg") center/cover fixed;
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("bg.jpg") center/cover fixed;
 
     color:#fff;
     overflow-x:hidden;
