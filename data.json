@@ -21,9 +21,14 @@
             "image": "airport.jpg"
         },
         {
-            "title": "Ganja",
-            "description": "Məlumat",
+            "title": "TEST123",
+            "description": "YOXLAMA",
             "image": "service.jpg"
+        },
+        {
+            "title": "Yeni xidmət",
+            "description": "Məlumat",
+            "image": "gallery1.jpg"
         }
     ],
     "cars": [
