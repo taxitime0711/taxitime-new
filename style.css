@@ -1,16 +1,20 @@
 html{
     scroll-behavior:smooth;
 }
+
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: Arial, sans-serif;
+    font-family:Arial,sans-serif;
 }
+
 
 body{
     background:#111;
     color:white;
+    overflow-x:hidden;
 }
 
 
@@ -28,67 +32,64 @@ header{
 
 
 .logo{
+    display:flex;
+    align-items:center;
     font-size:32px;
     font-weight:bold;
     color:#d4af37;
 }
 
 
-nav a{
-
-color:white;
-
-text-decoration:none;
-
-padding:12px 18px;
-
-transition:.3s;
-
-font-weight:600;
-
-}
-
-nav a:hover{
-
-color:#d4af37;
-
+.logo img{
+    width:150px;
 }
 
 
-/* HERO */
+/* MENU */
 
-.hero{
-    min-height:80vh;
+nav{
     display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:50px 8%;
-   background: linear-gradient(135deg, #000000, #222222, #444444);
-
-    background-size:cover;
+    gap:25px;
 }
 
 
-.hero-text{
-    max-width:550px;
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+    position:relative;
+    transition:.3s;
 }
 
 
-.hero h1{
-    font-size:48px;
-    line-height:1.2;
-    margin-bottom:20px;
+nav a:hover,
+nav a.active{
+    color:#d4af37;
 }
 
 
-.hero p{
-    font-size:20px;
-    color:#ddd;
-    margin-bottom:30px;
+nav a::after{
+    content:"";
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    width:0%;
+    height:2px;
+    background:#d4af37;
+    transition:.3s;
 }
 
+
+nav a:hover::after,
+nav a.active::after{
+    width:100%;
+}
+
+
+/* BUTTON */
 
 button{
+
     background:#d4af37;
     color:#000;
     border:none;
@@ -97,148 +98,186 @@ button{
     font-size:18px;
     font-weight:bold;
     cursor:pointer;
+    transition:.3s;
+
 }
 
 
 button:hover{
+
     background:white;
+    transform:scale(1.05);
+    box-shadow:0 0 20px #d4af37;
+
 }
 
 
+/* HERO */
 
-/* CAR */
+
+.hero{
+
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:50px 8%;
+    background:linear-gradient(135deg,#000,#222,#444);
+
+}
+
+
+.hero-text{
+
+    max-width:550px;
+    animation:fadeIn 1.5s ease;
+
+}
+
+
+.hero h1{
+
+    font-size:48px;
+    line-height:1.2;
+    margin-bottom:20px;
+
+}
+
+
+.hero p{
+
+    font-size:20px;
+    color:#ddd;
+    margin-bottom:30px;
+
+}
+
 
 .car img{
+
     width:520px;
     max-width:100%;
     filter:drop-shadow(0 0 30px #d4af37);
+    animation:carMove 3s ease-in-out infinite alternate;
+
 }
 
 
+@keyframes carMove{
+
+from{
+    transform:translateX(20px);
+}
+
+to{
+    transform:translateX(-20px);
+}
+
+}
+
+
+@keyframes fadeIn{
+
+from{
+    opacity:0;
+    transform:translateY(30px);
+}
+
+to{
+    opacity:1;
+    transform:translateY(0);
+}
+
+}
 
 /* SERVICES */
 
 .services{
+
     text-align:center;
     padding:60px 8%;
 }
 
 
-.services h2{
+.services h2,
+.routes h2,
+.prices h2,
+.fleet h2,
+.gallery h2,
+.contact h2,
+.reviews h2,
+.order h2{
+
+    color:#d4af37;
     font-size:35px;
     margin-bottom:40px;
-    color:#d4af37;
+
 }
 
 
+/* XİDMƏT KARTLARI */
 
 .cards{
+
     display:flex;
     justify-content:center;
-    gap:25px;
+    gap:20px;
     flex-wrap:wrap;
-}
 
+}
 
 
 .card{
-    background:#1c1c1c;
-    width:280px;
-    padding:30px;
+
+    width:260px;
+    min-height:260px;
+    background:#181818;
+    border:1px solid #444;
     border-radius:15px;
-    border:1px solid #333;
+    padding:20px;
+    text-align:center;
+    overflow:hidden;
+    transition:.4s;
+
+}
+
+
+.card img{
+
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:15px;
+
 }
 
 
 .card h3{
+
     color:#d4af37;
     margin-bottom:15px;
+
 }
 
 
 .card p{
+
     color:#ccc;
-}
-
-
-
-/* FOOTER */
-
-footer{
-    text-align:center;
-    padding:25px;
-    background:#000;
-    color:#aaa;
-}
-
-
-
-/* TELEFON ÜÇÜN */
-
-@media(max-width:768px){
-
-header{
-    flex-direction:column;
-}
-
-
-nav{
-    margin-top:20px;
-}
-
-
-.hero{
-    flex-direction:column;
-    text-align:center;
-}
-
-
-.hero h1{
-    font-size:34px;
-}
-
-
-.car img{
-    margin-top:40px;
-}
-
-}
-/* WhatsApp düyməsi */
-
-.whatsapp{
-
-    position:fixed;
-    right:25px;
-    bottom:25px;
-
-    width:60px;
-    height:60px;
-
-    background:#25D366;
-    color:white;
-
-    border-radius:50%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    font-size:32px;
-
-    text-decoration:none;
-
-    box-shadow:0 0 20px #25D366;
-
-    z-index:1000;
+    line-height:1.5;
 
 }
 
 
-.whatsapp:hover{
+.card:hover{
 
-    transform:scale(1.1);
+    transform:translateY(-10px);
+    border-color:#d4af37;
+    box-shadow:0 0 20px rgba(212,175,55,.35);
 
 }
+
+
 /* ROUTES */
 
 .routes{
@@ -246,15 +285,6 @@ nav{
     text-align:center;
     padding:60px 8%;
     background:#0b0b0b;
-
-}
-
-
-.routes h2{
-
-    color:#d4af37;
-    font-size:35px;
-    margin-bottom:20px;
 
 }
 
@@ -285,6 +315,7 @@ nav{
     padding:30px;
     border-radius:15px;
     border:1px solid #333;
+    transition:.4s;
 
 }
 
@@ -302,1015 +333,128 @@ nav{
     color:#ccc;
 
 }
-/* ORDER FORM */
-
-.order{
-
-text-align:center;
-padding:60px 8%;
-background:#111;
-
-}
 
 
-.order h2{
+.route-card:hover{
 
-color:#d4af37;
-font-size:35px;
-margin-bottom:30px;
+    transform:translateY(-10px);
+    border-color:#d4af37;
 
 }
 
 
-.order-box{
+/* PRICES */
 
-max-width:450px;
-margin:auto;
+.prices{
 
-}
-
-
-.order-box input{
-
-width:100%;
-padding:15px;
-margin:10px 0;
-
-border-radius:10px;
-border:none;
-
-font-size:16px;
+    text-align:center;
+    padding:60px 8%;
+    background:#111;
 
 }
 
 
-.order-box button{
+.price-cards{
 
-margin-top:15px;
-
-}
-/* CONTACT */
-
-.contact{
-
-text-align:center;
-padding:60px 8%;
-background:#0b0b0b;
-
-}
-
-
-.contact h2{
-
-color:#d4af37;
-font-size:35px;
-margin-bottom:40px;
-
-}
-
-
-.contact-box{
-
-display:flex;
-justify-content:center;
-gap:30px;
-flex-wrap:wrap;
-
-}
-
-
-.contact-box div{
-
-background:#1b1b1b;
-padding:25px;
-width:250px;
-border-radius:15px;
-
-}
-
-
-.contact-box h3{
-
-color:#d4af37;
-
-}
-
-
-.contact-box p{
-
-color:#ccc;
-
-}
-
-
-.map{
-
-margin-top:40px;
-border-radius:15px;
-overflow:hidden;
-
-}
-/* PREMIUM ANIMATIONS */
-
-
-/* Avtomobil animasiyası */
-
-.car img{
-
-animation: carMove 3s ease-in-out infinite alternate;
-
-}
-
-
-@keyframes carMove{
-
-from{
-
-transform:translateX(20px);
-
-}
-
-to{
-
-transform:translateX(-20px);
-
-}
-
-}
-
-
-
-/* Yazı animasiyası */
-
-.hero-text{
-
-animation: fadeIn 1.5s ease;
-
-}
-
-
-@keyframes fadeIn{
-
-from{
-
-opacity:0;
-transform:translateY(30px);
-
-}
-
-
-to{
-
-opacity:1;
-transform:translateY(0);
-
-}
-
-}
-
-
-
-/* Kart effekti */
-
-.card,
-.route-card,
-.contact-box div{
-
-transition:0.4s;
-
-}
-
-
-.card:hover,
-.route-card:hover,
-.contact-box div:hover{
-
-transform:translateY(-10px);
-
-border-color:#d4af37;
-
-}
-
-
-
-/* Düymə effekti */
-
-button{
-
-transition:0.3s;
-
-}
-
-
-button:hover{
-
-transform:scale(1.05);
-
-box-shadow:0 0 20px #d4af37;
-
-}
-/* MOBİL TƏKMİLLƏŞDİRMƏ */
-
-
-@media(max-width:768px){
-
-
-header{
-
-padding:20px;
-
-}
-
-
-.logo{
-
-font-size:28px;
-
-}
-
-
-nav{
     display:flex;
-    gap:30px;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
 }
 
-nav a{
-    color:white;
-    text-decoration:none;
-    font-size:17px;
-    font-weight:600;
-    transition:.3s;
-    position:relative;
+
+.price-card{
+
+    width:300px;
+    background:#1b1b1b;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #333;
+    transition:.4s;
+
 }
 
-nav a:hover,
-nav a.active{
+
+.price-card:hover{
+
+    transform:translateY(-10px);
+    border-color:#d4af37;
+
+}
+
+
+.price-card h3{
 
     color:#d4af37;
 
 }
 
-nav a::after{
-
-    content:"";
-    position:absolute;
-    left:0;
-    bottom:-6px;
-    width:0%;
-    height:2px;
-    background:#d4af37;
-    transition:.3s;
-
-}
-
-nav a:hover::after,
-nav a.active::after{
-
-    width:100%;
-
-}
-
-
-nav a{
-
-margin:0;
-
-}
-
-
-.hero{
-
-padding:40px 20px;
-
-}
-
-
-.hero h1{
-
-font-size:32px;
-
-}
-
-
-.hero p{
-
-font-size:17px;
-
-}
-
-
-.hero button{
-
-width:100%;
-
-}
-
-
-.car img{
-
-width:320px;
-
-}
-
-
-
-.cards,
-.route-cards,
-.contact-box{
-
-flex-direction:column;
-align-items:center;
-
-}
-
-
-
-.card,
-.route-card,
-.contact-box div{
-
-width:90%;
-
-}
-
-
-
-.order-box{
-
-width:100%;
-
-}
-
-
-
-.whatsapp{
-
-width:55px;
-height:55px;
-font-size:28px;
-
-right:15px;
-bottom:15px;
-
-}
-
-
-
-}
-/* PRICES */
-
-.prices{
-
-text-align:center;
-padding:60px 8%;
-background:#111;
-
-}
-
-
-.prices h2{
-
-color:#d4af37;
-font-size:35px;
-margin-bottom:40px;
-
-}
-
-
-
-.price-cards{
-
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-
-}
-
-
-
-.price-card{
-
-background:#1b1b1b;
-width:300px;
-padding:30px;
-border-radius:15px;
-border:1px solid #333;
-
-transition:.4s;
-
-}
-
-
-
-.price-card:hover{
-
-transform:translateY(-10px);
-border-color:#d4af37;
-
-}
-
-
-
-.price-card h3{
-
-color:#d4af37;
-
-}
-
-
 
 .price{
 
-font-size:32px;
-font-weight:bold;
-margin:20px 0;
-color:white;
+    font-size:32px;
+    font-weight:bold;
+    margin:20px 0;
 
 }
 
 
 .price-card p:last-child{
 
-color:#aaa;
-
-}
-/* FLEET */
-
-.fleet{
-
-text-align:center;
-padding:60px 8%;
-background:#0b0b0b;
+    color:#aaa;
 
 }
 
 
-.fleet h2{
+/* ORDER */
 
-color:#d4af37;
-font-size:35px;
-margin-bottom:40px;
+.order{
 
-}
-
-
-
-.fleet-cards{
-
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
+    text-align:center;
+    padding:60px 8%;
+    background:#111;
 
 }
 
 
+.order-box{
 
-.fleet-card{
-
-width:300px;
-background:#1b1b1b;
-border-radius:15px;
-padding:25px;
-overflow:hidden;
-border:1px solid #333;
+    max-width:450px;
+    margin:auto;
 
 }
 
 
+.order-box input{
 
-.fleet-card img{
-
-width:100%;
-border-radius:10px;
-margin-bottom:20px;
-
-}
-
-
-
-.fleet-card h3{
-
-color:#d4af37;
-margin-bottom:15px;
-
-}
-
-
-
-.fleet-card p{
-
-color:#ccc;
-line-height:1.5;
-
-}
-
-
-.fleet-card:hover{
-
-transform:translateY(-10px);
-transition:.4s;
-border-color:#d4af37;
-
-}
-/* LOGO */
-
-.logo img{
-
-width:150px;
-height:auto;
-
-}
-
-
-
-.logo{
-
-display:flex;
-align-items:center;
-
-}
-/* REVIEWS */
-
-.reviews{
-
-text-align:center;
-padding:60px 8%;
-background:#111;
-
-}
-
-
-.reviews h2{
-
-color:#d4af37;
-font-size:35px;
-margin-bottom:40px;
-
-}
-
-
-
-.review-cards{
-
-display:flex;
-justify-content:center;
-gap:25px;
-flex-wrap:wrap;
-
-}
-
-
-
-.review{
-
-background:#1b1b1b;
-width:300px;
-padding:30px;
-border-radius:15px;
-border:1px solid #333;
-
-}
-
-
-
-.review h3{
-
-margin-bottom:15px;
-
-}
-
-
-
-.review p{
-
-color:#ccc;
-line-height:1.5;
-
-}
-
-
-
-.review strong{
-
-display:block;
-margin-top:15px;
-color:#d4af37;
-
-}
-/* GALLERY */
-
-.gallery{
-
-text-align:center;
-padding:60px 8%;
-background:#0b0b0b;
-
-}
-
-
-.gallery h2{
-
-color:#d4af37;
-font-size:35px;
-margin-bottom:40px;
-
-}
-
-
-
-.gallery-box{
-
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-
-}
-
-
-
-.gallery-box img{
-
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:15px;
-
-border:1px solid #333;
-
-transition:.4s;
-
-}
-
-
-
-.gallery-box img:hover{
-
-transform:scale(1.05);
-border-color:#d4af37;
-
-}
-/* ADMIN */
-
-.admin{
-
-text-align:center;
-padding:80px 20px;
-
-}
-
-
-.admin input{
-
-padding:15px;
-width:300px;
-border-radius:10px;
-border:none;
-margin:20px;
-
-}
-
-
-.admin button{
-
-cursor:pointer;
-
-}
-.fleet-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
-margin-top:40px;
-}
-
-.fleet-card{
-background:#1a1a1a;
-padding:20px;
-border-radius:18px;
-text-align:center;
-transition:.3s;
-border:1px solid #333;
-}
-
-.fleet-card img{
-width:100%;
-height:220px;
-object-fit:cover;
-border-radius:12px;
-margin-bottom:15px;
-}
-
-.fleet-card:hover{
-transform:translateY(-8px);
-border-color:#d4af37;
-}
-
-.vip{
-border:2px solid gold;
-box-shadow:0 0 20px rgba(212,175,55,.4);
-}
-
-.vip-badge{
-display:inline-block;
-background:gold;
-color:#000;
-padding:8px 18px;
-border-radius:30px;
-font-weight:bold;
-margin-top:15px;
-}
-
-.vip-info{
-margin-top:20px;
-padding:15px;
-background:#111;
-border-left:4px solid gold;
-border-radius:10px;
-font-size:14px;
-line-height:1.7;
-color:#ddd;
-}
-.gallery-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
-    gap:25px;
-    margin-top:40px;
-}
-
-.gallery-item{
-    overflow:hidden;
-    border-radius:18px;
-    border:2px solid #222;
-    transition:0.4s;
-    cursor:pointer;
-    background:#1a1a1a;
-}
-
-.gallery-item img{
     width:100%;
-    height:240px;
-    object-fit:cover;
-    display:block;
-    transition:0.5s;
-}
-
-.gallery-item:hover{
-    border-color:#d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,.45);
-    transform:translateY(-8px);
-}
-
-.gallery-item:hover img{
-    transform:scale(1.08);
-}
-/* Lightbox */
-
-.lightbox{
-    display:none;
-    position:fixed;
-    z-index:9999;
-    left:0;
-    top:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,.95);
-    justify-content:center;
-    align-items:center;
-}
-
-.lightbox-content{
-    max-width:90%;
-    max-height:90%;
-    border-radius:15px;
-    box-shadow:0 0 40px gold;
-}
-
-.close{
-    position:absolute;
-    top:25px;
-    right:40px;
-    color:white;
-    font-size:45px;
-    cursor:pointer;
-}
-.stats{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:25px;
-    padding:70px 8%;
-    background:#111;
-    text-align:center;
-}
-
-.stat-box{
-    background:#1a1a1a;
-    border:1px solid #333;
-    border-radius:18px;
-    padding:30px;
-    transition:.4s;
-}
-
-.stat-box:hover{
-    transform:translateY(-8px);
-    border-color:#d4af37;
-    box-shadow:0 0 20px rgba(212,175,55,.35);
-}
-
-.stat-box h2{
-    color:#d4af37;
-    font-size:42px;
-    margin-bottom:10px;
-}
-
-.stat-box p{
-    color:#ddd;
-    font-size:18px;
-}
-.map-section{
-
-    padding:80px 8%;
-    text-align:center;
-    background:#111;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    border:none;
+    font-size:16px;
 
 }
-
-.map-section h2{
-
-    color:#d4af37;
-    font-size:40px;
-    margin-bottom:15px;
-
-}
-
-.map-section p{
-
-    color:#ddd;
-    margin-bottom:35px;
-
-}
-
-.map-box{
-
-    border:3px solid #d4af37;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 0 25px rgba(212,175,55,.4);
-
-}
-
-.map-box iframe{
-
-    display:block;
-
-}
-
-/* ===== BIZIMLE ELAQE ===== */
-
-/* ===== BIZIMLE ELAQE ===== */
-
-.contact{
-    width:90%;
-    max-width:700px;
-    margin:50px auto;
-    padding:35px;
-    background:#000;
-    color:#d4af37;
-    border-radius:20px;
-    border:2px solid #d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,0.35);
-    text-align:center;
-}
-
-
-.contact h2{
-    color:#d4af37;
-    font-size:35px;
-    margin-bottom:30px;
-}
-
-
-.contact-item{
-    background:#111;
-    color:#d4af37;
-    font-size:18px;
-    font-weight:600;
-    padding:18px;
-    margin:12px 0;
-    border-radius:12px;
-    border:1px solid #333;
-}
-
-
-.contact-item a{
-    color:#d4af37;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-
-.contact-item a:hover{
-    color:#ffd700;
-}
-
-
-/* menyudan keçid üçün */
-#contact{
-    scroll-margin-top:120px;
-}
-/* XİDMƏT KARTLARI */
-
-.cards{
-    display:flex;
-    gap:20px;
-    justify-content:center;
-    flex-wrap:wrap;
-}
-
-
-.card{
-    width:260px;
-    background:#181818;
-    border:1px solid #333;
-    border-radius:15px;
-    padding:20px;
-    text-align:center;
-}
-
-
-.card img{
-
-    width:80px;
-    height:80px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.card h3{
-
-    color:#f5c400;
-
-}
-
-
-.card p{
-
-    color:white;
-
-}
-/* DATA KARTLARI DÜZƏLİŞ */
-
-.cards{
-    display:flex;
-    gap:20px;
-    flex-wrap:wrap;
-    justify-content:center;
-}
-
-
-.card{
-    width:260px;
-    min-height:260px;
-    background:#181818;
-    border:1px solid #444;
-    border-radius:15px;
-    padding:20px;
-    text-align:center;
-    overflow:hidden;
-}
-
-
-.card img{
-
-    width:90px;
-    height:90px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    margin-bottom:15px;
-
-}
-
-
 
 
 /* AVTOPARK */
 
+.fleet{
+
+    text-align:center;
+    padding:60px 8%;
+    background:#0b0b0b;
+
+}
+
+
 .fleet-cards{
 
     display:flex;
+    justify-content:center;
     gap:20px;
     flex-wrap:wrap;
-    justify-content:center;
 
 }
 
@@ -1322,6 +466,8 @@ color:#ddd;
     border-radius:15px;
     padding:15px;
     overflow:hidden;
+    border:1px solid #333;
+    transition:.4s;
 
 }
 
@@ -1330,32 +476,630 @@ color:#ddd;
 
     width:100%;
     height:180px;
-
     object-fit:cover;
-
     border-radius:12px;
 
 }
 
 
+.fleet-card h3{
 
-/* QALEREYA */
-
-.gallery-item img{
-
-    width:100%;
-    height:220px;
-
-    object-fit:cover;
+    color:#d4af37;
+    margin:15px 0;
 
 }
 
 
+.fleet-card p{
 
-/* SAĞ SCROLL YOX */
+    color:#ccc;
+    line-height:1.5;
 
-body{
+}
 
-    overflow-x:hidden;
+
+.fleet-card:hover{
+
+    transform:translateY(-8px);
+    border-color:#d4af37;
+
+}
+
+
+.vip{
+
+    border:2px solid gold;
+    box-shadow:0 0 20px rgba(212,175,55,.4);
+
+}
+
+
+.vip-badge{
+
+    display:inline-block;
+    background:gold;
+    color:#000;
+    padding:8px 18px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-top:15px;
+
+}
+
+/* GALLERY */
+
+.gallery{
+
+    text-align:center;
+    padding:60px 8%;
+    background:#0b0b0b;
+
+}
+
+
+.gallery-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    margin-top:40px;
+
+}
+
+
+.gallery-item{
+
+    overflow:hidden;
+    border-radius:18px;
+    border:2px solid #222;
+    transition:.4s;
+    cursor:pointer;
+    background:#1a1a1a;
+
+}
+
+
+.gallery-item img{
+
+    width:100%;
+    height:240px;
+    object-fit:cover;
+    display:block;
+    transition:.5s;
+
+}
+
+
+.gallery-item:hover{
+
+    border-color:#d4af37;
+    box-shadow:0 0 25px rgba(212,175,55,.45);
+    transform:translateY(-8px);
+
+}
+
+
+.gallery-item:hover img{
+
+    transform:scale(1.08);
+
+}
+
+
+/* LIGHTBOX */
+
+.lightbox{
+
+    display:none;
+    position:fixed;
+    z-index:9999;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,.95);
+    justify-content:center;
+    align-items:center;
+
+}
+
+
+.lightbox-content{
+
+    max-width:90%;
+    max-height:90%;
+    border-radius:15px;
+    box-shadow:0 0 40px gold;
+
+}
+
+
+.close{
+
+    position:absolute;
+    top:25px;
+    right:40px;
+    color:white;
+    font-size:45px;
+    cursor:pointer;
+
+}
+
+
+/* REVIEWS */
+
+.reviews{
+
+    text-align:center;
+    padding:60px 8%;
+    background:#111;
+
+}
+
+
+.review-cards{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+
+.review{
+
+    background:#1b1b1b;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    border:1px solid #333;
+    transition:.4s;
+
+}
+
+
+.review:hover{
+
+    transform:translateY(-8px);
+    border-color:#d4af37;
+
+}
+
+
+.review h3{
+
+    color:#d4af37;
+    margin-bottom:15px;
+
+}
+
+
+.review p{
+
+    color:#ccc;
+    line-height:1.5;
+
+}
+
+
+.review strong{
+
+    display:block;
+    margin-top:15px;
+    color:#d4af37;
+
+}
+
+
+/* STATISTICS */
+
+.stats{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:70px 8%;
+    background:#111;
+    text-align:center;
+
+}
+
+
+.stat-box{
+
+    background:#1a1a1a;
+    border:1px solid #333;
+    border-radius:18px;
+    padding:30px;
+    transition:.4s;
+
+}
+
+
+.stat-box:hover{
+
+    transform:translateY(-8px);
+    border-color:#d4af37;
+    box-shadow:0 0 20px rgba(212,175,55,.35);
+
+}
+
+
+.stat-box h2{
+
+    color:#d4af37;
+    font-size:42px;
+    margin-bottom:10px;
+
+}
+
+
+.stat-box p{
+
+    color:#ddd;
+    font-size:18px;
+
+}
+
+
+/* MAP */
+
+.map-section{
+
+    padding:80px 8%;
+    text-align:center;
+    background:#111;
+
+}
+
+
+.map-section h2{
+
+    color:#d4af37;
+    font-size:40px;
+    margin-bottom:15px;
+
+}
+
+
+.map-section p{
+
+    color:#ddd;
+    margin-bottom:35px;
+
+}
+
+
+.map-box{
+
+    border:3px solid #d4af37;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 25px rgba(212,175,55,.4);
+
+}
+
+
+.map-box iframe{
+
+    display:block;
+
+}
+
+
+/* CONTACT */
+
+.contact{
+
+    width:90%;
+    max-width:700px;
+    margin:50px auto;
+    padding:35px;
+    background:#000;
+    color:#d4af37;
+    border-radius:20px;
+    border:2px solid #d4af37;
+    box-shadow:0 0 25px rgba(212,175,55,.35);
+    text-align:center;
+
+}
+
+
+.contact-item{
+
+    background:#111;
+    color:#d4af37;
+    font-size:18px;
+    font-weight:600;
+    padding:18px;
+    margin:12px 0;
+    border-radius:12px;
+    border:1px solid #333;
+
+}
+
+
+.contact-item a{
+
+    color:#d4af37;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+
+.contact-item a:hover{
+
+    color:#ffd700;
+
+}
+
+
+/* WHATSAPP */
+
+.whatsapp{
+
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:60px;
+    height:60px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 0 20px #25D366;
+    z-index:1000;
+    transition:.3s;
+
+}
+
+
+.whatsapp:hover{
+
+    transform:scale(1.1);
+
+}
+
+/* ADMIN PANEL */
+
+.admin{
+
+    text-align:center;
+    padding:80px 20px;
+
+}
+
+
+.admin input{
+
+    padding:15px;
+    width:300px;
+    max-width:90%;
+    border-radius:10px;
+    border:none;
+    margin:20px;
+
+}
+
+
+.admin button{
+
+    cursor:pointer;
+
+}
+
+
+/* SCROLL KEÇİDİ */
+
+#contact{
+
+    scroll-margin-top:120px;
+
+}
+
+
+/* MOBİL OPTİMİZASİYA */
+
+@media(max-width:768px){
+
+
+header{
+
+    padding:20px;
+    flex-direction:column;
+
+}
+
+
+.logo img{
+
+    width:120px;
+
+}
+
+
+.logo{
+
+    font-size:28px;
+
+}
+
+
+nav{
+
+    margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+
+}
+
+
+nav a{
+
+    font-size:16px;
+
+}
+
+
+.hero{
+
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
+
+}
+
+
+.hero h1{
+
+    font-size:32px;
+
+}
+
+
+.hero p{
+
+    font-size:17px;
+
+}
+
+
+.hero button{
+
+    width:100%;
+
+}
+
+
+.car img{
+
+    width:320px;
+    margin-top:40px;
+    animation:none;
+
+}
+
+
+/* KARTLAR */
+
+.cards,
+.route-cards,
+.price-cards,
+.fleet-cards,
+.review-cards{
+
+    flex-direction:column;
+    align-items:center;
+
+}
+
+
+.card,
+.route-card,
+.price-card,
+.fleet-card,
+.review{
+
+    width:90%;
+
+}
+
+
+/* QALEREYA */
+
+.gallery-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+.gallery-item img{
+
+    height:220px;
+
+}
+
+
+/* FORM */
+
+.order-box{
+
+    width:100%;
+
+}
+
+
+.order-box input{
+
+    font-size:15px;
+
+}
+
+
+/* XƏRİTƏ */
+
+.map-box iframe{
+
+    height:300px;
+
+}
+
+
+/* WHATSAPP */
+
+.whatsapp{
+
+    width:55px;
+    height:55px;
+    font-size:28px;
+    right:15px;
+    bottom:15px;
+
+}
+
+
+}
+
+
+/* ÇOX KİÇİK EKRANLAR */
+
+@media(max-width:400px){
+
+
+.hero h1{
+
+    font-size:28px;
+
+}
+
+
+.services h2,
+.routes h2,
+.prices h2,
+.fleet h2,
+.gallery h2,
+.contact h2{
+
+    font-size:30px;
+
+}
+
+
+button{
+
+    font-size:16px;
+    padding:13px 25px;
+
+}
+
 
 }
