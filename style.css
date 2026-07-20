@@ -1,448 +1,301 @@
-/* =====================================
-      TAXI TIME PREMIUM CSS v3
-      PART 1
-===================================== */
-
-
-/* RESET */
+/* ===================================
+   TAXI TIME PREMIUM CSS
+   PART 1
+=================================== */
 
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Arial,Helvetica,sans-serif;
 }
-
 
 html{
     scroll-behavior:smooth;
 }
-
-
 body{
-
+    padding-top:90px;
+}
     background:
-    linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.55)
-    ),
-    url("bg.jpg");
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("bg.jpg") center/cover fixed;
 
-    background-size:cover;
-    background-position:center;
-    background-attachment:fixed;
-
-    color:white;
-
+    color:#fff;
     overflow-x:hidden;
-
+    padding-top:90px;
 }
 
-
-
-/* =====================================
-              HEADER
-===================================== */
-
+/* HEADER */
 
 header{
-
+    position:fixed;
+    top:0;
+    left:0;
     width:100%;
-
-    padding:20px 8%;
+    z-index:9999;
 
     display:flex;
-
     justify-content:space-between;
-
     align-items:center;
 
-    background:rgba(0,0,0,.85);
+    padding:18px 8%;
+
+    background:rgba(0,0,0,.90);
 
     border-bottom:2px solid #d4af37;
-
-    position:sticky;
-
-    top:0;
-
-    z-index:1000;
-
 }
-
-
 
 .logo img{
-
     width:150px;
-
-    filter:drop-shadow(0 0 15px gold);
-
 }
-
-
 
 nav{
-
     display:flex;
-
     gap:25px;
-
 }
-
-
 
 nav a{
-
-    color:white;
-
+    color:#fff;
     text-decoration:none;
-
     font-weight:bold;
-
     transition:.3s;
-
 }
-
-
 
 nav a:hover{
-
     color:#d4af37;
-
 }
 
+/* HERO */
 
-
-
-/* =====================================
-              BUTTON
-===================================== */
-
-
-button{
-
-    background:
-    linear-gradient(
-        45deg,
-        #b8860b,
-        #ffd700
-    );
-
-    color:#000;
-
-    border:none;
-
-    padding:15px 35px;
-
-    border-radius:40px;
-
-    font-size:18px;
-
-    font-weight:bold;
-
-    cursor:pointer;
-
-    transition:.3s;
-
-}
-
-
-
-button:hover{
-
-    transform:scale(1.05);
-
-    box-shadow:0 0 25px gold;
-
-}
-
-
-
-
-/* =====================================
-              HERO
-===================================== */
-
+/* HERO */
 
 .hero{
-
     min-height:85vh;
-
     display:flex;
-
     align-items:center;
-
     justify-content:space-between;
-
-    padding:40px 8%;
-
+    padding:60px 8%;
+    gap:50px;
 }
-
-
 
 .hero-text{
-
-    max-width:600px;
-
+    flex:1;
 }
-
-
 
 .hero h1{
-
     font-size:52px;
-
     line-height:1.2;
-
     margin-bottom:20px;
-
 }
-
-
-
-.hero h1 span{
-
-    color:#d4af37;
-
-}
-
-
 
 .hero p{
-
     font-size:21px;
-
     color:#ddd;
-
-    line-height:1.6;
-
     margin-bottom:30px;
-
 }
 
-
+.car{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
 
 .car img{
-
-    width:380px;
-
+    width:420px;
     max-width:100%;
-
     height:auto;
+    filter:drop-shadow(0 0 25px gold);
+}
 
-    display:block;
+@media(max-width:768px){
 
-    filter:
-    drop-shadow(0 0 30px gold);
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
 
-    animation:
-    carMove 4s infinite alternate;
+.car img{
+    width:280px;
+}
 
 }
 
+button{
+    padding:15px 35px;
+    border:none;
+    border-radius:40px;
+    cursor:pointer;
+    font-size:18px;
+    font-weight:bold;
 
-
-@keyframes carMove{
-
-
-from{
-
-transform:translateX(20px);
-
+    background:linear-gradient(45deg,#b8860b,#ffd700);
+    color:#000;
 }
-
-
-to{
-
-transform:translateX(-20px);
-
-}
-
-
-}
-
-
-/* =====================================
-              SECTIONS
-===================================== */
-
 
 section{
-
     padding:70px 8%;
-
 }
-
-
 
 h2{
-
     text-align:center;
-
     color:#d4af37;
-
-    font-size:38px;
-
     margin-bottom:40px;
-
-    text-shadow:
-    0 0 15px rgba(212,175,55,.5);
-
+    font-size:38px;
 }
-/* ================================
-   TAXI TIME PREMIUM CSS v3
+/* ===================================
+   TAXI TIME PREMIUM CSS
    PART 2
-   SERVICES / ROUTES / PRICES / FLEET
-================================ */
+   STATISTICS • SERVICES • ROUTES
+=================================== */
 
 
-/* =================
-      SERVICES
-================= */
+/* STATISTICS */
 
-.services{
+.stats{
 
-    width:100%;
-    padding:80px 8%;
-    text-align:center;
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
     background:rgba(0,0,0,.45);
 
 }
 
+.stat-box{
 
-.services h2,
-.routes h2,
-.prices h2,
-.fleet h2,
-.gallery h2,
-.reviews h2,
-.order h2,
-.map-section h2{
+    background:rgba(20,20,20,.85);
+
+    border:1px solid rgba(212,175,55,.4);
+
+    border-radius:20px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    transition:.3s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#ffd700;
+
+}
+
+.stat-box h2{
+
+    font-size:46px;
 
     color:#d4af37;
-    font-size:38px;
-    margin-bottom:40px;
-    text-shadow:0 0 15px rgba(212,175,55,.5);
+
+    margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+    color:#ddd;
+
+    font-size:18px;
 
 }
 
 
+/* SERVICES */
 
-/* SERVICE CARDS */
+.services{
+
+    background:rgba(0,0,0,.55);
+
+}
 
 .cards{
 
     display:flex;
+
     justify-content:center;
-    align-items:stretch;
-    gap:30px;
+
     flex-wrap:wrap;
 
+    gap:30px;
+
 }
-
-
 
 .card{
 
-    width:280px;
-    min-height:280px;
+    width:300px;
 
-    padding:30px 20px;
+    background:rgba(20,20,20,.9);
 
-    background:rgba(20,20,20,.85);
+    border-radius:20px;
 
-    border:1px solid rgba(212,175,55,.5);
+    border:1px solid rgba(212,175,55,.4);
 
-    border-radius:25px;
+    overflow:hidden;
 
-    transition:.4s;
+    transition:.3s;
 
-    backdrop-filter:blur(10px);
+    text-align:center;
 
 }
-
-
 
 .card:hover{
 
-    transform:translateY(-12px);
+    transform:translateY(-10px);
 
-    border-color:#ffd700;
-
-    box-shadow:
-    0 0 30px rgba(212,175,55,.5);
+    box-shadow:0 0 20px rgba(212,175,55,.4);
 
 }
-
-
 
 .card img{
 
-    width:90px;
-    height:90px;
+    width:100%;
 
-    border-radius:50%;
+    height:190px;
 
     object-fit:cover;
 
-    margin-bottom:20px;
-
 }
-
-
 
 .card h3{
 
-    color:#ffd700;
+    color:#d4af37;
 
-    margin-bottom:15px;
+    margin:20px 0 10px;
 
 }
-
-
 
 .card p{
 
     color:#ddd;
 
-    line-height:1.6;
+    padding:0 20px 25px;
 
 }
 
 
-
-
-
-/* =================
-        ROUTES
-================= */
-
+/* ROUTES */
 
 .routes{
 
-    width:100%;
-
-    padding:80px 8%;
-
-    text-align:center;
-
-    background:rgba(0,0,0,.65);
+    background:rgba(0,0,0,.45);
 
 }
 
-
-
 .route-text{
 
-    color:#ddd;
+    text-align:center;
 
-    font-size:18px;
+    color:#ddd;
 
     margin-bottom:40px;
 
 }
-
-
 
 .route-cards{
 
@@ -450,48 +303,37 @@ h2{
 
     justify-content:center;
 
-    gap:30px;
-
     flex-wrap:wrap;
 
+    gap:30px;
+
 }
-
-
 
 .route-card{
 
-    width:320px;
+    width:300px;
 
-    padding:35px;
+    padding:30px;
 
+    text-align:center;
 
-    background:rgba(25,25,25,.9);
+    background:rgba(20,20,20,.9);
 
+    border-radius:20px;
 
-    border-radius:25px;
+    border:1px solid rgba(212,175,55,.4);
 
-
-    border:1px solid #333;
-
-
-    transition:.4s;
+    transition:.3s;
 
 }
-
-
 
 .route-card:hover{
 
     transform:translateY(-10px);
 
-    border-color:#d4af37;
-
-    box-shadow:
-    0 0 25px rgba(212,175,55,.4);
+    border-color:#ffd700;
 
 }
-
-
 
 .route-card h3{
 
@@ -501,1475 +343,336 @@ h2{
 
 }
 
-
-
 .route-card p{
-
-    color:#ccc;
-
-}
-
-
-
-
-
-/* =================
-        PRICES
-================= */
-
-
-.prices{
-
-    width:100%;
-
-    padding:80px 8%;
-
-    text-align:center;
-
-    background:rgba(0,0,0,.45);
-
-}
-
-
-
-.price-cards{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:30px;
-
-    flex-wrap:wrap;
-
-}
-
-
-
-.price-card{
-
-
-    width:320px;
-
-
-    padding:35px;
-
-
-    background:rgba(20,20,20,.85);
-
-
-    border-radius:25px;
-
-
-    border:1px solid rgba(212,175,55,.4);
-
-
-    transition:.4s;
-
-
-}
-
-
-
-.price-card:hover{
-
-    transform:translateY(-10px);
-
-    border-color:#ffd700;
-
-}
-
-
-
-.price-card h3{
-
-    color:#d4af37;
-
-    font-size:24px;
-
-}
-
-
-
-.price{
-
-
-    font-size:38px;
-
-    font-weight:bold;
-
-    color:white;
-
-    margin:20px 0;
-
-
-}
-
-
-
-.price-card p{
-
-    color:#ccc;
-
-}
-
-
-
-
-
-/* =================
-        FLEET
-================= */
-
-
-.fleet{
-
-    width:100%;
-
-    padding:80px 8%;
-
-    text-align:center;
-
-    background:rgba(0,0,0,.65);
-
-}
-
-
-
-.fleet-cards{
-
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:30px;
-
-    flex-wrap:wrap;
-
-
-}
-
-
-
-.fleet-card{
-
-
-    width:320px;
-
-
-    padding:20px;
-
-
-    background:rgba(20,20,20,.9);
-
-
-    border-radius:25px;
-
-
-    border:1px solid #333;
-
-
-    transition:.4s;
-
-
-}
-
-
-
-.fleet-card:hover{
-
-
-    transform:translateY(-12px);
-
-
-    border-color:#d4af37;
-
-
-    box-shadow:
-    0 0 30px rgba(212,175,55,.4);
-
-
-}
-
-
-
-.fleet-card img{
-
-
-    width:100%;
-
-
-    height:200px;
-
-
-    object-fit:cover;
-
-
-    border-radius:18px;
-
-
-}
-
-
-
-.fleet-card h3{
-
-
-    margin:18px 0;
-
-
-    color:#ffd700;
-
-
-}
-
-
-
-.fleet-card p{
-
-
-    color:#ccc;
-
-
-    line-height:1.6;
-
-
-}
-
-
-
-.vip{
-
-
-    border:2px solid #d4af37;
-
-
-    box-shadow:
-    0 0 30px rgba(212,175,55,.5);
-
-
-}
-
-
-
-.vip-badge{
-
-
-    display:inline-block;
-
-
-    margin-top:15px;
-
-
-    padding:8px 20px;
-
-
-    border-radius:30px;
-
-
-    background:#d4af37;
-
-
-    color:#000;
-
-
-    font-weight:bold;
-
-
-}
-/* ================================
-   TAXI TIME PREMIUM CSS v3
-   PART 3
-================================ */
-
-
-/* =================
-       GALLERY
-================= */
-
-
-.gallery{
-
-    width:100%;
-
-    padding:80px 8%;
-
-    text-align:center;
-
-    background:rgba(0,0,0,.55);
-
-}
-
-
-
-.gallery-grid{
-
-    width:100%;
-
-    display:grid;
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(280px,1fr));
-
-    gap:25px;
-
-}
-
-
-
-.gallery-item{
-
-    overflow:hidden;
-
-    border-radius:25px;
-
-    border:1px solid rgba(212,175,55,.5);
-
-    background:#111;
-
-    transition:.4s;
-
-}
-
-
-
-.gallery-item img{
-
-    width:100%;
-
-    height:250px;
-
-    object-fit:cover;
-
-    display:block;
-
-    transition:.5s;
-
-}
-
-
-
-.gallery-item:hover{
-
-    transform:translateY(-10px);
-
-    box-shadow:
-    0 0 30px rgba(212,175,55,.5);
-
-}
-
-
-
-.gallery-item:hover img{
-
-    transform:scale(1.08);
-
-}
-
-
-
-
-
-/* =================
-      REVIEWS
-================= */
-
-
-.reviews{
-
-    width:100%;
-
-    padding:80px 8%;
-
-    text-align:center;
-
-    background:rgba(0,0,0,.65);
-
-    overflow:hidden;
-
-}
-
-
-
-.review-cards{
-
-
-    width:100%;
-
-    max-width:1200px;
-
-    margin:auto;
-
-
-    display:flex;
-
-    justify-content:center;
-
-    align-items:stretch;
-
-
-    gap:30px;
-
-    flex-wrap:wrap;
-
-
-}
-
-
-
-.review{
-
-
-    width:300px;
-
-
-    min-height:230px;
-
-
-    padding:30px;
-
-
-    background:rgba(20,20,20,.9);
-
-
-    border-radius:25px;
-
-
-    border:1px solid rgba(212,175,55,.5);
-
-
-    transition:.4s;
-
-
-}
-
-
-
-.review:hover{
-
-
-    transform:translateY(-10px);
-
-
-    border-color:#ffd700;
-
-
-    box-shadow:
-    0 0 25px rgba(212,175,55,.4);
-
-
-}
-
-
-
-.review h3{
-
-    color:#ffd700;
-
-    margin-bottom:15px;
-
-}
-
-
-
-.review p{
 
     color:#ddd;
 
-    line-height:1.6;
-
 }
 
 
+/* MOBILE */
 
-.review strong{
+@media(max-width:768px){
 
-    display:block;
+.cards,
+.route-cards{
 
-    margin-top:20px;
+    flex-direction:column;
 
-    color:#d4af37;
+    align-items:center;
 
 }
 
-
-
-
-
-/* =================
-      STATISTICS
-================= */
-
-
-.stats{
-
+.card,
+.route-card{
 
     width:100%;
 
-
-    padding:80px 8%;
-
-
-    display:grid;
-
-
-    grid-template-columns:
-    repeat(auto-fit,minmax(220px,1fr));
-
-
-    gap:30px;
-
-
-    text-align:center;
-
-
-    background:rgba(0,0,0,.45);
-
+    max-width:340px;
 
 }
-
-
-
-.stat-box{
-
-
-    padding:35px 20px;
-
-
-    background:rgba(20,20,20,.85);
-
-
-    border-radius:25px;
-
-
-    border:1px solid rgba(212,175,55,.5);
-
-
-    transition:.4s;
-
-
-}
-
-
-
-.stat-box:hover{
-
-
-    transform:translateY(-10px);
-
-
-    border-color:#ffd700;
-
-
-}
-
-
 
 .stat-box h2{
 
+    font-size:36px;
 
-    font-size:45px;
+}
+
+}
+/* ===================================
+   TAXI TIME PREMIUM CSS
+   PART 3
+   PRICES • FLEET • GALLERY
+   REVIEWS • ORDER • MAP
+   CONTACT • FOOTER
+=================================== */
 
 
+/* PRICES */
+
+.prices{
+    background:rgba(0,0,0,.45);
+}
+
+.price-cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.price-card{
+    width:300px;
+    padding:30px;
+    text-align:center;
+    background:rgba(20,20,20,.9);
+    border:1px solid rgba(212,175,55,.4);
+    border-radius:20px;
+    transition:.3s;
+}
+
+.price-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(212,175,55,.4);
+}
+
+.price-card h3{
     color:#d4af37;
-
-
     margin-bottom:15px;
-
-
 }
 
+.price-card h2{
+    color:#fff;
+    margin:20px 0;
+}
 
-
-.stat-box p{
-
-
+.price-card p{
     color:#ddd;
-
-
-    font-size:18px;
-
-
 }
 
 
+/* FLEET */
+
+.fleet{
+    background:rgba(0,0,0,.60);
+}
+
+.fleet-cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.fleet-card{
+    width:320px;
+    background:rgba(20,20,20,.9);
+    border-radius:20px;
+    border:1px solid rgba(212,175,55,.4);
+    overflow:hidden;
+    transition:.3s;
+}
+
+.fleet-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 20px rgba(212,175,55,.4);
+}
+
+.fleet-card img{
+    width:100%;
+    height:210px;
+    object-fit:cover;
+}
+
+.fleet-card h3{
+    color:#d4af37;
+    padding:20px 20px 10px;
+}
+
+.fleet-card p{
+    color:#ddd;
+    padding:0 20px 25px;
+}
 
 
+/* GALLERY */
 
-/* =================
-      ONLINE ORDER
-================= */
+.gallery{
+    background:rgba(0,0,0,.45);
+}
 
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:20px;
+}
+
+.gallery-item{
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.gallery-item img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    transition:.4s;
+}
+
+.gallery-item:hover img{
+    transform:scale(1.08);
+}
+
+
+/* REVIEWS */
+
+.reviews{
+    background:rgba(0,0,0,.60);
+}
+
+.review-cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+}
+
+.review{
+    width:300px;
+    padding:30px;
+    background:rgba(20,20,20,.9);
+    border-radius:20px;
+    border:1px solid rgba(212,175,55,.4);
+}
+
+.review h3{
+    color:#ffd700;
+    margin-bottom:15px;
+}
+
+.review p{
+    color:#ddd;
+    line-height:1.6;
+}
+
+.review strong{
+    display:block;
+    margin-top:20px;
+    color:#d4af37;
+}
+
+
+/* ORDER */
 
 .order{
-
-
-    width:100%;
-
-
-    padding:80px 8%;
-
-
-    text-align:center;
-
-
-    background:rgba(0,0,0,.55);
-
-
+    background:rgba(0,0,0,.45);
 }
-
-
 
 .order-box{
-
-
-    width:100%;
-
-
-    max-width:650px;
-
-
-    margin:0 auto;
-
-
-    padding:40px;
-
-
+    max-width:700px;
+    margin:auto;
+    padding:35px;
     background:rgba(20,20,20,.9);
-
-
-    border-radius:30px;
-
-
-    border:2px solid rgba(212,175,55,.5);
-
-
-    box-shadow:
-
-    0 0 30px rgba(212,175,55,.25);
-
-
+    border-radius:20px;
+    border:1px solid rgba(212,175,55,.4);
 }
-
-
 
 .order-box input,
-.order-box textarea,
 .order-box select{
-
-
     width:100%;
-
-
-    padding:18px;
-
-
-    margin:12px 0;
-
-
+    padding:15px;
+    margin:10px 0;
     border:none;
-
-
-    border-radius:15px;
-
-
-    font-size:17px;
-
-
-    outline:none;
-
-
+    border-radius:10px;
+    font-size:16px;
 }
-
-
-
-.order-box textarea{
-
-
-    min-height:120px;
-
-
-    resize:none;
-
-
-}
-
-
 
 .order-box button{
-
-
     width:100%;
-
-
     margin-top:15px;
-
-
 }
 
 
-
-
-
-/* =================
-          MAP
-================= */
-
+/* MAP */
 
 .map-section{
-
-
-    width:100%;
-
-
-    padding:80px 8%;
-
-
-    text-align:center;
-
-
-    background:rgba(0,0,0,.55);
-
-
+    background:rgba(0,0,0,.60);
 }
-
-
 
 .map-box{
-
-
-    width:100%;
-
-
-    border-radius:25px;
-
-
+    border-radius:20px;
     overflow:hidden;
-
-
-    border:3px solid #d4af37;
-
-
 }
 
-
-
 .map-box iframe{
-
-
     width:100%;
-
-
     height:450px;
-
-
     border:0;
-
-
 }
 
 
-
-
-
-/* =================
-       CONTACT
-================= */
-
+/* CONTACT */
 
 .contact{
-
-
-    width:90%;
-
-
-    max-width:750px;
-
-
-    margin:60px auto;
-
-
-    padding:40px;
-
-
-    background:rgba(0,0,0,.85);
-
-
-    border-radius:25px;
-
-
-    border:2px solid #d4af37;
-
-
-    text-align:center;
-
-
-}
-
-
-
-.contact-item{
-
-
-    padding:18px;
-
-
-    margin:15px 0;
-
-
-    background:#111;
-
-
-    border-radius:15px;
-
-
-    color:#ffd700;
-
-
-}
-
-
-
-
-
-/* =================
-      WHATSAPP
-================= */
-
-
-.whatsapp{
-
-
-    position:fixed;
-
-
-    right:25px;
-
-
-    bottom:25px;
-
-
-    width:65px;
-
-
-    height:65px;
-
-
-    border-radius:50%;
-
-
-    display:flex;
-
-
-    align-items:center;
-
-
-    justify-content:center;
-
-
-    background:#25D366;
-
-
-    color:white;
-
-
-    font-size:32px;
-
-
-    text-decoration:none;
-
-
-    z-index:9999;
-
-
-    box-shadow:0 0 25px #25D366;
-
-
-}
-
-
-
-
-
-/* =================
-       MOBILE
-================= */
-
-
-@media(max-width:768px){
-
-
-header{
-
-    flex-direction:column;
-
-    padding:15px;
-
-}
-
-
-
-nav{
-
-    margin-top:20px;
-
-    flex-wrap:wrap;
-
-    justify-content:center;
-
-}
-
-
-
-.hero{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
-
-
-.hero h1{
-
-    font-size:34px;
-
-}
-
-
-
-.car img{
-
-    width:280px;
-
-    margin-top:30px;
-
-}
-
-
-
-.review,
-.card,
-.route-card,
-.price-card,
-.fleet-card{
-
-    width:90%;
-
-}
-
-
-
-.order-box{
-
-    padding:25px;
-
-}
-
-
-
-.map-box iframe{
-
-    height:300px;
-
-}
-
-
-
-.whatsapp{
-
-    width:55px;
-
-    height:55px;
-
-    font-size:28px;
-
-}
-
-/* =====================================
-   TAXI TIME FINAL MENU SCROLL FIX
-===================================== */
-
-html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 120px;
-}
-
-
-header {
-    position: sticky;
-    top: 0;
-    z-index: 99999;
-}
-
-
-#home,
-#services,
-#prices,
-#fleet,
-#gallery,
-#contact,
-#routes,
-#order,
-#map {
-    scroll-margin-top: 120px;
-}
-nav a:active,
-nav a:focus{
-    color:#d4af37;
-}
-nav{
-    position:relative;
-    z-index:100000;
-}
-
-nav a{
-    position:relative;
-    z-index:100001;
-    cursor:pointer;
-}
-/* HERO şəkilləri menyunun altında qalsın */
-
-/* HERO ŞƏKİL DÜZƏLİŞİ */
-
-.hero{
-    min-height:80vh;
-    padding:80px 8%;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    overflow:hidden;
-}
-
-
-.car{
-    width:45%;
-    display:flex;
-    justify-content:center;
-}
-
-
-.car img{
-
-    width:380px;
-    max-width:100%;
-    height:auto;
-
-    object-fit:contain;
-
-    filter:drop-shadow(0 0 30px gold);
-
-    animation:carMove 4s infinite alternate;
-
-}
-/* ===============================
-   FINAL HERO IMAGE FIX
-   TAXI TIME
-================================ */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:99999;
-}
-
-
-.hero{
-    padding-top:150px !important;
-    min-height:90vh;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    overflow:hidden;
-}
-
-
-.car{
-    width:45%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
-
-
-.car img{
-    width:330px !important;
-    height:auto !important;
-    max-height:330px !important;
-    object-fit:contain !important;
-    display:block;
-}
-
-
-
-/* Telefon */
-
-@media(max-width:768px){
-
-.hero{
-    flex-direction:column;
-    padding-top:140px !important;
-}
-
-
-.car{
-    width:100%;
-}
-
-
-.car img{
-    width:260px !important;
-    max-height:260px !important;
-}
-
-}
-/* HERO CAR IMAGE OFF */
-
-.car{
-    display:none;
-}
-
-
-.hero{
-    justify-content:center;
-    text-align:center;
-}
-
-
-.hero-text{
-    max-width:700px;
-}
-/* CONTACT FIX */
-
-.contact{
-
-    width:90%;
     max-width:750px;
     margin:60px auto;
-    padding:40px;
-
-    background:rgba(0,0,0,.85);
-
+    padding:35px;
+    background:rgba(20,20,20,.9);
     border:2px solid #d4af37;
-
-    border-radius:25px;
-
-    text-align:center;
-
+    border-radius:20px;
 }
-
 
 .contact-item{
-
     padding:18px;
-
     margin:15px 0;
-
     background:#111;
-
-    border-radius:15px;
-
-    border:1px solid rgba(212,175,55,.4);
-
-    color:#ffd700;
-
-}
-#contact{
-    scroll-margin-top:150px;
-}
-
-.contact{
-    display:block;
-    position:relative;
-    z-index:10;
+    border-radius:12px;
+    color:#fff;
 }
 
 .contact a{
     color:#ffd700;
     text-decoration:none;
-    font-weight:bold;
-}
-/* TAXI TIME HERO IMAGE FIX */
-
-.hero{
-    position:relative;
-    overflow:hidden;
-    padding-top:140px;
 }
 
 
-.car{
-    width:45%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-}
+/* FOOTER */
 
-
-.car img{
-
-    width:100%;
-    max-width:420px;
-    max-height:300px;
-
-    object-fit:contain;
-
-    display:block;
-
-    filter:drop-shadow(0 0 25px gold);
-}
-
-
-/* mobil görünüş */
-
-@media(max-width:768px){
-
-.hero{
-
-    padding-top:120px;
-}
-
-
-.car{
-
-    width:100%;
-    margin-top:30px;
-
-}
-
-
-.car img{
-
-    max-width:300px;
-    max-height:220px;
-
-}
-
-}
-.car{
-    display:block !important;
-    visibility:visible !important;
-    opacity:1 !important;
-}
-
-.car img{
-
-    display:block !important;
-    width:420px !important;
-    max-width:90% !important;
-    height:auto !important;
-
-}
-/* ================================
-   TAXI TIME FINAL HERO FIX
-================================ */
-
-header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:99999;
-}
-
-
-body{
-    padding-top:100px;
-}
-
-
-.hero{
-
-    min-height:85vh;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:60px 8%;
-
-    overflow:hidden;
-
-}
-
-
-.hero-text{
-
-    max-width:600px;
-
-}
-
-
-.car{
-
-    display:flex !important;
-
-    width:45%;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
-
-.car img{
-
-    display:block !important;
-
-    width:330px !important;
-
-    height:auto !important;
-
-    max-height:300px;
-
-    object-fit:contain;
-
-    filter:drop-shadow(0 0 25px gold);
-
-}
-
-
-@media(max-width:768px){
-
-.hero{
-
-    flex-direction:column;
-
+footer{
+    padding:30px;
     text-align:center;
-
+    background:#111;
+    color:#bbb;
 }
 
 
-.car{
+/* WHATSAPP */
 
-    width:100%;
-
-    margin-top:30px;
-
-}
-
-
-.car img{
-
-    width:260px !important;
-
-}
-
-}
-/* ================================
-   TAXI TIME FINAL HERO FIX
-================================ */
-
-
-header{
+.whatsapp{
     position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    z-index:99999;
-}
-
-
-body{
-    padding-top:100px;
-}
-
-
-/* HERO */
-
-.hero{
-
-    min-height:85vh;
-
+    right:25px;
+    bottom:25px;
+    width:65px;
+    height:65px;
+    border-radius:50%;
     display:flex;
-
-    align-items:center;
-
-    justify-content:space-between;
-
-    padding:60px 8%;
-
-    overflow:hidden;
-
-}
-
-
-/* Yazı hissəsi */
-
-.hero-text{
-
-    max-width:600px;
-
-}
-
-
-/* Maşın bloku */
-
-.car{
-
-    display:flex !important;
-
-    width:45%;
-
     justify-content:center;
-
     align-items:center;
-
+    background:#25D366;
+    color:#fff;
+    text-decoration:none;
+    font-size:30px;
+    box-shadow:0 0 20px #25D366;
+    z-index:9999;
 }
 
 
-/* Maşın şəkli */
-
-.car img{
-
-    display:block !important;
-
-    width:330px !important;
-
-    height:auto !important;
-
-    max-height:300px;
-
-    object-fit:contain;
-
-    filter:drop-shadow(0 0 25px gold);
-
-}
-
-
-/* Telefon */
+/* MOBILE */
 
 @media(max-width:768px){
 
-.hero{
-
-    flex-direction:column;
-
-    text-align:center;
-
-}
-
-
-.car{
-
+.price-card,
+.fleet-card,
+.review{
     width:100%;
-
-    margin-top:30px;
-
+    max-width:340px;
 }
 
+.price-cards,
+.fleet-cards,
+.review-cards{
+    flex-direction:column;
+    align-items:center;
+}
 
-.car img{
+.map-box iframe{
+    height:300px;
+}
 
-    width:260px !important;
-
+.whatsapp{
+    width:55px;
+    height:55px;
+    font-size:26px;
 }
 
 }
