@@ -5,10 +5,12 @@
         "phone": "+994507119711",
         "whatsapp": "994507119711"
     },
+
     "prices": {
         "quba_baki": "100 AZN",
         "baki_quba": "100 AZN"
     },
+
     "services": [
         {
             "title": "Quba - Bakı",
@@ -19,53 +21,44 @@
             "title": "Hava Limanı Transferi",
             "description": "24/7 xidmət",
             "image": "airport.jpg"
-        },
-        {
-            "title": "TEST123",
-            "description": "YOXLAMA",
-            "image": "service.jpg"
-        },
-        {
-            "title": "Yeni xidmət",
-            "description": "Məlumat",
-            "image": "gallery1.jpg"
         }
     ],
+
     "cars": [
         {
             "name": "Geely Galaxy A7",
-            "image": "galaxy-a7.jpg",
-            "info": "Komfortlu hibrid sedan"
+            "image": "gallery1.jpg",
+            "text": "Yeni nəsil komfortlu və təhlükəsiz sedan"
         },
         {
             "name": "BYD Destroyer 05",
-            "image": "Destroyer05.jpg",
-            "info": "Plug-in Hybrid"
+            "image": "gallery2.jpg",
+            "text": "Premium hibrid avtomobil"
         },
         {
-            "name": "Mercedes-Benz S350 VIP",
-            "image": "mercedes-s350.jpg",
-            "info": "Premium VIP xidmət"
+            "name": "Mercedes-Benz S350",
+            "image": "gallery3.jpg",
+            "text": "VIP səviyyəli rahatlıq"
         },
         {
             "name": "BYD Qin Plus",
-            "image": "bydqin.jpg",
-            "info": "Ekonomik və rahat"
+            "image": "gallery4.jpg",
+            "text": "Qənaətli və komfortlu seçim"
         },
         {
             "name": "Toyota Corolla Cross",
-            "image": "cross.jpg",
-            "info": "Ailə səfərləri üçün ideal seçim"
+            "image": "gallery5.jpg",
+            "text": "Ailə və uzun yol üçün ideal"
         },
         {
             "name": "Mercedes Sprinter",
-            "image": "sprinter.jpg",
-            "info": "Böyük qruplar üçün komfortlu nəqliyyat"
+            "image": "gallery7.jpg",
+            "text": "Qrup və çox sərnişin üçün"
         },
         {
             "name": "Hyundai i40",
             "image": "gallery8.jpg",
-            "info": "Rahat və etibarlı sedan"
+            "text": "Rahat və təhlükəsiz səfərlər üçün"
         }
     ]
 }
