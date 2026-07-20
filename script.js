@@ -162,8 +162,6 @@ function loadServices(){
 }
 
 
-
-
 // WHATSAPP SIFARIŞ
 
 function sendOrder(){

@@ -1750,3 +1750,226 @@ header{
 }
 
 }
+.car{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+}
+
+.car img{
+
+    display:block !important;
+    width:420px !important;
+    max-width:90% !important;
+    height:auto !important;
+
+}
+/* ================================
+   TAXI TIME FINAL HERO FIX
+================================ */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:99999;
+}
+
+
+body{
+    padding-top:100px;
+}
+
+
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:60px 8%;
+
+    overflow:hidden;
+
+}
+
+
+.hero-text{
+
+    max-width:600px;
+
+}
+
+
+.car{
+
+    display:flex !important;
+
+    width:45%;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+.car img{
+
+    display:block !important;
+
+    width:330px !important;
+
+    height:auto !important;
+
+    max-height:300px;
+
+    object-fit:contain;
+
+    filter:drop-shadow(0 0 25px gold);
+
+}
+
+
+@media(max-width:768px){
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.car{
+
+    width:100%;
+
+    margin-top:30px;
+
+}
+
+
+.car img{
+
+    width:260px !important;
+
+}
+
+}
+/* ================================
+   TAXI TIME FINAL HERO FIX
+================================ */
+
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:99999;
+}
+
+
+body{
+    padding-top:100px;
+}
+
+
+/* HERO */
+
+.hero{
+
+    min-height:85vh;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    padding:60px 8%;
+
+    overflow:hidden;
+
+}
+
+
+/* Yazı hissəsi */
+
+.hero-text{
+
+    max-width:600px;
+
+}
+
+
+/* Maşın bloku */
+
+.car{
+
+    display:flex !important;
+
+    width:45%;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+/* Maşın şəkli */
+
+.car img{
+
+    display:block !important;
+
+    width:330px !important;
+
+    height:auto !important;
+
+    max-height:300px;
+
+    object-fit:contain;
+
+    filter:drop-shadow(0 0 25px gold);
+
+}
+
+
+/* Telefon */
+
+@media(max-width:768px){
+
+.hero{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.car{
+
+    width:100%;
+
+    margin-top:30px;
+
+}
+
+
+.car img{
+
+    width:260px !important;
+
+}
+
+}

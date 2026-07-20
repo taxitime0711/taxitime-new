@@ -12,17 +12,22 @@
   },
 
   "services": [
-    {
-      "title": "Quba - Bakı",
-      "description": "Sərnişin daşıma xidməti",
-      "image": "quba-baki.jpg"
-    },
-    {
-      "title": "Hava Limanı Transferi",
-      "description": "24/7 xidmət",
-      "image": "airport.jpg"
-    }
-  ],
+  {
+    "title": "24/7 Xidmət",
+    "description": "Günün istənilən saatı sifariş qəbul edilir.",
+    "image": "quba-baki.jpg"
+  },
+  {
+    "title": "Komfortlu Avtomobillər",
+    "description": "Təmiz və rahat salon.",
+    "image": "gallery1.jpg"
+  },
+  {
+    "title": "Təhlükəsiz Səfər",
+    "description": "Peşəkar sürücülərlə rahat yol.",
+    "image": "airport.jpg"
+  }
+]
 
   "cars": [
     {
