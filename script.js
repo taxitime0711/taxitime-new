@@ -1,62 +1,117 @@
+// TAXI TIME DATA SİSTEMİ
+
 console.log("DATA SISTEMI ISLEYIR");
 
 let taxiData = {};
 
+
+// DATA YÜKLƏ
+
 fetch("data.json")
+
 .then(response => response.json())
+
 .then(data => {
 
     taxiData = data;
 
-    loadPrices();
     loadServices();
+    loadPrices();
     loadCars();
 
+})
+
+.catch(error => {
+
+    console.log("DATA XƏTASI:", error);
+
 });
-alert("YENI SCRIPT ISLEYIR");
+
+
+
+
+// HERO SİFARİŞ
+
 function orderTaxi(){
 
-    let message = 
+    let message =
     "Salam TAXI TIME. Mən taksi sifariş etmək istəyirəm.";
 
     let phone = "994507119711";
 
-    let url = 
-    "https://wa.me/" + phone + 
+    let url =
+    "https://wa.me/" + phone +
     "?text=" + encodeURIComponent(message);
 
 
     window.open(url, "_blank");
 
 }
-function sendOrder() {
 
-    let name = document.getElementById("name");
-    let phone = document.getElementById("phone");
-    let from = document.getElementById("from");
-    let to = document.getElementById("to");
-    let date = document.getElementById("date");
-    let time = document.getElementById("time");
-    let passengers = document.getElementById("passengers");
-    let car = document.getElementById("car");
 
-    if (!name || !phone || !from || !to || !date || !time || !passengers || !car) {
-        alert("Form elementlərindən biri tapılmadı.");
-        return;
-    }
 
-    alert("Form düzgün tapıldı.");
+
+// ONLINE SİFARİŞ
+
+function sendOrder(){
+
+
+let name =
+document.getElementById("name").value;
+
+
+let phone =
+document.getElementById("phone").value;
+
+
+let from =
+document.getElementById("from").value;
+
+
+let to =
+document.getElementById("to").value;
+
+
+let date =
+document.getElementById("date").value;
+
+
+let time =
+document.getElementById("time").value;
+
+
+let person =
+document.getElementById("person").value;
+
+
+let car =
+document.getElementById("car").value;
+
+
+
+if(!name || !phone || !from || !to){
+
+alert("Zəhmət olmasa məlumatları doldurun.");
+
+return;
+
 }
 
-// Tarixi Azərbaycan formatına çevirir
-let dateText = new Date(date).toLocaleDateString("az-AZ", {
-    day: "numeric",
-    month: "long",
-    year: "numeric"
-});
+
+
+let dateText = new Date(date).toLocaleDateString(
+"az-AZ",
+{
+day:"numeric",
+month:"long",
+year:"numeric"
+}
+);
+
 
 
 let message =
+
 "◆ TAXI TIME SİFARİŞ\n\n" +
 
 "◆ Müştəri:\n" +
@@ -78,267 +133,255 @@ dateText + "\n\n" +
 time + "\n\n" +
 
 "◆ Sərnişin sayı:\n" +
-passengers + " nəfər\n\n" +
+person + "\n\n" +
 
 "◆ Avtomobil:\n" +
-car + "\n\n" +
+car;
 
-"◆ Sifariş gözləyir...";
 
 
 let whatsapp =
-"https://wa.me/994505886677?text=" +
-encodeURIComponent(message);
+
+"https://wa.me/994507119711?text="
+
++ encodeURIComponent(message);
 
 
-window.open(whatsapp, "_blank");
+
+window.open(whatsapp,"_blank");
+
 
 }
 
 
-// TARIFLERI GOSTER
-
-let priceList = document.getElementById("priceList");
 
 
-if(priceList){
+// XİDMƏTLƏR
 
-taxiData.routes.forEach(function(route){
+function loadServices(){
 
 
-priceList.innerHTML += `
+let box =
+document.getElementById("servicesBox");
 
-<div class="price-card">
 
-<h3>🚕 ${route.from} → ${route.to}</h3>
+if(!box) return;
 
-<p class="price">
-${route.price}
-</p>
 
-<p>
-Rahat və təhlükəsiz səfər
-</p>
+box.innerHTML="";
+
+
+taxiData.services.forEach(service=>{
+
+
+box.innerHTML += `
+
+<div class="card">
+
+<img src="${service.image}">
+
+<h3>${service.title}</h3>
+
+<p>${service.description}</p>
 
 </div>
 
 `;
 
-});
-
-
-}
-// ADMIN TARIF OXU
-
-let savedPrice = localStorage.getItem("taxiPrice");
-
-
-let prices = document.querySelectorAll(".price");
-
-
-if(savedPrice){
-
-prices.forEach(function(item){
-
-item.innerHTML = savedPrice + " AZN";
 
 });
 
-}
-// Foto Qalereya Lightbox
-
-const galleryImages = document.querySelectorAll(".gallery-item img");
-const lightbox = document.getElementById("lightbox");
-const lightboxImg = document.getElementById("lightbox-img");
-const closeBtn = document.querySelector(".close");
-
-galleryImages.forEach(img => {
-
-    img.addEventListener("click", function(){
-
-        lightbox.style.display = "flex";
-        lightboxImg.src = this.src;
-
-    });
-
-});
-
-closeBtn.onclick = function(){
-
-    lightbox.style.display = "none";
-
-}
-
-lightbox.onclick = function(e){
-
-    if(e.target === lightbox){
-
-        lightbox.style.display = "none";
-
-    }
-
-}
-const counters = document.querySelectorAll(".counter");
-
-counters.forEach(counter=>{
-
-    const update = ()=>{
-
-        const target = +counter.getAttribute("data-target");
-        const count = +counter.innerText;
-
-        const speed = target/100;
-
-        if(count < target){
-
-            counter.innerText = Math.ceil(count + speed);
-
-            setTimeout(update,20);
-
-        }else{
-
-            counter.innerText = target + "+";
-
-        }
-
-    };
-
-    update();
-
-});
-const sections = document.querySelectorAll("section");
-const navLinks = document.querySelectorAll("nav a");
-
-window.addEventListener("scroll", () => {
-
-    let current = "";
-
-    sections.forEach(section => {
-
-        const sectionTop = section.offsetTop - 120;
-
-        if (window.scrollY >= sectionTop) {
-
-            current = section.getAttribute("id");
-
-        }
-
-    });
-
-    navLinks.forEach(link => {
-
-        link.classList.remove("active");
-
-        if (link.getAttribute("href") === "#" + current) {
-
-            link.classList.add("active");
-
-        }
-
-    });
-
-});
-
-// XİDMƏTLƏRİ GÖSTƏR
-
-function loadServices(){
-
-    let box = document.getElementById("servicesBox");
-
-    if(!box) return;
-
-    box.innerHTML = "";
-
-
-    taxiData.services.forEach(service => {
-
-        box.innerHTML += `
-
-        <div class="card">
-
-            <img src="${service.image}">
-
-            <h3>${service.title}</h3>
-
-            <p>${service.description}</p>
-
-        </div>
-
-        `;
-
-    });
 
 }
 
 
 
-// TARİFLƏRİ GÖSTƏR
+
+// TARİFLƏR
 
 function loadPrices(){
 
-    let box = document.getElementById("priceList");
 
-    if(!box) return;
-
-    box.innerHTML = "";
+let box =
+document.getElementById("priceList");
 
 
-    box.innerHTML += `
-
-    <div class="price-card">
-
-        <h3>🚕 Quba → Bakı</h3>
-
-        <div class="price">
-        ${taxiData.prices.quba_baki}
-        </div>
-
-    </div>
+if(!box) return;
 
 
-    <div class="price-card">
+box.innerHTML = `
 
-        <h3>🚘 Bakı → Quba</h3>
 
-        <div class="price">
-        ${taxiData.prices.baki_quba}
-        </div>
+<div class="price-card">
 
-    </div>
+<h3>🚕 Quba → Bakı</h3>
 
-    `;
+<div class="price">
+
+${taxiData.prices.quba_baki}
+
+</div>
+
+<p>
+Gündəlik rahat reyslər
+</p>
+
+</div>
+
+
+
+<div class="price-card">
+
+<h3>🚘 Bakı → Quba</h3>
+
+<div class="price">
+
+${taxiData.prices.baki_quba}
+
+</div>
+
+<p>
+Vaxtında götürmə və çatdırılma
+</p>
+
+</div>
+
+
+`;
 
 }
 
 
 
-// AVTOMOBİLLƏRİ GÖSTƏR
+
+// AVTOMOBİLLƏR
 
 function loadCars(){
 
-    let box = document.getElementById("carsBox");
 
-    if(!box) return;
-
-    box.innerHTML = "";
+let box =
+document.getElementById("carsBox");
 
 
-    taxiData.cars.forEach(car => {
+if(!box) return;
 
-        box.innerHTML += `
 
-        <div class="fleet-card">
+box.innerHTML="";
 
-            <img src="${car.image}">
 
-            <h3>${car.name}</h3>
+taxiData.cars.forEach(car=>{
 
-            <p>${car.info}</p>
 
-        </div>
+box.innerHTML += `
 
-        `;
 
-    });
+<div class="fleet-card">
+
+
+<img src="${car.image}" alt="${car.name}">
+
+
+<h3>${car.name}</h3>
+
+
+<p>${car.info}</p>
+
+
+</div>
+
+
+`;
+
+
+});
+
 
 }
+
+
+
+
+
+// GALEREYA LIGHTBOX
+
+
+const galleryImages =
+document.querySelectorAll(".gallery-item img");
+
+
+const lightbox =
+document.getElementById("lightbox");
+
+
+const lightboxImg =
+document.getElementById("lightbox-img");
+
+
+const closeBtn =
+document.querySelector(".close");
+
+
+
+galleryImages.forEach(img=>{
+
+
+img.onclick=function(){
+
+
+lightbox.style.display="flex";
+
+lightboxImg.src=this.src;
+
+
+}
+
+
+});
+
+
+
+if(closeBtn){
+
+closeBtn.onclick=function(){
+
+lightbox.style.display="none";
+
+}
+
+}
+
+
+
+if(lightbox){
+
+lightbox.onclick=function(e){
+
+if(e.target===lightbox){
+
+lightbox.style.display="none";
+
+}
+
+}
+
+}
+
+
+
+
+
+// SAYĞACLAR
+
+const counters =
+document.querySelectorAll(".counter");
+
+
+
+counters.forEach(counter=>{
+
+
+let target =
++counter.getAttribute("data-target");
+
+
+});
