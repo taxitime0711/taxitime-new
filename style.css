@@ -1582,3 +1582,83 @@ nav{
     text-align:center;
 
 }
+/* ================================
+   REVIEWS FINAL FIX
+================================ */
+
+.reviews{
+    width:100%;
+    padding:70px 8%;
+    text-align:center;
+    display:block;
+    clear:both;
+}
+
+
+.review-cards{
+
+    width:100%;
+
+    max-width:1200px;
+
+    margin:0 auto;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:stretch;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.review{
+
+    flex:0 1 300px;
+
+    width:300px;
+
+    min-height:220px;
+
+    margin:0;
+
+    padding:30px;
+
+    background:rgba(20,20,20,.85);
+
+    border-radius:20px;
+
+    border:1px solid #d4af37;
+
+    text-align:center;
+
+    box-sizing:border-box;
+
+}
+
+
+.review h3{
+
+    text-align:center;
+
+}
+
+
+.review p{
+
+    text-align:center;
+
+}
+
+
+.review strong{
+
+    text-align:center;
+
+    display:block;
+
+}
