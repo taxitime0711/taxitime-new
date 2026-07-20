@@ -7,7 +7,7 @@ let taxiData = {};
 
 // DATA YÜKLƏ
 
-fetch("data.json")
+fetch("https://taxitime-api.taxitime0711.workers.dev")
 
 .then(response => response.json())
 
