@@ -374,27 +374,35 @@ lightbox.style.display="none";
 
 // SAYĞACLAR
 
+window.addEventListener("load",()=>{
+
 const counters = document.querySelectorAll(".counter");
 
 counters.forEach(counter=>{
 
-    let target = +counter.getAttribute("data-target");
+let target = +counter.getAttribute("data-target");
 
-    let count = 0;
+let count = 0;
 
-    let timer = setInterval(()=>{
+let timer=setInterval(()=>{
 
-        count += Math.ceil(target / 50);
+count += Math.ceil(target/50);
 
-        if(count >= target){
+if(count>=target){
 
-            count = target;
-            clearInterval(timer);
+count=target;
 
-        }
+clearInterval(timer);
 
-        counter.innerHTML = count + "+";
+}
 
-    },30);
+counter.innerHTML=count+"+";
+
+
+},30);
+
+
+});
+
 
 });
