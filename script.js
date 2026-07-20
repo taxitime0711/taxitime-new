@@ -4,7 +4,6 @@
 
 
 // AVTOPARK
-
 function loadCars(){
 
     const box = document.getElementById("carsBox");
@@ -12,7 +11,7 @@ function loadCars(){
     if(!box) return;
 
 
-    let cars = [
+    const cars = [
 
         {
             name:"Geely Galaxy A7",
@@ -99,9 +98,7 @@ function loadPrices(){
 
         <h3>Quba → Bakı</h3>
 
-        <div class="price">
-            100 AZN
-        </div>
+        <h2>100 AZN</h2>
 
         <p>Rahat və təhlükəsiz səfər</p>
 
@@ -112,9 +109,7 @@ function loadPrices(){
 
         <h3>Bakı → Quba</h3>
 
-        <div class="price">
-            100 AZN
-        </div>
+        <h2>100 AZN</h2>
 
         <p>24/7 sifariş xidməti</p>
 
@@ -123,6 +118,7 @@ function loadPrices(){
     `;
 
 }
+
 
 
 
@@ -135,62 +131,54 @@ function loadServices(){
     if(!box) return;
 
 
-    box.innerHTML=`
+    fetch("data.json")
+    .then(response => response.json())
+    .then(data => {
 
-    <div class="card">
-
-        <img src="quba-baki.jpg">
-
-        <h3>Quba - Bakı</h3>
-
-        <p>Sərnişin daşıma xidməti</p>
-
-    </div>
+        box.innerHTML="";
 
 
-    <div class="card">
+        data.services.forEach(service=>{
 
-        <img src="airport.jpg">
+            box.innerHTML += `
 
-        <h3>Hava Limanı Transferi</h3>
+            <div class="card">
 
-        <p>24/7 rahat xidmət</p>
+                <img src="${service.image}">
 
-    </div>
+                <h3>${service.title}</h3>
+
+                <p>${service.description}</p>
+
+            </div>
+
+            `;
+
+        });
 
 
-    <div class="card">
-
-        <img src="car.png">
-
-        <h3>Komfortlu Avtomobillər</h3>
-
-        <p>Təmiz və təhlükəsiz nəqliyyat</p>
-
-    </div>
-
-    `;
+    });
 
 }
 
 
 
-// WHATSAPP SIFARIS
+
+// WHATSAPP SIFARIŞ
 
 function sendOrder(){
 
-let name=document.getElementById("name").value;
-let phone=document.getElementById("phone").value;
-let from=document.getElementById("from").value;
-let to=document.getElementById("to").value;
-let date=document.getElementById("date").value;
-let time=document.getElementById("time").value;
-let person=document.getElementById("person").value;
-let car=document.getElementById("car").value;
+    let name=document.getElementById("name").value;
+    let phone=document.getElementById("phone").value;
+    let from=document.getElementById("from").value;
+    let to=document.getElementById("to").value;
+    let date=document.getElementById("date").value;
+    let time=document.getElementById("time").value;
+    let person=document.getElementById("person").value;
+    let car=document.getElementById("car").value;
 
 
-let text=
-
+    let message = 
 `Salam TAXI TIME
 
 Ad: ${name}
@@ -213,13 +201,13 @@ Avtomobil:
 ${car}`;
 
 
-window.open(
-"https://wa.me/994507119711?text="+encodeURIComponent(text),
-"_blank"
-);
-
+    window.open(
+        "https://wa.me/994507119711?text="+encodeURIComponent(message),
+        "_blank"
+    );
 
 }
+
 
 
 
@@ -227,29 +215,30 @@ window.open(
 
 document.querySelectorAll(".counter").forEach(counter=>{
 
-let target=Number(counter.dataset.target);
+    let target = Number(counter.dataset.target);
 
-let count=0;
-
-let timer=setInterval(()=>{
-
-count++;
-
-counter.innerHTML=count;
+    let count = 0;
 
 
-if(count>=target){
+    let timer=setInterval(()=>{
 
-clearInterval(timer);
+        count++;
 
-counter.innerHTML=target+"+";
+        counter.innerHTML=count+"+";
 
-}
 
-},20);
+        if(count>=target){
+
+            clearInterval(timer);
+
+        }
+
+
+    },20);
 
 
 });
+
 
 
 
@@ -263,3 +252,38 @@ loadCars();
 loadPrices();
 
 loadServices();
+const counters = document.querySelectorAll(".counter");
+
+counters.forEach(counter => {
+
+let target = +counter.dataset.target;
+
+let count = 0;
+
+let speed = target / 100;
+
+
+let update = () => {
+
+if(count < target){
+
+count += speed;
+
+counter.innerText = Math.ceil(count);
+
+setTimeout(update,20);
+
+}
+
+else{
+
+counter.innerText = target + "+";
+
+}
+
+};
+
+
+update();
+
+});
