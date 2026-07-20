@@ -19,6 +19,11 @@
             "title": "Hava Limanı Transferi",
             "description": "24/7 xidmət",
             "image": "airport.jpg"
+        },
+        {
+            "title": "Quba - Bakı VIP Transfer",
+            "description": "Məlumat",
+            "image": "service.jpg"
         }
     ],
     "cars": [
