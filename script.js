@@ -372,16 +372,29 @@ lightbox.style.display="none";
 
 // SAYĞACLAR
 
-const counters =
-document.querySelectorAll(".counter");
+// SAYĞACLAR
 
-
+const counters = document.querySelectorAll(".counter");
 
 counters.forEach(counter=>{
 
+    let target = +counter.getAttribute("data-target");
 
-let target =
-+counter.getAttribute("data-target");
+    let count = 0;
 
+    let timer = setInterval(()=>{
+
+        count += Math.ceil(target / 50);
+
+        if(count >= target){
+
+            count = target;
+            clearInterval(timer);
+
+        }
+
+        counter.innerHTML = count + "+";
+
+    },30);
 
 });
