@@ -1,3 +1,18 @@
+// TAXI TIME DATA SİSTEMİ
+
+let taxiData = {};
+
+fetch("data.json")
+.then(response => response.json())
+.then(data => {
+
+    taxiData = data;
+
+    loadPrices();
+    loadServices();
+    loadCars();
+
+});
 alert("YENI SCRIPT ISLEYIR");
 function orderTaxi(){
 
@@ -223,3 +238,115 @@ window.addEventListener("scroll", () => {
     });
 
 });
+
+// XİDMƏTLƏRİ GÖSTƏR
+
+function loadServices(){
+
+let box = document.getElementById("servicesBox");
+
+if(!box) return;
+
+box.innerHTML = "";
+
+
+taxiData.services.forEach(service=>{
+
+
+box.innerHTML += `
+
+<div class="service-card">
+
+<img src="${service.image}">
+
+<h3>${service.title}</h3>
+
+<p>${service.description}</p>
+
+</div>
+
+`;
+
+
+});
+
+
+}
+
+
+
+// TARİFLƏRİ GÖSTƏR
+
+function loadPrices(){
+
+let priceList = document.getElementById("priceList");
+
+if(!priceList) return;
+
+
+priceList.innerHTML="";
+
+
+priceList.innerHTML += `
+
+<div class="price-card">
+
+<h3>🚕 Quba → Bakı</h3>
+
+<p class="price">
+${taxiData.prices.quba_baki}
+</p>
+
+</div>
+
+
+<div class="price-card">
+
+<h3>🚕 Bakı → Quba</h3>
+
+<p class="price">
+${taxiData.prices.baki_quba}
+</p>
+
+</div>
+
+`;
+
+}
+
+
+
+
+// AVTOMOBİLLƏRİ GÖSTƏR
+
+function loadCars(){
+
+let box=document.getElementById("carsBox");
+
+if(!box) return;
+
+
+box.innerHTML="";
+
+
+taxiData.cars.forEach(car=>{
+
+
+box.innerHTML += `
+
+<div class="car-card">
+
+<img src="${car.image}">
+
+<h3>${car.name}</h3>
+
+<p>${car.info}</p>
+
+</div>
+
+`;
+
+});
+
+
+}
