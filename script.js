@@ -1,423 +1,15 @@
-<!DOCTYPE html>
-<html lang="az">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TAXI TIME | Qubadan Bakıya Rahat Taksi</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<meta name="description" content="TAXI TIME - Qubadan Bakıya və bölgələrə rahat, təhlükəsiz sərnişin daşınması. Komfortlu Geely Galaxy A7 avtomobilləri ilə 24/7 xidmət.">
+// ===============================
+// TAXI TIME SCRIPT
+// ===============================
 
-<meta name="keywords" content="Quba taksi, Quba Bakı taksi, Bakı Quba taksi, TAXI TIME, rayonlararası taksi, Geely Galaxy A7 taxi">
 
-<meta name="author" content="TAXI TIME">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-<!-- Lightbox -->
-
-<div id="lightbox" class="lightbox">
-
-    <span class="close">&times;</span>
-
-    <img class="lightbox-content" id="lightbox-img">
-
-</div>
-
-<header>
-
-<div class="logo">
-    <img src="logo.png" alt="TAXI TIME">
-</div>
-
-<nav>
-    <a href="#home">Ana səhifə</a>
-    <a href="#services">Xidmətlərimiz</a>
-    <a href="#prices">Tariflər</a>
-    <a href="#fleet">Avtopark</a>
-    <a href="#gallery">Qalereya</a>
-    <a href="#contact">Əlaqə</a>
-</nav>
-
-</header>
-
-
-<section class="hero" id="home">
-
-    <div class="hero-text">
-        <h1>Qubadan Bakıya<br>
-        Rahat və Təhlükəsiz Səyahət</h1>
-
-        <p>
-        TAXI TIME ilə vaxtınıza qənaət edin.
-        Rahat avtomobillər, peşəkar sürücülər.
-        </p>
-
-        <button onclick="orderTaxi()">
-            İndi Sifariş Et
-        </button>
-
-    </div>
-
-
-    <div class="car">
-        <img src="car.png" alt="Taxi">
-    </div>
-
-</section>
-<section class="stats">
-
-    <div class="stat-box">
-        <h2 class="counter" data-target="5000">0</h2>
-        <p>Daşınan Sərnişin</p>
-    </div>
-
-    <div class="stat-box">
-        <h2 class="counter" data-target="20">0</h2>
-        <p>Avtomobil</p>
-    </div>
-
-    <div class="stat-box">
-        <h2 class="counter" data-target="24">0</h2>
-        <p>Saat Xidmət</p>
-    </div>
-
-    <div class="stat-box">
-        <h2>98%</h2>
-        <p>Müştəri Məmnuniyyəti</p>
-    </div>
-
-</section>
-
-<section class="services" id="services">
-
-<h2>Niyə TAXI TIME?</h2>
-
-<div class="cards" id="servicesBox">
-
-</div>
-    
-</section>
-
-
-
-<a class="whatsapp" 
-href="https://wa.me/994507119711" 
-target="_blank">
-💬
-</a>
-<section class="routes" id="routes">
-
-<h2>Marşrutlarımız</h2>
-
-<p class="route-text">
-Qubadan Bakıya və Azərbaycanın bölgələrinə rahat sərnişin daşınması.
-</p>
-
-
-<div class="route-cards">
-
-
-<div class="route-card">
-<h3>🚕 Quba → Bakı</h3>
-<p>Gündəlik rahat və təhlükəsiz səfərlər</p>
-</div>
-
-
-<div class="route-card">
-<h3>🏙 Bakı → Quba</h3>
-<p>Vaxtında götürmə və çatdırılma</p>
-</div>
-
-
-<div class="route-card">
-<h3>🌄 Bölgələr</h3>
-<p>Rayonlararası sifarişlər</p>
-</div>
-
-
-</div>
-
-</section>
-<section class="order" id="order">
-
-<h2>Online Sifariş</h2>
-
-<div class="order-box">
-
-<input type="text" id="name" placeholder="Adınız">
-
-<input type="tel" id="phone" placeholder="Telefon nömrəsi">
-
-<input type="text" id="from" placeholder="Haradan">
-
-<input type="text" id="to" placeholder="Hara">
-<input type="date" id="date">
-
-<input type="time" id="time">
-
-
-<select id="person">
-
-<option value="1 nəfər">
-1 nəfər
-</option>
-
-<option value="2 nəfər">
-2 nəfər
-</option>
-
-<option value="3 nəfər">
-3 nəfər
-</option>
-
-<option value="4 nəfər">
-4 nəfər
-</option>
-
-</select>
-
-
-<select id="car">
-
-<option>Geely Galaxy A7</option>
-
-<option>BYD Destroyer 05</option>
-
-<option>Mercedes Bens S350</option>
-
-<option>BYD Gin Plus</option>
-
-<option>Mercedes Sprinter</option>
-
-<option>Mercedes Vito</option>
-
-<option>Toyota Corolla Cross</option>
-
-<option>Hyundai Sonata</option>
-
-</select>
-
-<button onclick="sendOrder()">
-Sifariş Göndər
-</button>
-
-</div>
-
-</section>
-
-<section class="map-section" id="map">
-
-<h2>📍 Bizi Xəritədə Tapın</h2>
-
-<p>Ofisimizin yerləşdiyi məkanı xəritədə görə bilərsiniz.</p>
-
-<div class="map-box">
-
-<iframe
-src="https://www.google.com/maps?q=Quba,Azerbaijan&output=embed"
-width="100%"
-height="450"
-style="border:0;"
-allowfullscreen=""
-loading="lazy">
-</iframe>
-
-</div>
-
-</section>
-    
-   <section class="contact" id="contact">
-
-    <h2>Bizimlə Əlaqə</h2>
-       
-    <div class="contact-item">
-        📍 Ünvan: Quba şəhəri
-    </div>
-
-    <div class="contact-item">
-        📞 Telefon:
-        <a href="tel:+994507119711">
-            +994 50 711 97 11
-        </a>
-    </div>
-
-    <div class="contact-item">
-        💬 WhatsApp:
-        <a href="https://wa.me/994507119711?text=Salam%20TAXI%20TIME.%20Sifariş%20vermək%20istəyirəm." target="_blank">
-            WhatsApp ilə əlaqə
-        </a>
-    </div>
-
-    <div class="contact-item">
-        🕒 İş vaxtı: 24/7 Sifariş
-    </div>
-
-</section>
-
-
-<section class="prices" id="prices">
-
-<h2>💰 Tariflər</h2>
-
-<div class="price-cards" id="priceList">
-
-</div>
-
-
-</section>
-<section class="fleet" id="fleet">
-
-<h2>🚖 Avtomobil Parkımız</h2>
-
-<div class="fleet-cards" id="carsBox">
-
-</div>
-
-
-</section>
-
-<section class="reviews">
-
-<h2>Müştəri rəyləri</h2>
-
-
-<div class="review-cards">
-
-
-<div class="review">
-
-<h3>⭐⭐⭐⭐⭐</h3>
-
-<p>
-"Çox rahat səfər oldu. Sürücü vaxtında gəldi."
-</p>
-
-<strong>
-- Elvin
-</strong>
-
-</div>
-
-
-
-<div class="review">
-
-<h3>⭐⭐⭐⭐⭐</h3>
-
-<p>
-"Avtomobil təmiz və komfortlu idi. Təşəkkürlər TAXI TIME."
-</p>
-
-<strong>
-- Rəşad
-</strong>
-
-</div>
-
-
-
-<div class="review">
-
-<h3>⭐⭐⭐⭐⭐</h3>
-
-<p>
-"Qubadan Bakıya ən rahat seçim."
-</p>
-
-<strong>
-- Nigar
-</strong>
-
-</div>
-
-
-</div>
-
-</section>
-<section class="gallery" id="gallery">
-
-<h2>Foto Qalereya</h2>
-
-
-<div class="gallery-grid">
-
-
-<div class="gallery-item">
-<img src="gallery1.jpg" alt="Geely Galaxy A7">
-</div>
-
-
-<div class="gallery-item">
-<img src="gallery2.jpg" alt="BYD Destroyer 05">
-</div>
-
-
-<div class="gallery-item">
-<img src="gallery3.jpg" alt="Mercedes-Benz S350">
-</div>
-
-
-<div class="gallery-item">
-<img src="gallery4.jpg" alt="BYD Qin Plus">
-</div>
-
-
-<div class="gallery-item">
-<img src="gallery5.jpg" alt="Toyota Corolla Cross">
-</div>
-
-
-<div class="gallery-item">
-<img src="gallery6.jpg" alt="TAXI TIME">
-</div>
-
-<div class="gallery-item">
-<img src="gallery7.jpg" alt="Mercedes Sprinter">
-</div>
-
-    
-<div class="gallery-item">
-<img src="gallery8.jpg" alt="Hyundai i40">
-</div>
-
-    
-</div>
-
-</section>
-
-<footer>
-
-© 2026 TAXI TIME | Quba - Bakı
-
-</footer>
-
-<script src="script.js"></script>
-
-</body>
-</html>
-
-/* =====================================
-        CARS / FLEET
-===================================== */
-
+// AVTOPARK
 
 function loadCars(){
 
-
     const box = document.getElementById("carsBox");
 
-
-    if(!box){
-
-        return;
-
-    }
-
-
-    box.innerHTML="";
-
+    if(!box) return;
 
 
     let cars = [
@@ -425,141 +17,181 @@ function loadCars(){
         {
             name:"Geely Galaxy A7",
             image:"gallery1.jpg",
-            text:"Premium və komfortlu sedan avtomobil."
+            text:"Yeni nəsil komfortlu və təhlükəsiz sedan"
         },
-
 
         {
             name:"BYD Destroyer 05",
             image:"gallery2.jpg",
-            text:"Müasir texnologiyalı hibrid avtomobil."
+            text:"Premium hibrid avtomobil"
         },
-
 
         {
             name:"Mercedes-Benz S350",
             image:"gallery3.jpg",
-            text:"VIP səfərlər üçün lüks seçim."
+            text:"VIP səviyyəli rahatlıq"
         },
-
 
         {
             name:"BYD Qin Plus",
             image:"gallery4.jpg",
-            text:"Rahat və qənaətli avtomobil."
+            text:"Qənaətli və komfortlu seçim"
         },
-
 
         {
             name:"Toyota Corolla Cross",
             image:"gallery5.jpg",
-            text:"Ailəvi və komfortlu SUV."
+            text:"Ailə və uzun yol üçün ideal"
         },
-
 
         {
             name:"Mercedes Sprinter",
             image:"gallery7.jpg",
-            text:"Qrup səfərləri üçün geniş salon."
+            text:"Qrup səfərləri üçün geniş salon"
         },
-
 
         {
             name:"Hyundai i40",
             image:"gallery8.jpg",
-            text:"Komfortlu sedan. Quba-Bakı səfərləri üçün ideal seçim."
+            text:"Rahat və təhlükəsiz səfərlər üçün"
         }
 
     ];
 
 
+    box.innerHTML="";
 
 
     cars.forEach(car=>{
 
-
         box.innerHTML += `
-
 
         <div class="fleet-card">
 
-
             <img src="${car.image}" alt="${car.name}">
 
+            <h3>${car.name}</h3>
 
-            <h3>
-                ${car.name}
-            </h3>
-
-
-            <p>
-                ${car.text}
-            </p>
-
+            <p>${car.text}</p>
 
         </div>
 
-
         `;
 
-
     });
-
-
 
 }
 
 
 
+// TARIFLER
+
+function loadPrices(){
+
+    const box=document.getElementById("priceList");
+
+    if(!box) return;
 
 
-/* =====================================
-        WHATSAPP ORDER
-===================================== */
+    box.innerHTML=`
 
+    <div class="price-card">
+
+        <h3>Quba → Bakı</h3>
+
+        <div class="price">
+            100 AZN
+        </div>
+
+        <p>Rahat və təhlükəsiz səfər</p>
+
+    </div>
+
+
+    <div class="price-card">
+
+        <h3>Bakı → Quba</h3>
+
+        <div class="price">
+            100 AZN
+        </div>
+
+        <p>24/7 sifariş xidməti</p>
+
+    </div>
+
+    `;
+
+}
+
+
+
+// XIDMETLER
+
+function loadServices(){
+
+    const box=document.getElementById("servicesBox");
+
+    if(!box) return;
+
+
+    box.innerHTML=`
+
+    <div class="card">
+
+        <img src="quba-baki.jpg">
+
+        <h3>Quba - Bakı</h3>
+
+        <p>Sərnişin daşıma xidməti</p>
+
+    </div>
+
+
+    <div class="card">
+
+        <img src="airport.jpg">
+
+        <h3>Hava Limanı Transferi</h3>
+
+        <p>24/7 rahat xidmət</p>
+
+    </div>
+
+
+    <div class="card">
+
+        <img src="car.png">
+
+        <h3>Komfortlu Avtomobillər</h3>
+
+        <p>Təmiz və təhlükəsiz nəqliyyat</p>
+
+    </div>
+
+    `;
+
+}
+
+
+
+// WHATSAPP SIFARIS
 
 function sendOrder(){
 
-
-    let name =
-    document.getElementById("name").value;
-
-
-    let phone =
-    document.getElementById("phone").value;
-
-
-    let from =
-    document.getElementById("from").value;
+let name=document.getElementById("name").value;
+let phone=document.getElementById("phone").value;
+let from=document.getElementById("from").value;
+let to=document.getElementById("to").value;
+let date=document.getElementById("date").value;
+let time=document.getElementById("time").value;
+let person=document.getElementById("person").value;
+let car=document.getElementById("car").value;
 
 
-    let to =
-    document.getElementById("to").value;
+let text=
 
-
-    let date =
-    document.getElementById("date").value;
-
-
-    let time =
-    document.getElementById("time").value;
-
-
-
-    let person =
-    document.getElementById("person").value;
-
-
-
-    let car =
-    document.getElementById("car").value;
-
-
-
-
-    let message =
-
-`Salam TAXI TIME.
+`Salam TAXI TIME
 
 Ad: ${name}
 
@@ -581,256 +213,53 @@ Avtomobil:
 ${car}`;
 
 
-
-    let url =
-
-"https://wa.me/994507119711?text="
-
-+ encodeURIComponent(message);
-
-
-
-    window.open(url,"_blank");
-
+window.open(
+"https://wa.me/994507119711?text="+encodeURIComponent(text),
+"_blank"
+);
 
 
 }
 
 
 
+// STATISTIKA
 
+document.querySelectorAll(".counter").forEach(counter=>{
 
-/* =====================================
-        STATISTICS COUNTER
-===================================== */
-
-
-const counters =
-document.querySelectorAll(".counter");
-
-
-
-counters.forEach(counter=>{
-
-
-let target =
-Number(counter.dataset.target);
-
-
+let target=Number(counter.dataset.target);
 
 let count=0;
 
+let timer=setInterval(()=>{
+
+count++;
+
+counter.innerHTML=count;
 
 
-let speed =
-target / 100;
+if(count>=target){
 
+clearInterval(timer);
 
+counter.innerHTML=target+"+";
 
-let update=()=>{
+}
 
-
-    count += speed;
-
-
-    if(count < target){
-
-
-        counter.innerText =
-        Math.floor(count);
-
-
-        requestAnimationFrame(update);
-
-
-    }
-
-    else{
-
-
-        counter.innerText =
-        target + "+";
-
-
-    }
-
-
-
-};
-
-
-update();
-
+},20);
 
 
 });
 
 
 
+// START
 
+console.log("TAXI TIME SCRIPT ISLEYIR");
 
 
-/* =====================================
-        GALLERY LIGHTBOX
-===================================== */
-
-
-const galleryImages =
-document.querySelectorAll(".gallery-item img");
-
-
-
-const lightbox =
-document.getElementById("lightbox");
-
-
-const lightboxImg =
-document.getElementById("lightbox-img");
-
-
-const closeBtn =
-document.querySelector(".close");
-
-
-
-
-galleryImages.forEach(img=>{
-
-
-img.onclick=function(){
-
-
-    lightbox.style.display="flex";
-
-
-    lightboxImg.src =
-    this.src;
-
-
-};
-
-
-
-});
-
-
-
-if(closeBtn){
-
-
-closeBtn.onclick=function(){
-
-
-    lightbox.style.display="none";
-
-
-};
-
-
-}
-
-
-
-if(lightbox){
-
-
-lightbox.onclick=function(e){
-
-
-    if(e.target === lightbox){
-
-
-        lightbox.style.display="none";
-
-
-    }
-
-
-};
-
-
-}
-function loadPrices(){
-
-const box = document.getElementById("priceList");
-
-if(!box) return;
-
-
-box.innerHTML = `
-
-<div class="price-card">
-
-<h3>Quba → Bakı</h3>
-
-<div class="price">
-100 AZN
-</div>
-
-<p>Rahat və təhlükəsiz səfər</p>
-
-</div>
-
-
-<div class="price-card">
-
-<h3>Bakı → Quba</h3>
-
-<div class="price">
-100 AZN
-</div>
-
-<p>24/7 sifariş xidməti</p>
-
-</div>
-
-`;
-
-}
-function loadServices(){
-
-const box=document.getElementById("servicesBox");
-
-if(!box) return;
-
-
-box.innerHTML=`
-
-<div class="card">
-
-<img src="quba-baki.jpg">
-
-<h3>Quba - Bakı</h3>
-
-<p>Sərnişin daşıma xidməti</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="airport.jpg">
-
-<h3>Hava Limanı Transferi</h3>
-
-<p>24/7 rahat xidmət</p>
-
-</div>
-
-
-<div class="card">
-
-<img src="car.png">
-
-<h3>Komfortlu Avtomobillər</h3>
-
-<p>Təmiz və təhlükəsiz nəqliyyat</p>
-
-</div>
-
-`;
-
-}
 loadCars();
+
 loadPrices();
+
 loadServices();
