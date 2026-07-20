@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TAXI TIME Admin</title>
+
+<link rel="stylesheet" href="admin.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+<h1>🚕 TAXI TIME Admin Panel</h1>
+</header>
+
+
+<section class="admin-container">
+
+
+<h2>🏢 Şirkət məlumatları</h2>
+
+<input id="companyName" placeholder="Şirkət adı">
+
+<input id="city" placeholder="Şəhər">
+
+<input id="phone" placeholder="Telefon">
+
+<input id="whatsapp" placeholder="WhatsApp">
+
+
+
+<h2>💰 Tariflər</h2>
+
+<input id="qubaBaki" placeholder="Quba → Bakı">
+
+<input id="bakiQuba" placeholder="Bakı → Quba">
+
+
+
+<h2>🚕 Xidmətlər</h2>
+
+<div id="services"></div>
+
+<button onclick="addService()">
++ Xidmət əlavə et
+</button>
+
+
+
+
+<h2>🚗 Avtomobillər</h2>
+
+<div id="cars"></div>
+
+
+<button onclick="addCar()">
++ Avtomobil əlavə et
+</button>
+
+
+
+<br><br>
+
+
+<button class="save" onclick="saveData()">
+
+💾 Yadda saxla
+
+</button>
+
+
+</section>
+
+
+<script src="admin.js"></script>
+
+
+</body>
+
+</html>
