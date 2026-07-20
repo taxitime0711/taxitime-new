@@ -1,0 +1,61 @@
+{
+    "company": {
+        "name": "TAXI TIME",
+        "city": "Quba",
+        "phone": "+994507119711",
+        "whatsapp": "994507119711"
+    },
+    "prices": {
+        "quba_baki": "65 AZN",
+        "baki_quba": "65 AZN"
+    },
+    "services": [
+        {
+            "title": "Quba - Bakı",
+            "description": "Sərnişin daşıma xidməti",
+            "image": "quba-baki.jpg"
+        },
+        {
+            "title": "Hava Limanı Transferi",
+            "description": "24/7 xidmət",
+            "image": "airport.jpg"
+        }
+    ],
+    "cars": [
+        {
+            "name": "Geely Galaxy A7",
+            "image": "galaxy-a7.jpg",
+            "info": "Komfortlu hibrid sedan"
+        },
+        {
+            "name": "BYD Destroyer 05",
+            "image": "Destroyer05.jpg",
+            "info": "Plug-in Hybrid"
+        },
+        {
+            "name": "Mercedes-Benz S350 VIP",
+            "image": "mercedes-s350.jpg",
+            "info": "Premium VIP xidmət"
+        },
+        {
+            "name": "BYD Qin Plus",
+            "image": "bydqin.jpg",
+            "info": "Ekonomik və rahat"
+        },
+        {
+            "name": "Toyota Corolla Cross",
+            "image": "cross.jpg",
+            "info": "Ailə səfərləri üçün ideal seçim"
+        },
+        {
+            "name": "Mercedes Sprinter",
+            "image": "sprinter.jpg",
+            "info": "Böyük qruplar üçün komfortlu nəqliyyat"
+        },
+        {
+            "name": "Hyundai i40",
+            "image": "i40.jpg",
+            "info": "Rahat və etibarlı sedan"
+        }
+    ]
+}
