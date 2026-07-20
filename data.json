@@ -6,7 +6,7 @@
         "whatsapp": "994507119711"
     },
     "prices": {
-        "quba_baki": "65 AZN",
+        "quba_baki": "65 azn",
         "baki_quba": "65 AZN"
     },
     "services": [
@@ -19,11 +19,6 @@
             "title": "Hava Limanı Transferi",
             "description": "24/7 xidmət",
             "image": "airport.jpg"
-        },
-        {
-            "title": "Quba - Bakı VIP Transfer",
-            "description": "Məlumat",
-            "image": "service.jpg"
         }
     ],
     "cars": [
