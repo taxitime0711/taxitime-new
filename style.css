@@ -1333,3 +1333,213 @@ nav{
 
 
 }
+/* ================================
+   ONLINE SİFARİŞ FORMU DÜZƏLİŞ
+================================ */
+
+
+.order{
+
+    text-align:center;
+    padding:70px 8%;
+    background:rgba(0,0,0,.55);
+
+}
+
+
+.order-box{
+
+    width:100%;
+    max-width:600px;
+
+    margin:0 auto;
+
+    padding:35px;
+
+    background:rgba(20,20,20,.85);
+
+    border-radius:25px;
+
+    border:1px solid rgba(212,175,55,.5);
+
+    box-shadow:
+    0 0 30px rgba(212,175,55,.25);
+
+}
+
+
+.order-box input,
+.order-box textarea,
+.order-box select{
+
+
+    width:100%;
+
+    padding:18px 20px;
+
+    margin:12px 0;
+
+    border-radius:12px;
+
+    border:none;
+
+    font-size:17px;
+
+    background:#fff;
+
+    color:#111;
+
+}
+
+
+.order-box textarea{
+
+    min-height:120px;
+
+    resize:vertical;
+
+}
+
+
+.order-box button{
+
+    width:100%;
+
+    margin-top:15px;
+
+}
+
+
+
+/* MOBİL */
+
+@media(max-width:768px){
+
+.order-box{
+
+    width:95%;
+
+    padding:25px;
+
+}
+
+
+.order-box input,
+.order-box textarea,
+.order-box select{
+
+    font-size:16px;
+
+}
+
+}
+/* ================================
+   MÜŞTƏRİ RƏYLƏRİ DÜZƏLİŞ
+================================ */
+
+
+.reviews{
+
+    width:100%;
+
+    text-align:center;
+
+    padding:70px 8%;
+
+    background:rgba(0,0,0,.55);
+
+    overflow:hidden;
+
+}
+
+
+.review-cards{
+
+    width:100%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:25px;
+
+    flex-wrap:wrap;
+
+}
+
+
+.review{
+
+    width:300px;
+
+    max-width:100%;
+
+    padding:30px;
+
+    background:rgba(20,20,20,.85);
+
+    border-radius:20px;
+
+    border:1px solid rgba(212,175,55,.5);
+
+    text-align:center;
+
+    box-sizing:border-box;
+
+    transition:.4s;
+
+}
+
+
+.review:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#d4af37;
+
+    box-shadow:0 0 25px rgba(212,175,55,.4);
+
+}
+
+
+.review h3{
+
+    color:#d4af37;
+
+    margin-bottom:15px;
+
+}
+
+
+.review p{
+
+    color:#ddd;
+
+    line-height:1.6;
+
+}
+
+
+.review strong{
+
+    display:block;
+
+    margin-top:15px;
+
+    color:#ffd700;
+
+}
+
+
+
+@media(max-width:768px){
+
+    .review{
+
+        width:90%;
+
+    }
+
+}
