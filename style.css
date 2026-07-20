@@ -1543,3 +1543,42 @@ nav{
     }
 
 }
+/* MÜŞTƏRİ RƏYLƏRİ SON DÜZƏLİŞ */
+
+.reviews{
+    width:100%;
+    display:block;
+    text-align:center;
+    padding:70px 8%;
+    overflow:hidden;
+}
+
+
+.review-cards{
+
+    width:100%;
+
+    display:flex !important;
+
+    justify-content:center !important;
+
+    align-items:center !important;
+
+    flex-wrap:wrap !important;
+
+    margin:0 auto;
+
+}
+
+
+.review{
+
+    display:block;
+
+    width:300px;
+
+    margin:15px auto;
+
+    text-align:center;
+
+}
