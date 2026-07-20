@@ -466,7 +466,7 @@ function loadCars(){
 
         {
             name:"Hyundai i40",
-            image:"i40.jpg",
+            image:"gallery8.jpg",
             text:"Komfortlu sedan. Quba-Bakı səfərləri üçün ideal seçim."
         }
 
@@ -750,3 +750,87 @@ lightbox.onclick=function(e){
 
 
 }
+function loadPrices(){
+
+const box = document.getElementById("priceList");
+
+if(!box) return;
+
+
+box.innerHTML = `
+
+<div class="price-card">
+
+<h3>Quba → Bakı</h3>
+
+<div class="price">
+100 AZN
+</div>
+
+<p>Rahat və təhlükəsiz səfər</p>
+
+</div>
+
+
+<div class="price-card">
+
+<h3>Bakı → Quba</h3>
+
+<div class="price">
+100 AZN
+</div>
+
+<p>24/7 sifariş xidməti</p>
+
+</div>
+
+`;
+
+}
+function loadServices(){
+
+const box=document.getElementById("servicesBox");
+
+if(!box) return;
+
+
+box.innerHTML=`
+
+<div class="card">
+
+<img src="quba-baki.jpg">
+
+<h3>Quba - Bakı</h3>
+
+<p>Sərnişin daşıma xidməti</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="airport.jpg">
+
+<h3>Hava Limanı Transferi</h3>
+
+<p>24/7 rahat xidmət</p>
+
+</div>
+
+
+<div class="card">
+
+<img src="car.png">
+
+<h3>Komfortlu Avtomobillər</h3>
+
+<p>Təmiz və təhlükəsiz nəqliyyat</p>
+
+</div>
+
+`;
+
+}
+loadCars();
+loadPrices();
+loadServices();
