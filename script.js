@@ -199,7 +199,7 @@ function loadPrices(){
 
         <div class="price-card">
 
-            <h3>Quba → Bölgələr</h3>
+            <h3>🇦🇿 Bölgələr</h3>
 
             <select id="regionSelect">
 
