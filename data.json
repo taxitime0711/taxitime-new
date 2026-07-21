@@ -82,9 +82,9 @@
             "image": "airport.jpg"
         },
         {
-            "title": "Yeni xidmət",
-            "description": "Məlumat",
-            "image": "service.jpg"
+            "title": "Hava Limani",
+            "description": "VIP",
+            "image": "liman.jpg"
         }
     ],
     "cars": [
