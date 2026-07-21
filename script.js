@@ -1,165 +1,108 @@
 // ===============================
 // TAXI TIME SCRIPT
+// PART 1
 // ===============================
 
 
+// -------------------------------
 // AVTOPARK
+// -------------------------------
+
 function loadCars(){
 
     const box = document.getElementById("carsBox");
 
     if(!box) return;
 
-
-    const cars = [
-
-        {
-            name:"Geely Galaxy A7",
-            image:"gallery1.jpg",
-            text:"Yeni nəsil komfortlu və təhlükəsiz sedan"
-        },
-
-        {
-            name:"BYD Destroyer 05",
-            image:"gallery2.jpg",
-            text:"Premium hibrid avtomobil"
-        },
-
-        {
-            name:"Mercedes-Benz S350",
-            image:"gallery3.jpg",
-            text:"VIP səviyyəli rahatlıq"
-        },
-
-        {
-            name:"BYD Qin Plus",
-            image:"gallery4.jpg",
-            text:"Qənaətli və komfortlu seçim"
-        },
-
-        {
-            name:"Toyota Corolla Cross",
-            image:"gallery5.jpg",
-            text:"Ailə və uzun yol üçün ideal"
-        },
-
-        {
-            name:"Mercedes Sprinter",
-            image:"gallery7.jpg",
-            text:"Qrup səfərləri üçün geniş salon"
-        },
-
-        {
-            name:"Hyundai i40",
-            image:"gallery8.jpg",
-            text:"Rahat və təhlükəsiz səfərlər üçün"
-        }
-
-    ];
-
-
-    box.innerHTML="";
-
-
-    cars.forEach(car=>{
-
-        box.innerHTML += `
-
-        <div class="fleet-card">
-
-            <img src="${car.image}" alt="${car.name}">
-
-            <h3>${car.name}</h3>
-
-            <p>${car.text}</p>
-
-        </div>
-
-        `;
-
-    });
-
-}
-
-
-
-// TARIFLER
-
-// TARIFLER
-
-function loadPrices(){
-
-    const box=document.getElementById("priceList");
-
-    if(!box) return;
-
-
     fetch("data.json")
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
 
+        box.innerHTML = "";
 
-        box.innerHTML = `
+        data.cars.forEach(car => {
 
+            box.innerHTML += `
 
-        <div class="price-card">
+            <div class="fleet-card">
 
-            <h3>Quba → Bakı</h3>
+                <img src="${car.image}" alt="${car.name}">
 
-            <h2>${data.prices.quba_baki}</h2>
+                <h3>${car.name}</h3>
 
-            <p>Rahat və təhlükəsiz səfər</p>
+                <p>${car.text}</p>
 
-        </div>
+            </div>
 
+            `;
 
-
-        <div class="price-card">
-
-            <h3>Bakı → Quba</h3>
-
-            <h2>${data.prices.baki_quba}</h2>
-
-            <p>24/7 sifariş xidməti</p>
-
-        </div>
-
-
-        `;
-
+        });
 
     })
-    .catch(error => {
-
-        console.log("Qiymət yüklənmədi:", error);
-
-    });
-
+    .catch(err => console.log(err));
 
 }
 
 
 
+// -------------------------------
+// XİDMƏTLƏR
+// -------------------------------
 
+function loadServices(){
 
-
-// XIDMETLER
-
-function loadPrices(){
-
-    const box=document.getElementById("priceList");
+    const box = document.getElementById("servicesBox");
 
     if(!box) return;
 
-
     fetch("data.json")
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
 
+        box.innerHTML = "";
+
+        data.services.forEach(service => {
+
+            box.innerHTML += `
+
+            <div class="card">
+
+                <img src="${service.image}" alt="${service.title}">
+
+                <h3>${service.title}</h3>
+
+                <p>${service.description}</p>
+
+            </div>
+
+            `;
+
+        });
+
+    })
+    .catch(err => console.log(err));
+
+}
+
+
+
+// -------------------------------
+// TARİFLƏR
+// -------------------------------
+
+function loadPrices(){
+
+    const box = document.getElementById("priceList");
+
+    if(!box) return;
+
+    fetch("data.json")
+    .then(res => res.json())
+    .then(data => {
 
         let regionOptions = "";
 
-        for(let region in data.prices.regions){
+        for(const region in data.prices.regions){
 
             regionOptions += `
                 <option value="${region}">
@@ -169,107 +112,116 @@ function loadPrices(){
 
         }
 
-
         box.innerHTML = `
 
+<div class="price-card">
 
-        <div class="price-card">
+    <h3>Quba → Bakı</h3>
 
-            <h3>Quba → Bakı</h3>
+    <h2>${data.prices.quba_baki}</h2>
 
-            <h2>${data.prices.quba_baki}</h2>
+    <p>Rahat və təhlükəsiz səfər</p>
 
-            <p>Rahat və təhlükəsiz səfər</p>
-
-        </div>
-
+</div>
 
 
-        <div class="price-card">
+<div class="price-card">
 
-            <h3>Bakı → Quba</h3>
+    <h3>Bakı → Quba</h3>
 
-            <h2>${data.prices.baki_quba}</h2>
+    <h2>${data.prices.baki_quba}</h2>
 
-            <p>24/7 sifariş xidməti</p>
+    <p>24/7 sifariş xidməti</p>
 
-        </div>
-
-
-
-        <div class="price-card">
-
-            <h3>Quba - Rayonlar</h3>
-
-            <select id="regionSelect">
-
-<option value="">
-Rayon seçin
-</option>
-
-${regionOptions}
-
-</select>
+</div>
 
 
-            <h2 id="regionPrice">
-    Qiymət seçin
-</h2>
+<div class="price-card">
 
-            <p>Bölgələrə rahat səfər</p>
+    <div class="region-top">
 
-        </div>
+        <span class="region-title">
+            Quba
+        </span>
 
+        <select id="regionSelect">
 
-        `;
+            <option value="">
+                Rayon seçin
+            </option>
 
+            ${regionOptions}
+
+        </select>
+
+    </div>
+
+    <h2 id="regionPrice">
+        Qiymət seçin
+    </h2>
+
+    <p>
+        Bölgələrə rahat səfər
+    </p>
+
+</div>
+
+`;
 
         const select = document.getElementById("regionSelect");
         const price = document.getElementById("regionPrice");
 
+        if(select){
 
-        select.addEventListener("change", function(){
+            select.addEventListener("change", function(){
 
-            price.innerHTML = data.prices.regions[this.value];
+                if(this.value === ""){
 
-        });
+                    price.innerHTML = "Qiymət seçin";
 
+                }else{
+
+                    price.innerHTML = data.prices.regions[this.value];
+
+                }
+
+            });
+
+        }
 
     })
-    .catch(error => {
-
-        console.log("Qiymət yüklənmədi:", error);
-
-    });
-
+    .catch(err => console.log(err));
 
 }
+// ===============================
+// TAXI TIME SCRIPT
+// PART 2
+// ===============================
 
 
-// WHATSAPP SIFARIŞ
+// -------------------------------
+// WHATSAPP SİFARİŞ
+// -------------------------------
 
 function sendOrder(){
 
-    let name=document.getElementById("name").value;
-    let phone=document.getElementById("phone").value;
-    let from=document.getElementById("from").value;
-    let to=document.getElementById("to").value;
-
+    const name = document.getElementById("name").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const from = document.getElementById("from").value.trim();
+    const to = document.getElementById("to").value.trim();
+    const date = document.getElementById("date").value;
+    const time = document.getElementById("time").value;
+    const person = document.getElementById("person").value;
+    const car = document.getElementById("car").value;
 
     if(!name || !phone || !from || !to){
 
         alert("Zəhmət olmasa bütün vacib məlumatları doldurun.");
-
         return;
+
     }
-    let date=document.getElementById("date").value;
-    let time=document.getElementById("time").value;
-    let person=document.getElementById("person").value;
-    let car=document.getElementById("car").value;
 
-
-    let message = 
-`Salam TAXI TIME
+    const message = `Salam TAXI TIME
 
 Ad: ${name}
 
@@ -278,21 +230,16 @@ Telefon: ${phone}
 Marşrut:
 ${from} → ${to}
 
-Tarix:
-${date}
+Tarix: ${date}
 
-Saat:
-${time}
+Saat: ${time}
 
-Sərnişin:
-${person}
+Sərnişin sayı: ${person}
 
-Avtomobil:
-${car}`;
-
+Avtomobil: ${car}`;
 
     window.open(
-        "https://wa.me/994507119711?text="+encodeURIComponent(message),
+        "https://wa.me/994507119711?text=" + encodeURIComponent(message),
         "_blank"
     );
 
@@ -300,45 +247,104 @@ ${car}`;
 
 
 
+// -------------------------------
+// STATİSTİKA
+// -------------------------------
 
-// STATISTIKA
+function startCounters(){
 
-document.querySelectorAll(".counter").forEach(counter=>{
+    const counters = document.querySelectorAll(".counter");
 
-    let target = Number(counter.dataset.target);
+    counters.forEach(counter => {
 
-    let count = 0;
+        const target = Number(counter.dataset.target);
+
+        let count = 0;
+
+        const speed = Math.max(1, Math.ceil(target / 100));
+
+        const timer = setInterval(() => {
+
+            count += speed;
+
+            if(count >= target){
+
+                count = target;
+                clearInterval(timer);
+
+            }
+
+            counter.textContent = count + "+";
+
+        },20);
+
+    });
+
+}
 
 
-    let timer=setInterval(()=>{
 
-        count++;
+// -------------------------------
+// LIGHTBOX
+// -------------------------------
 
-        counter.innerHTML=count+"+";
+function initLightbox(){
 
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    const closeBtn = document.querySelector(".close");
 
-        if(count>=target){
+    if(!lightbox || !lightboxImg) return;
 
-            clearInterval(timer);
+    document.querySelectorAll(".gallery-item img").forEach(img=>{
+
+        img.addEventListener("click",()=>{
+
+            lightbox.style.display="flex";
+            lightboxImg.src = img.src;
+
+        });
+
+    });
+
+    if(closeBtn){
+
+        closeBtn.addEventListener("click",()=>{
+
+            lightbox.style.display="none";
+
+        });
+
+    }
+
+    lightbox.addEventListener("click",(e)=>{
+
+        if(e.target===lightbox){
+
+            lightbox.style.display="none";
 
         }
 
+    });
 
-    },20);
+}
 
+
+
+// -------------------------------
+// START
+// -------------------------------
+
+document.addEventListener("DOMContentLoaded",()=>{
+
+    loadServices();
+    loadCars();
+    loadPrices();
+
+    startCounters();
+
+    initLightbox();
 
 });
 
-
-
-
-// START
-
-console.log("TAXI TIME SCRIPT ISLEYIR");
-
-
-loadCars();
-
-loadPrices();
-
-loadServices();
+console.log("TAXI TIME SCRIPT işləyir.");
