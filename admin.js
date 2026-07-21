@@ -538,3 +538,10 @@ function saveData(){
 
 
 }
+console.log("SAVE FUNKSIYASI HAZIRDIR");
+
+function saveData(){
+
+    alert("SAVE ISLEYIR");
+
+}
