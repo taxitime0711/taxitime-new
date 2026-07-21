@@ -295,6 +295,80 @@ button:hover{
     color:#ddd;
 }
 
+/* ORDER */
+
+.order-section{
+    padding:60px 20px;
+    background:#111;
+    color:white;
+    text-align:center;
+}
+
+.order-section h2{
+    color:#d4af37;
+    font-size:32px;
+    margin-bottom:25px;
+}
+
+.order-form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea{
+    padding:15px;
+    border-radius:8px;
+    border:1px solid #d4af37;
+    background:#222;
+    color:white;
+    font-size:16px;
+}
+
+.order-form input::placeholder,
+.order-form textarea::placeholder{
+    color:#aaa;
+}
+
+.order-form button{
+    padding:15px;
+    background:#d4af37;
+    color:#000;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.order-form button:hover{
+    background:white;
+    color:#000;
+}
+
+
+/* WhatsApp sifariş düyməsi */
+
+.whatsapp-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 25px;
+    background:#25D366;
+    color:white;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.whatsapp-btn:hover{
+    transform:scale(1.05);
+}
 
 /* PRICES */
 
@@ -940,4 +1014,32 @@ section{
 
     }
 
+}
+/* ORDER */
+
+.order{
+    background:#111;
+    text-align:center;
+}
+
+.order-box{
+    max-width:600px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.order-box input,
+.order-box select{
+    padding:15px;
+    border-radius:10px;
+    border:1px solid #d4af37;
+    background:#222;
+    color:white;
+    font-size:16px;
+}
+
+.order-box button{
+    margin-top:15px;
 }
