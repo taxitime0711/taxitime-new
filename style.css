@@ -1218,3 +1218,45 @@ section{
     transform: translateX(-50%) !important;
     display: inline-block !important;
 }
+/* HERO BUTTON */
+
+.hero-btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#111 !important;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:17px;
+    font-weight:bold;
+    text-decoration:none;
+    transition:.3s;
+    border:2px solid #d4af37;
+}
+
+.hero-btn:hover{
+    background:transparent;
+    color:#d4af37 !important;
+    box-shadow:0 0 20px rgba(212,175,55,.5);
+    transform:translateY(-3px);
+}
+/* HERO BUTTON */
+
+.hero-btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#111 !important;
+    padding:15px 35px;
+    border-radius:40px;
+    font-size:17px;
+    font-weight:bold;
+    text-decoration:none;
+    border:2px solid #d4af37;
+    transition:.3s;
+}
+
+.hero-btn:hover{
+    background:transparent;
+    color:#d4af37 !important;
+    transform:translateY(-3px);
+    box-shadow:0 0 20px rgba(212,175,55,.5);
+}
