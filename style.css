@@ -683,7 +683,8 @@ footer a:hover{
 
 section h2{
     position:relative;
-    display:inline-block;
+    display:block;
+    text-align:center;
 }
 
 section h2::after{
@@ -1128,4 +1129,92 @@ section{
 .contact a{
     color:#d4af37;
     text-decoration:none;
+}
+/* MARŞRUTLAR ÇƏRÇİVƏ */
+.routes{
+    background: rgba(0,0,0,0.65);
+    padding: 40px 25px;
+    margin: 40px auto;
+    max-width: 1200px;
+    border: 1px solid #d4af37;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(212,175,55,0.25);
+}
+
+
+.routes{
+    text-align:center;
+}
+
+
+.route-text{
+    text-align:center;
+    color:white;
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+
+.route-cards{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+.route-card{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(212,175,55,0.5);
+    border-radius:15px;
+    padding:25px;
+    width:280px;
+    text-align:center;
+    color:white;
+    transition:.3s;
+}
+
+
+.route-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px rgba(212,175,55,0.4);
+}
+
+
+.route-card h3{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+.routes h2{
+    width:100%;
+    text-align:center !important;
+    display:block;
+}
+.routes > h2{
+    display:block !important;
+    text-align:center !important;
+    margin-left:auto !important;
+    margin-right:auto !important;
+    width:100% !important;
+}
+/* ROUTES TITLE FIX */
+
+.routes{
+    text-align:center;
+}
+
+.routes h2{
+    display:block !important;
+    text-align:center !important;
+    margin:0 auto 40px auto !important;
+}
+
+.routes h2::after{
+    margin:12px auto 0 auto !important;
+}
+.routes > h2 {
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    display: inline-block !important;
 }
