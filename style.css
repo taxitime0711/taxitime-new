@@ -1043,3 +1043,25 @@ section{
 .order-box button{
     margin-top:15px;
 }
+/* CONTACT ITEM */
+
+.contact-item{
+    background:#1a1a1a;
+    border:1px solid #333;
+    border-radius:18px;
+    padding:25px;
+    margin:15px auto;
+    max-width:600px;
+    color:#ddd;
+    transition:.3s;
+}
+
+.contact-item:hover{
+    transform:translateY(-5px);
+    border-color:#d4af37;
+    box-shadow:0 0 20px rgba(212,175,55,.35);
+}
+
+.contact-item a{
+    color:#d4af37;
+}
