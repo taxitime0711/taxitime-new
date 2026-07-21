@@ -80,6 +80,11 @@
             "title": "Təhlükəsiz Səfər",
             "description": "Peşəkar sürücülərlə rahat yol.",
             "image": "airport.jpg"
+        },
+        {
+            "title": "Yeni xidmət",
+            "description": "Məlumat",
+            "image": "service.jpg"
         }
     ],
     "cars": [
@@ -117,6 +122,11 @@
             "name": "Hyundai i40",
             "image": "gallery8.jpg",
             "text": "Rahat və təhlükəsiz səfərlər"
+        },
+        {
+            "name": "BYD Seal 05",
+            "image": "seal05.jpg",
+            "info": " Bak;"
         }
     ]
 }
