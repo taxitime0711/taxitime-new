@@ -455,84 +455,59 @@ function addCar(){
 // YADDA SAXLA
 // ===============================
 
-
 function saveData(){
-
 
     data.company.name =
     document.getElementById("companyName").value;
 
-
     data.company.city =
     document.getElementById("city").value;
 
-
     data.company.phone =
     document.getElementById("phone").value;
-
 
     data.company.whatsapp =
     document.getElementById("whatsapp").value;
 
 
-
     data.prices.quba_baki =
     document.getElementById("qubaBaki").value;
-
 
     data.prices.baki_quba =
     document.getElementById("bakiQuba").value;
 
 
-
     let json = JSON.stringify(data,null,4);
-
 
 
     fetch("https://taxitime-api.taxitime0711.workers.dev",{
 
-
         method:"POST",
 
-
         headers:{
-
-
             "Content-Type":"application/json"
-
-
         },
-
 
         body:json
 
-
     })
-
 
     .then(response=>response.text())
 
-
     .then(result=>{
-
 
         console.log(result);
 
-
         alert("✅ TAXI TIME məlumatları yadda saxlanıldı!");
-
 
     })
 
-
     .catch(error=>{
-
 
         console.error(error);
 
-
         alert("❌ Xəta baş verdi!");
-
 
     });
 
+}
