@@ -85,6 +85,8 @@ function loadCars(){
 
 // TARIFLER
 
+// TARIFLER
+
 function loadPrices(){
 
     const box=document.getElementById("priceList");
@@ -92,32 +94,51 @@ function loadPrices(){
     if(!box) return;
 
 
-    box.innerHTML=`
-
-    <div class="price-card">
-
-        <h3>Quba → Bakı</h3>
-
-        <h2>100 AZN</h2>
-
-        <p>Rahat və təhlükəsiz səfər</p>
-
-    </div>
+    fetch("data.json")
+    .then(response => response.json())
+    .then(data => {
 
 
-    <div class="price-card">
+        box.innerHTML = `
 
-        <h3>Bakı → Quba</h3>
 
-        <h2>100 AZN</h2>
+        <div class="price-card">
 
-        <p>24/7 sifariş xidməti</p>
+            <h3>Quba → Bakı</h3>
 
-    </div>
+            <h2>${data.prices.quba_baki}</h2>
 
-    `;
+            <p>Rahat və təhlükəsiz səfər</p>
+
+        </div>
+
+
+
+        <div class="price-card">
+
+            <h3>Bakı → Quba</h3>
+
+            <h2>${data.prices.baki_quba}</h2>
+
+            <p>24/7 sifariş xidməti</p>
+
+        </div>
+
+
+        `;
+
+
+    })
+    .catch(error => {
+
+        console.log("Qiymət yüklənmədi:", error);
+
+    });
+
 
 }
+
+
 
 
 
@@ -170,6 +191,14 @@ function sendOrder(){
     let phone=document.getElementById("phone").value;
     let from=document.getElementById("from").value;
     let to=document.getElementById("to").value;
+
+
+    if(!name || !phone || !from || !to){
+
+        alert("Zəhmət olmasa bütün vacib məlumatları doldurun.");
+
+        return;
+    }
     let date=document.getElementById("date").value;
     let time=document.getElementById("time").value;
     let person=document.getElementById("person").value;
@@ -250,38 +279,3 @@ loadCars();
 loadPrices();
 
 loadServices();
-const counters = document.querySelectorAll(".counter");
-
-counters.forEach(counter => {
-
-let target = +counter.dataset.target;
-
-let count = 0;
-
-let speed = target / 100;
-
-
-let update = () => {
-
-if(count < target){
-
-count += speed;
-
-counter.innerText = Math.ceil(count);
-
-setTimeout(update,20);
-
-}
-
-else{
-
-counter.innerText = target + "+";
-
-}
-
-};
-
-
-update();
-
-});
