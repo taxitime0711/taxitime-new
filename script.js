@@ -199,18 +199,22 @@ function loadPrices(){
 
         <div class="price-card">
 
-            <h3>🇦🇿 Bölgələr</h3>
+            <h3>Quba - Rayonlar</h3>
 
             <select id="regionSelect">
 
-                ${regionOptions}
+<option value="">
+Rayon seçin
+</option>
 
-            </select>
+${regionOptions}
+
+</select>
 
 
             <h2 id="regionPrice">
-                ${data.prices.regions[Object.keys(data.prices.regions)[0]]}
-            </h2>
+    Qiymət seçin
+</h2>
 
             <p>Bölgələrə rahat səfər</p>
 
