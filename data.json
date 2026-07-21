@@ -7,8 +7,17 @@
   },
 
   "prices": {
-    "quba_baki": "100 AZN",
-    "baki_quba": "100 AZN"
+  "quba_baki": "100 AZN",
+  "baki_quba": "100 AZN",
+
+  "regions": {
+    "Xaçmaz": "20 AZN",
+    "Qusar": "15 AZN",
+    "Şabran": "25 AZN",
+    "Sumqayıt": "60 AZN",
+    "Quba rayonları": "25 AZN"
+  }
+
   },
 
   "services": [

@@ -145,9 +145,9 @@ function loadPrices(){
 
 // XIDMETLER
 
-function loadServices(){
+function loadPrices(){
 
-    const box=document.getElementById("servicesBox");
+    const box=document.getElementById("priceList");
 
     if(!box) return;
 
@@ -156,29 +156,88 @@ function loadServices(){
     .then(response => response.json())
     .then(data => {
 
-        box.innerHTML="";
 
+        let regionOptions = "";
 
-        data.services.forEach(service=>{
+        for(let region in data.prices.regions){
 
-            box.innerHTML += `
-
-            <div class="card">
-
-                <img src="${service.image}">
-
-                <h3>${service.title}</h3>
-
-                <p>${service.description}</p>
-
-            </div>
-
+            regionOptions += `
+                <option value="${region}">
+                    ${region}
+                </option>
             `;
+
+        }
+
+
+        box.innerHTML = `
+
+
+        <div class="price-card">
+
+            <h3>Quba → Bakı</h3>
+
+            <h2>${data.prices.quba_baki}</h2>
+
+            <p>Rahat və təhlükəsiz səfər</p>
+
+        </div>
+
+
+
+        <div class="price-card">
+
+            <h3>Bakı → Quba</h3>
+
+            <h2>${data.prices.baki_quba}</h2>
+
+            <p>24/7 sifariş xidməti</p>
+
+        </div>
+
+
+
+        <div class="price-card">
+
+            <h3>Quba → Bölgələr</h3>
+
+            <select id="regionSelect">
+
+                ${regionOptions}
+
+            </select>
+
+
+            <h2 id="regionPrice">
+                ${data.prices.regions[Object.keys(data.prices.regions)[0]]}
+            </h2>
+
+            <p>Bölgələrə rahat səfər</p>
+
+        </div>
+
+
+        `;
+
+
+        const select = document.getElementById("regionSelect");
+        const price = document.getElementById("regionPrice");
+
+
+        select.addEventListener("change", function(){
+
+            price.innerHTML = data.prices.regions[this.value];
 
         });
 
 
+    })
+    .catch(error => {
+
+        console.log("Qiymət yüklənmədi:", error);
+
     });
+
 
 }
 
