@@ -1,68 +1,66 @@
 {
-  "company": {
-    "name": "TAXI TIME",
-    "city": "Quba",
-    "phone": "+994507119711",
-    "whatsapp": "994507119711"
-  },
-
-  "prices": {
-    "quba_baki": "100 AZN",
-    "baki_quba": "100 AZN"
-  },
-
-  "services": [
-  {
-    "title": "24/7 Xidmət",
-    "description": "Günün istənilən saatı sifariş qəbul edilir.",
-    "image": "quba-baki.jpg"
-  },
-  {
-    "title": "Komfortlu Avtomobillər",
-    "description": "Təmiz və rahat salon.",
-    "image": "gallery1.jpg"
-  },
-  {
-    "title": "Təhlükəsiz Səfər",
-    "description": "Peşəkar sürücülərlə rahat yol.",
-    "image": "airport.jpg"
-  }
-],
-  "cars": [
-    {
-      "name": "Geely Galaxy A7",
-      "image": "gallery1.jpg",
-      "text": "Yeni nəsil komfortlu və təhlükəsiz sedan"
+    "company": {
+        "name": "TAXI TIME",
+        "city": "Quba",
+        "phone": "+994507119711",
+        "whatsapp": "994507119711"
     },
-    {
-      "name": "BYD Destroyer 05",
-      "image": "gallery2.jpg",
-      "text": "Premium hibrid avtomobil"
+    "prices": {
+        "quba_baki": "80 AZN",
+        "baki_quba": "75 AZN"
     },
-    {
-      "name": "Mercedes-Benz S350",
-      "image": "gallery3.jpg",
-      "text": "VIP səviyyəli rahatlıq"
-    },
-    {
-      "name": "BYD Qin Plus",
-      "image": "gallery4.jpg",
-      "text": "Qənaətli və komfortlu seçim"
-    },
-    {
-      "name": "Toyota Corolla Cross",
-      "image": "gallery5.jpg",
-      "text": "Ailə üçün rahat avtomobil"
-    },
-    {
-      "name": "Mercedes Sprinter",
-      "image": "gallery7.jpg",
-      "text": "Çox sərnişin üçün uyğun"
-    },
-    {
-      "name": "Hyundai i40",
-      "image": "gallery8.jpg",
-      "text": "Rahat və təhlükəsiz səfərlər"
-    }
-  ]
+    "services": [
+        {
+            "title": "24/7 Xidmət",
+            "description": "Günün istənilən saatı sifariş qəbul edilir.",
+            "image": "quba-baki.jpg"
+        },
+        {
+            "title": "Komfortlu Avtomobillər",
+            "description": "Təmiz və rahat salon.",
+            "image": "gallery1.jpg"
+        },
+        {
+            "title": "Təhlükəsiz Səfər",
+            "description": "Peşəkar sürücülərlə rahat yol.",
+            "image": "airport.jpg"
+        }
+    ],
+    "cars": [
+        {
+            "name": "Geely Galaxy A7",
+            "image": "gallery1.jpg",
+            "text": "Yeni nəsil komfortlu və təhlükəsiz sedan"
+        },
+        {
+            "name": "BYD Destroyer 05",
+            "image": "gallery2.jpg",
+            "text": "Premium hibrid avtomobil"
+        },
+        {
+            "name": "Mercedes-Benz S350",
+            "image": "gallery3.jpg",
+            "text": "VIP səviyyəli rahatlıq"
+        },
+        {
+            "name": "BYD Qin Plus",
+            "image": "gallery4.jpg",
+            "text": "Qənaətli və komfortlu seçim"
+        },
+        {
+            "name": "Toyota Corolla Cross",
+            "image": "gallery5.jpg",
+            "text": "Ailə üçün rahat avtomobil"
+        },
+        {
+            "name": "Mercedes Sprinter",
+            "image": "gallery7.jpg",
+            "text": "Çox sərnişin üçün uyğun"
+        },
+        {
+            "name": "Hyundai i40",
+            "image": "gallery8.jpg",
+            "text": "Rahat və təhlükəsiz səfərlər"
+        }
+    ]
 }
