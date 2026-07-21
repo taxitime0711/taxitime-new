@@ -85,7 +85,17 @@ nav a:hover{
     line-height:1.2;
     margin-bottom:20px;
 }
+.hero h1 span{
+    color:#d4af37;
+}
 
+.hero-text{
+    max-width:600px;
+}
+
+.hero p{
+    line-height:1.7;
+}
 .hero p{
     font-size:21px;
     color:#ddd;
@@ -132,6 +142,7 @@ button{
 
 section{
     padding:70px 8%;
+    scroll-margin-top:90px;
 }
 
 h2{
