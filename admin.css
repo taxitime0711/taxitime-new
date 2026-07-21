@@ -1,91 +1,252 @@
-body{
+/* ===========================
+   TAXI TIME ADMIN CSS
+   PART 1
+=========================== */
+
+*{
     margin:0;
     padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
     background:#111;
-    color:white;
-    font-family:Arial, sans-serif;
+    color:#fff;
 }
 
+.admin-layout{
+    display:flex;
+    min-height:100vh;
+}
 
-header{
+/* ===========================
+   SIDEBAR
+=========================== */
+
+.sidebar{
+    width:260px;
     background:#000;
-    padding:25px;
+    border-right:2px solid #d4af37;
+    padding:30px 20px;
+}
+
+.brand{
     text-align:center;
+    margin-bottom:40px;
+}
+
+.brand h2{
     color:#d4af37;
-    border-bottom:2px solid #d4af37;
+    margin-bottom:10px;
 }
 
-
-.admin-container{
-
-    width:90%;
-    max-width:700px;
-    margin:40px auto;
-    background:#000;
-    padding:35px;
-    border-radius:20px;
-    border:2px solid #d4af37;
-    box-shadow:0 0 25px rgba(212,175,55,.3);
-
+.brand p{
+    color:#aaa;
+    font-size:14px;
 }
 
-
-h2{
-
-    color:#d4af37;
-    margin-top:30px;
-
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
 }
 
-
-input{
-
-    width:100%;
-    padding:12px;
-    margin:8px 0;
-    border-radius:8px;
-    border:none;
-    font-size:16px;
-
+.nav-btn{
+    background:#181818;
+    color:#fff;
+    border:1px solid #333;
+    padding:14px;
+    border-radius:12px;
+    cursor:pointer;
+    text-align:left;
+    transition:.3s;
 }
 
-
-button{
-
+.nav-btn:hover{
     background:#d4af37;
     color:#000;
-    border:none;
-    padding:12px 25px;
-    border-radius:25px;
-    font-weight:bold;
+}
+
+.nav-btn.active{
+    background:#d4af37;
+    color:#000;
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.content{
+    flex:1;
+    padding:30px;
+}
+/* ===========================
+   TAXI TIME ADMIN CSS
+   PART 1
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#111;
+    color:#fff;
+}
+
+.admin-layout{
+    display:flex;
+    min-height:100vh;
+}
+
+/* ===========================
+   SIDEBAR
+=========================== */
+
+.sidebar{
+    width:260px;
+    background:#000;
+    border-right:2px solid #d4af37;
+    padding:30px 20px;
+}
+
+.brand{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.brand h2{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.brand p{
+    color:#aaa;
+    font-size:14px;
+}
+
+.sidebar nav{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.nav-btn{
+    background:#181818;
+    color:#fff;
+    border:1px solid #333;
+    padding:14px;
+    border-radius:12px;
     cursor:pointer;
-    margin-top:10px;
-
+    text-align:left;
+    transition:.3s;
 }
 
-
-button:hover{
-
-    background:white;
-
+.nav-btn:hover{
+    background:#d4af37;
+    color:#000;
 }
 
+.nav-btn.active{
+    background:#d4af37;
+    color:#000;
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+.content{
+    flex:1;
+    padding:30px;
+}
+/* ===========================
+   ITEMS
+=========================== */
 
 .item{
-
     background:#1a1a1a;
+    border:1px solid #333;
+    border-radius:12px;
     padding:15px;
     margin:15px 0;
-    border-radius:12px;
-    border:1px solid #333;
-
 }
 
-
-.save{
-
-    width:100%;
-    font-size:18px;
-    margin-top:30px;
-
+.item input{
+    margin-bottom:10px;
 }
+
+.item button{
+    background:#b22222;
+    color:#fff;
+}
+
+.item button:hover{
+    background:#d32f2f;
+}
+
+/* ===========================
+   SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#111;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#d4af37;
+    border-radius:20px;
+}
+
+/* ===========================
+   RESPONSIVE
+=========================== */
+
+@media(max-width:900px){
+
+    .admin-layout{
+        flex-direction:column;
+    }
+
+    .sidebar{
+        width:100%;
+        border-right:none;
+        border-bottom:2px solid #d4af37;
+    }
+
+    .sidebar nav{
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+
+    .nav-btn{
+        flex:1 1 45%;
+        text-align:center;
+    }
+
+    .content{
+        padding:20px;
+    }
+
+    .topbar{
+        flex-direction:column;
+        gap:15px;
+        text-align:center;
+    }
+
+    .save-btn{
+        width:100%;
+    }
+}
+
+/* ===========================
+   END
+=========================== */

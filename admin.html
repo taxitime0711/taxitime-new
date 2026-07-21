@@ -6,82 +6,218 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>TAXI TIME Admin</title>
+<title>TAXI TIME Admin Panel</title>
 
 <link rel="stylesheet" href="admin.css">
 
 </head>
 
-
 <body>
 
+<div class="admin-layout">
 
-<header>
-<h1>🚕 TAXI TIME Admin Panel</h1>
-</header>
+    <!-- Sidebar -->
 
+    <aside class="sidebar">
 
-<section class="admin-container">
+        <div class="brand">
 
+            <h2>🚖 TAXI TIME</h2>
 
-<h2>🏢 Şirkət məlumatları</h2>
+            <p>Administrator Panel</p>
 
-<input id="companyName" placeholder="Şirkət adı">
+        </div>
 
-<input id="city" placeholder="Şəhər">
+        <nav>
 
-<input id="phone" placeholder="Telefon">
+            <button class="nav-btn active" data-page="company">
+                🏢 Şirkət
+            </button>
 
-<input id="whatsapp" placeholder="WhatsApp">
+            <button class="nav-btn" data-page="prices">
+                💰 Qiymətlər
+            </button>
 
+            <button class="nav-btn" data-page="services">
+                🛠 Xidmətlər
+            </button>
 
+            <button class="nav-btn" data-page="cars">
+                🚗 Avtopark
+            </button>
 
-<h2>💰 Tariflər</h2>
+            <button class="nav-btn" data-page="gallery">
+                🖼️ Qalereya
+            </button>
 
-<input id="qubaBaki" placeholder="Quba → Bakı">
+            <button class="nav-btn" data-page="reviews">
+                ⭐ Rəylər
+            </button>
 
-<input id="bakiQuba" placeholder="Bakı → Quba">
+            <button class="nav-btn" data-page="settings">
+                ⚙️ Parametrlər
+            </button>
 
+        </nav>
 
-
-<h2>🚕 Xidmətlər</h2>
-
-<div id="services"></div>
-
-<button onclick="addService()">
-+ Xidmət əlavə et
-</button>
-
-
-
-
-<h2>🚗 Avtomobillər</h2>
-
-<div id="cars"></div>
-
-
-<button onclick="addCar()">
-+ Avtomobil əlavə et
-</button>
-
+    </aside>
 
 
-<br><br>
+
+    <!-- MAIN -->
+
+    <main class="content">
+
+        <header class="topbar">
+
+            <div>
+
+                <h1>TAXI TIME ADMIN PANEL</h1>
+
+                <small>GitHub Connected</small>
+
+            </div>
+
+            <button class="save-btn" onclick="saveData()">
+                💾 Yadda saxla
+            </button>
+
+        </header>
 
 
-<button class="save" onclick="saveData()">
 
-💾 Yadda saxla
+        <!-- ŞİRKƏT -->
 
-</button>
+        <section id="company" class="page active-page">
 
+            <div class="card">
+
+                <h2>🏢 Şirkət Məlumatları</h2>
+
+                <input id="companyName" placeholder="Şirkət adı">
+
+                <input id="city" placeholder="Şəhər">
+
+                <input id="phone" placeholder="Telefon">
+
+                <input id="whatsapp" placeholder="WhatsApp">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- QİYMƏTLƏR -->
+
+        <section id="prices" class="page">
+
+            <div class="card">
+
+                <h2>💰 Əsas Tariflər</h2>
+
+                <input id="qubaBaki" placeholder="Quba → Bakı">
+
+                <input id="bakiQuba" placeholder="Bakı → Quba">
+
+            </div>
+
+            <div class="card">
+
+                <h2>🌍 Rayon Qiymətləri</h2>
+
+                <div id="regions"></div>
+
+                <button onclick="addRegion()">
+                    + Rayon əlavə et
+                </button>
+
+            </div>
+
+        </section>
+                <!-- XİDMƏTLƏR -->
+
+        <!-- XİDMƏTLƏR -->
+
+<section id="services" class="page">
+
+    <div class="card">
+
+        <h2>🛠 Xidmətlər</h2>
+
+        <div id="servicesList"></div>
+
+        <button onclick="addService()">
+            + Xidmət əlavə et
+        </button>
+
+    </div>
 
 </section>
 
+        <!-- AVTOPARK -->
 
-<script src="admin.js"></script>
+        <section id="cars" class="page">
+
+            <div class="card">
+
+                <h2>🚗 Avtomobillər</h2>
+
+                <div id="carsList"></div>
+
+                <button onclick="addCar()">
+                    + Avtomobil əlavə et
+                </button>
+
+            </div>
+
+        </section>
 
 
-</body>
 
-</html>
+        <!-- QALEREYA -->
+
+        <section id="gallery" class="page">
+
+            <div class="card">
+
+                <h2>🖼️ Qalereya</h2>
+
+                <p>Bu bölmə növbəti mərhələdə əlavə olunacaq.</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- RƏYLƏR -->
+
+        <section id="reviews" class="page">
+
+            <div class="card">
+
+                <h2>⭐ Müştəri Rəyləri</h2>
+
+                <p>Bu bölmə növbəti mərhələdə əlavə olunacaq.</p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PARAMETRLƏR -->
+
+        <section id="settings" class="page">
+
+            <div class="card">
+
+                <h2>⚙️ Parametrlər</h2>
+
+                <p>Bu bölmə növbəti mərhələdə əlavə olunacaq.</p>
+
+            </div>
+
+        </section>
+               
