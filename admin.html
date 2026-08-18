@@ -25,63 +25,33 @@
 <header class="topbar"><div><h1>TAXI TIME ADMIN PANEL</h1><small>GitHub Connected</small></div></header>
 
 <section id="company" class="page active-page">
-  <div class="card">
-    <h2>🏢 Şirkət Məlumatları</h2>
-    <input id="companyName" placeholder="Şirkət adı">
-    <input id="city" placeholder="Şəhər">
-    <input id="phone" placeholder="Telefon">
-    <input id="whatsapp" placeholder="WhatsApp">
-    <div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
-  </div>
+  <div class="card"><h2>🏢 Şirkət Məlumatları</h2><input id="companyName" placeholder="Şirkət adı"><input id="city" placeholder="Şəhər"><input id="phone" placeholder="Telefon"><input id="whatsapp" placeholder="WhatsApp"><div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
 </section>
 
 <section id="prices" class="page">
   <div class="card">
-    <h2>💰 Quba → Bakı</h2>
-    <div class="price-grid">
-      <div><label>Tək gediş</label><input id="qubaBakiOneWay" placeholder="Məsələn: 60 AZN"></div>
-      <div><label>Gediş-dönüş</label><input id="qubaBakiRoundTrip" placeholder="Məsələn: 100 AZN"></div>
-    </div>
-    <div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
+    <h2>💰 Quba → Bakı — Saat tarifləri</h2>
+    <div id="qubaBakiSlots"></div>
+    <div class="actions"><button class="add" onclick="addSlot('quba_baki')">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
   </div>
-
   <div class="card">
-    <h2>💰 Bakı → Quba</h2>
-    <div class="price-grid">
-      <div><label>Tək gediş</label><input id="bakiQubaOneWay" placeholder="Məsələn: 60 AZN"></div>
-      <div><label>Gediş-dönüş</label><input id="bakiQubaRoundTrip" placeholder="Məsələn: 100 AZN"></div>
-    </div>
-    <div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
+    <h2>💰 Bakı → Quba — Saat tarifləri</h2>
+    <div id="bakiQubaSlots"></div>
+    <div class="actions"><button class="add" onclick="addSlot('baki_quba')">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
   </div>
-
   <div class="card">
     <h2>🌍 Rayon Qiymətləri</h2>
-    <div class="region-editor">
-      <select id="regionSelect" onchange="selectRegion()"></select>
-      <input id="regionOneWayInput" placeholder="Tək gediş qiyməti">
-      <input id="regionRoundTripInput" placeholder="Gediş-dönüş qiyməti">
-      <button class="save" onclick="saveSelectedRegion()">💾 Yadda saxla</button>
-      <button class="add" onclick="addRegion()">➕ Əlavə et</button>
-      <button class="delete" onclick="deleteSelectedRegion()">🗑️ Sil</button>
-    </div>
+    <div class="region-picker"><select id="regionSelect" onchange="selectRegion()"></select><button class="add" onclick="addRegion()">➕ Rayon əlavə et</button><button class="delete" onclick="deleteSelectedRegion()">🗑️ Rayon sil</button></div>
+    <div id="regionSlots"></div>
+    <div class="actions"><button class="add" onclick="addRegionSlot()">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div>
   </div>
 </section>
 
-<section id="services" class="page">
-  <div class="card"><h2>🛠 Xidmətlər</h2><div id="servicesList"></div><div class="actions"><button class="add" onclick="addService()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
-</section>
-<section id="cars" class="page">
-  <div class="card"><h2>🚗 Avtomobillər</h2><div id="carsList"></div><div class="actions"><button class="add" onclick="addCar()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
-</section>
-<section id="gallery" class="page">
-  <div class="card"><h2>🖼️ Qalereya</h2><div id="galleryList"></div><div class="actions"><button class="add" onclick="addGallery()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
-</section>
-<section id="reviews" class="page">
-  <div class="card"><h2>⭐ Müştəri Rəyləri</h2><div id="reviewsList"></div><div class="actions"><button class="add" onclick="addReview()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
-</section>
-<section id="settings" class="page">
-  <div class="card"><h2>⚙️ Parametrlər</h2><p>Parametrlər bölməsi.</p><div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
-</section>
+<section id="services" class="page"><div class="card"><h2>🛠 Xidmətlər</h2><div id="servicesList"></div><div class="actions"><button class="add" onclick="addService()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="cars" class="page"><div class="card"><h2>🚗 Avtomobillər</h2><div id="carsList"></div><div class="actions"><button class="add" onclick="addCar()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="gallery" class="page"><div class="card"><h2>🖼️ Qalereya</h2><div id="galleryList"></div><div class="actions"><button class="add" onclick="addGallery()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="reviews" class="page"><div class="card"><h2>⭐ Müştəri Rəyləri</h2><div id="reviewsList"></div><div class="actions"><button class="add" onclick="addReview()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="settings" class="page"><div class="card"><h2>⚙️ Parametrlər</h2><p>Parametrlər bölməsi.</p><div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
 </main>
 </div>
 <script src="admin.js"></script>
