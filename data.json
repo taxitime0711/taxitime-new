@@ -8,63 +8,231 @@
         "about": "QUBA -BAKI və DİGƏR BÖLGƏLƏRƏ DAŞIMA XİDMƏTİ"
     },
     "prices": {
-        "quba_baki": "60 azn",
-        "baki_quba": "60 AZN",
+        "quba_baki": {
+            "one_way": "60 azn",
+            "round_trip": "120"
+        },
+        "baki_quba": {
+            "one_way": "60 AZN",
+            "round_trip": ""
+        },
         "regions": {
-            "Abşeron": "55 AZN",
-            "Ağcabədi": "70 AZN",
-            "Ağdam": "80 AZN",
-            "Ağdaş": "200 AZN",
-            "Ağstafa": "300 AZN",
-            "Ağsu": "180 AZN",
-            "Astara": "250 AZN",
-            "Babək": "0 AZN",
-            "Bakı": "60 AZN",
-            "Balakən": "180 AZN",
-            "Bərdə": "0 AZN",
-            "Biləsuvar": "0 AZN",
-            "Cəlilabad": "0 AZN",
-            "Daşkəsən": "300 AZN",
-            "Füzuli": "0 AZN",
-            "Gədəbəy": "0 AZN",
-            "Goranboy": "280 AZN",
-            "Göyçay": "0 AZN",
-            "Göygöl": "0 AZN",
-            "Hacıqabul": "100 AZN",
-            "Xaçmaz": "20 AZN",
-            "Xızı": "0 AZN",
-            "İmişli": "0 AZN",
-            "İsmayıllı": "0 AZN",
-            "Kürdəmir": "0 AZN",
-            "Qəbələ": "0 AZN",
-            "Qax": "0 AZN",
-            "Qazax": "0 AZN",
-            "Qusar": "15 AZN",
-            "Lerik": "0 AZN",
-            "Lənkəran": "0 AZN",
-            "Masallı": "0 AZN",
-            "Mingəçevir": "0 AZN",
-            "Neftçala": "0 AZN",
-            "Oğuz": "0 AZN",
-            "Saatlı": "0 AZN",
-            "Sabirabad": "0 AZN",
-            "Salyan": "0 AZN",
-            "Samux": "0 AZN",
-            "Şabran": "25 AZN",
-            "Şamaxı": "0 AZN",
-            "Şəki": "0 AZN",
-            "Şəmkir": "0 AZN",
-            "Şirvan": "0 AZN",
-            "Sumqayıt": "60 AZN",
-            "Siyəzən": "0 AZN",
-            "Tərtər": "0 AZN",
-            "Tovuz": "0 AZN",
-            "Ucar": "0 AZN",
-            "Yardımlı": "0 AZN",
-            "Yevlax": "0 AZN",
-            "Zaqatala": "0 AZN",
-            "Zərdab": "0 AZN",
-            "Quba": "0 AZN"
+            "Abşeron": {
+                "one_way": "55 AZN",
+                "round_trip": ""
+            },
+            "Ağcabədi": {
+                "one_way": "70 AZN",
+                "round_trip": ""
+            },
+            "Ağdam": {
+                "one_way": "80 AZN",
+                "round_trip": ""
+            },
+            "Ağdaş": {
+                "one_way": "200 AZN",
+                "round_trip": ""
+            },
+            "Ağstafa": {
+                "one_way": "300 AZN",
+                "round_trip": ""
+            },
+            "Ağsu": {
+                "one_way": "180 AZN",
+                "round_trip": ""
+            },
+            "Astara": {
+                "one_way": "250 AZN",
+                "round_trip": ""
+            },
+            "Babək": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Bakı": {
+                "one_way": "60 AZN",
+                "round_trip": ""
+            },
+            "Balakən": {
+                "one_way": "180 AZN",
+                "round_trip": ""
+            },
+            "Bərdə": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Biləsuvar": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Cəlilabad": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Daşkəsən": {
+                "one_way": "300 AZN",
+                "round_trip": ""
+            },
+            "Füzuli": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Gədəbəy": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Goranboy": {
+                "one_way": "280 AZN",
+                "round_trip": ""
+            },
+            "Göyçay": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Göygöl": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Hacıqabul": {
+                "one_way": "100 AZN",
+                "round_trip": ""
+            },
+            "Xaçmaz": {
+                "one_way": "20 AZN",
+                "round_trip": ""
+            },
+            "Xızı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "İmişli": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "İsmayıllı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Kürdəmir": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Qəbələ": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Qax": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Qazax": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Qusar": {
+                "one_way": "15 AZN",
+                "round_trip": ""
+            },
+            "Lerik": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Lənkəran": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Masallı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Mingəçevir": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Neftçala": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Oğuz": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Saatlı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Sabirabad": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Salyan": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Samux": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Şabran": {
+                "one_way": "25 AZN",
+                "round_trip": ""
+            },
+            "Şamaxı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Şəki": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Şəmkir": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Şirvan": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Sumqayıt": {
+                "one_way": "60 AZN",
+                "round_trip": ""
+            },
+            "Siyəzən": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Tərtər": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Tovuz": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Ucar": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Yardımlı": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Yevlax": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Zaqatala": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Zərdab": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            },
+            "Quba": {
+                "one_way": "0 AZN",
+                "round_trip": ""
+            }
         }
     },
     "services": [
