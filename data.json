@@ -9,229 +9,1237 @@
     },
     "prices": {
         "quba_baki": {
-            "one_way": "60 azn",
-            "round_trip": "120"
+            "slots": [
+                {
+                    "start": "06:00",
+                    "end": "20:00",
+                    "one_way": "60 azn",
+                    "round_trip": "120"
+                },
+                {
+                    "start": "20:00",
+                    "end": "00:00",
+                    "one_way": "",
+                    "round_trip": ""
+                },
+                {
+                    "start": "00:00",
+                    "end": "06:00",
+                    "one_way": "",
+                    "round_trip": ""
+                }
+            ]
         },
         "baki_quba": {
-            "one_way": "60 AZN",
-            "round_trip": "120"
+            "slots": [
+                {
+                    "start": "06:00",
+                    "end": "20:00",
+                    "one_way": "60 AZN",
+                    "round_trip": "120"
+                },
+                {
+                    "start": "20:00",
+                    "end": "00:00",
+                    "one_way": "",
+                    "round_trip": ""
+                },
+                {
+                    "start": "00:00",
+                    "end": "06:00",
+                    "one_way": "",
+                    "round_trip": ""
+                }
+            ]
         },
         "regions": {
             "Abşeron": {
-                "one_way": "55 AZN",
-                "round_trip": "110"
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "55 AZN",
+                        "round_trip": "110"
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ağcabədi": {
-                "one_way": "70 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "70 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ağdam": {
-                "one_way": "80 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "80 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ağdaş": {
-                "one_way": "200 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "200 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ağstafa": {
-                "one_way": "300 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "300 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ağsu": {
-                "one_way": "180 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "180 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Astara": {
-                "one_way": "250 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "250 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Babək": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Bakı": {
-                "one_way": "60 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "60 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Balakən": {
-                "one_way": "180 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "180 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Bərdə": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Biləsuvar": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Cəlilabad": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Daşkəsən": {
-                "one_way": "300 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "300 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Füzuli": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Gədəbəy": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Goranboy": {
-                "one_way": "280 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "280 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Göyçay": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Göygöl": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Hacıqabul": {
-                "one_way": "100 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "100 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Xaçmaz": {
-                "one_way": "20 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "20 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Xızı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "İmişli": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "İsmayıllı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Kürdəmir": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Qəbələ": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Qax": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Qazax": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Qusar": {
-                "one_way": "15 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "15 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Lerik": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Lənkəran": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Masallı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Mingəçevir": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Neftçala": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Oğuz": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Saatlı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Sabirabad": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Salyan": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Samux": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Şabran": {
-                "one_way": "25 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "25 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Şamaxı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Şəki": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Şəmkir": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Şirvan": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Sumqayıt": {
-                "one_way": "60 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "60 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Siyəzən": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Tərtər": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Tovuz": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Ucar": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Yardımlı": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Yevlax": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Zaqatala": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Zərdab": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             },
             "Quba": {
-                "one_way": "0 AZN",
-                "round_trip": ""
+                "slots": [
+                    {
+                        "start": "06:00",
+                        "end": "20:00",
+                        "one_way": "0 AZN",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "20:00",
+                        "end": "00:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    },
+                    {
+                        "start": "00:00",
+                        "end": "06:00",
+                        "one_way": "",
+                        "round_trip": ""
+                    }
+                ]
             }
         }
     },
