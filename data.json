@@ -1,1 +1,163 @@
-{"company":{"name":"TAXI TIME","city":"Quba","phone":"+994507119711","whatsapp":"+994507119711","address":"Quba şəhəri, Zəfər küçəsi","about":"QUBA -BAKI və DİGƏR BÖLGƏLƏRƏ DAŞIMA XİDMƏTİ"},"prices":{"quba_baki":"60 azn","baki_quba":"60 AZN","regions":{"Abşeron":"55 AZN","Ağcabədi":"70 AZN","Ağdam":"80 AZN","Ağdaş":"0 AZN","Ağstafa":"0 AZN","Ağsu":"0 AZN","Astara":"0 AZN","Babək":"0 AZN","Bakı":"0 AZN","Balakən":"0 AZN","Bərdə":"0 AZN","Biləsuvar":"0 AZN","Cəlilabad":"0 AZN","Daşkəsən":"0 AZN","Füzuli":"0 AZN","Gədəbəy":"0 AZN","Goranboy":"0 AZN","Göyçay":"0 AZN","Göygöl":"0 AZN","Hacıqabul":"0 AZN","Xaçmaz":"20 AZN","Xızı":"0 AZN","İmişli":"0 AZN","İsmayıllı":"0 AZN","Kürdəmir":"0 AZN","Qəbələ":"0 AZN","Qax":"0 AZN","Qazax":"0 AZN","Qusar":"15 AZN","Lerik":"0 AZN","Lənkəran":"0 AZN","Masallı":"0 AZN","Mingəçevir":"0 AZN","Neftçala":"0 AZN","Oğuz":"0 AZN","Saatlı":"0 AZN","Sabirabad":"0 AZN","Salyan":"0 AZN","Samux":"0 AZN","Şabran":"25 AZN","Şamaxı":"0 AZN","Şəki":"0 AZN","Şəmkir":"0 AZN","Şirvan":"0 AZN","Sumqayıt":"60 AZN","Siyəzən":"0 AZN","Tərtər":"0 AZN","Tovuz":"0 AZN","Ucar":"0 AZN","Yardımlı":"0 AZN","Yevlax":"0 AZN","Zaqatala":"0 AZN","Zərdab":"0 AZN","Quba":"0 AZN"}},"services":[{"title":"24/7 Xidmət","description":"Günün istənilən saatı sifariş qəbul edilir.","image":"quba-baki.jpg","name":"Bakı Sədərək"},{"title":"Komfortlu Avtomobillər","description":"Təmiz və rahat salon.","image":"gallery1.jpg"},{"title":"Təhlükəsiz Səfər","description":"Peşəkar sürücülərlə rahat yol.","image":"airport.jpg"},{"title":"Hava Limani","description":"VIP","image":"liman.jpg"},{"name":"","description":""}],"cars":[{"name":"Geely Galaxy A7","image":"gallery1.jpg","text":"Yeni nəsil komfortlu və təhlükəsiz sedan"},{"name":"BYD Destroyer 05","image":"gallery2.jpg","text":"Premium hibrid avtomobil"},{"name":"Mercedes-Benz S350","image":"gallery3.jpg","text":"VIP səviyyəli rahatlıq"},{"name":"BYD Qin Plus","image":"gallery4.jpg","text":"Qənaətli və komfortlu seçim"},{"name":"Toyota Corolla Cross","image":"gallery5.jpg","text":"Ailə üçün rahat avtomobil"},{"name":"Mercedes Sprinter","image":"gallery7.jpg","text":"Çox sərnişin üçün uyğun"},{"name":"Hyundai i40","image":"gallery8.jpg","text":"Rahat və təhlükəsiz səfərlər"},{"name":"BYD Seal 05","image":"seal05.jpg","info":" Bak;"},{"name":"Toyota ","model":"Prius","plate":"10 TT 711","image":"https://premiumrent.az/ru/cars/36/toyota+prius.html"}],"gallery":[{"title":"TT","url":""}],"reviews":[],"orders":[{"name":"Sahin","phone":"+994505886677","from":"Quba","to":"Baki","status":"Yeni"}],"drivers":[],"settings":{}}
+{
+    "company": {
+        "name": "TAXI TIME",
+        "city": "Quba",
+        "phone": "+994507119711",
+        "whatsapp": "+994507119711",
+        "address": "Quba şəhəri, Zəfər küçəsi",
+        "about": "QUBA -BAKI və DİGƏR BÖLGƏLƏRƏ DAŞIMA XİDMƏTİ"
+    },
+    "prices": {
+        "quba_baki": "60 azn",
+        "baki_quba": "60 AZN",
+        "regions": {
+            "Abşeron": "55 AZN",
+            "Ağcabədi": "70 AZN",
+            "Ağdam": "80 AZN",
+            "Ağdaş": "200 AZN",
+            "Ağstafa": "300 AZN",
+            "Ağsu": "180 AZN",
+            "Astara": "250 AZN",
+            "Babək": "0 AZN",
+            "Bakı": "60 AZN",
+            "Balakən": "180 AZN",
+            "Bərdə": "0 AZN",
+            "Biləsuvar": "0 AZN",
+            "Cəlilabad": "0 AZN",
+            "Daşkəsən": "0 AZN",
+            "Füzuli": "0 AZN",
+            "Gədəbəy": "0 AZN",
+            "Goranboy": "0 AZN",
+            "Göyçay": "0 AZN",
+            "Göygöl": "0 AZN",
+            "Hacıqabul": "0 AZN",
+            "Xaçmaz": "20 AZN",
+            "Xızı": "0 AZN",
+            "İmişli": "0 AZN",
+            "İsmayıllı": "0 AZN",
+            "Kürdəmir": "0 AZN",
+            "Qəbələ": "0 AZN",
+            "Qax": "0 AZN",
+            "Qazax": "0 AZN",
+            "Qusar": "15 AZN",
+            "Lerik": "0 AZN",
+            "Lənkəran": "0 AZN",
+            "Masallı": "0 AZN",
+            "Mingəçevir": "0 AZN",
+            "Neftçala": "0 AZN",
+            "Oğuz": "0 AZN",
+            "Saatlı": "0 AZN",
+            "Sabirabad": "0 AZN",
+            "Salyan": "0 AZN",
+            "Samux": "0 AZN",
+            "Şabran": "25 AZN",
+            "Şamaxı": "0 AZN",
+            "Şəki": "0 AZN",
+            "Şəmkir": "0 AZN",
+            "Şirvan": "0 AZN",
+            "Sumqayıt": "60 AZN",
+            "Siyəzən": "0 AZN",
+            "Tərtər": "0 AZN",
+            "Tovuz": "0 AZN",
+            "Ucar": "0 AZN",
+            "Yardımlı": "0 AZN",
+            "Yevlax": "0 AZN",
+            "Zaqatala": "0 AZN",
+            "Zərdab": "0 AZN",
+            "Quba": "0 AZN"
+        }
+    },
+    "services": [
+        {
+            "title": "24/7 Xidmət",
+            "description": "Günün istənilən saatı sifariş qəbul edilir.",
+            "image": "quba-baki.jpg",
+            "name": "Bakı Sədərək"
+        },
+        {
+            "title": "Komfortlu Avtomobillər",
+            "description": "Təmiz və rahat salon.",
+            "image": "gallery1.jpg"
+        },
+        {
+            "title": "Təhlükəsiz Səfər",
+            "description": "Peşəkar sürücülərlə rahat yol.",
+            "image": "airport.jpg"
+        },
+        {
+            "title": "Hava Limani",
+            "description": "VIP",
+            "image": "liman.jpg"
+        },
+        {
+            "name": "",
+            "description": ""
+        }
+    ],
+    "cars": [
+        {
+            "name": "Geely Galaxy A7",
+            "image": "gallery1.jpg",
+            "text": "Yeni nəsil komfortlu və təhlükəsiz sedan"
+        },
+        {
+            "name": "BYD Destroyer 05",
+            "image": "gallery2.jpg",
+            "text": "Premium hibrid avtomobil"
+        },
+        {
+            "name": "Mercedes-Benz S350",
+            "image": "gallery3.jpg",
+            "text": "VIP səviyyəli rahatlıq"
+        },
+        {
+            "name": "BYD Qin Plus",
+            "image": "gallery4.jpg",
+            "text": "Qənaətli və komfortlu seçim"
+        },
+        {
+            "name": "Toyota Corolla Cross",
+            "image": "gallery5.jpg",
+            "text": "Ailə üçün rahat avtomobil"
+        },
+        {
+            "name": "Mercedes Sprinter",
+            "image": "gallery7.jpg",
+            "text": "Çox sərnişin üçün uyğun"
+        },
+        {
+            "name": "Hyundai i40",
+            "image": "gallery8.jpg",
+            "text": "Rahat və təhlükəsiz səfərlər"
+        },
+        {
+            "name": "BYD Seal 05",
+            "image": "seal05.jpg",
+            "info": " Bak;"
+        },
+        {
+            "name": "Toyota ",
+            "model": "Prius",
+            "plate": "10 TT 711",
+            "image": "https://premiumrent.az/ru/cars/36/toyota+prius.html"
+        }
+    ],
+    "gallery": [
+        {
+            "title": "TT",
+            "url": ""
+        }
+    ],
+    "reviews": [],
+    "orders": [
+        {
+            "name": "Sahin",
+            "phone": "+994505886677",
+            "from": "Quba",
+            "to": "Baki",
+            "status": "Yeni"
+        }
+    ],
+    "drivers": [],
+    "settings": {}
+}
