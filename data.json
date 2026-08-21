@@ -13,8 +13,8 @@
                 {
                     "start": "06:00",
                     "end": "20:00",
-                    "one_way": "60 azn",
-                    "round_trip": "120"
+                    "one_way": "80 azn",
+                    "round_trip": "160"
                 },
                 {
                     "start": "20:00",
