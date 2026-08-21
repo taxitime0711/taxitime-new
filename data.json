@@ -1272,27 +1272,27 @@
     ],
     "cars": [
         {
-            "name": "Geely Galaxy A7",
+            "name": "Mercedes Bens S350",
             "image": "gallery1.jpg",
             "text": "Yeni nəsil komfortlu və təhlükəsiz sedan"
         },
         {
-            "name": "BYD Destroyer 05",
+            "name": "BYD Qin Plus",
             "image": "gallery2.jpg",
             "text": "Premium hibrid avtomobil"
         },
         {
-            "name": "Mercedes-Benz S350",
+            "name": "Toyota Corolla Cross",
             "image": "gallery3.jpg",
             "text": "VIP səviyyəli rahatlıq"
         },
         {
-            "name": "BYD Qin Plus",
+            "name": "BYD Destroyer 05",
             "image": "gallery4.jpg",
             "text": "Qənaətli və komfortlu seçim"
         },
         {
-            "name": "Toyota Corolla Cross",
+            "name": "Geely Galaxy A7",
             "image": "gallery5.jpg",
             "text": "Ailə üçün rahat avtomobil"
         },
