@@ -19,8 +19,8 @@
                 {
                     "start": "20:00",
                     "end": "00:00",
-                    "one_way": "",
-                    "round_trip": ""
+                    "one_way": "80",
+                    "round_trip": "100"
                 },
                 {
                     "start": "00:00",
