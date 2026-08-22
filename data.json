@@ -13,20 +13,32 @@
                 {
                     "start": "06:00",
                     "end": "20:00",
-                    "one_way": "60 azn",
-                    "round_trip": "120"
+                    "standard": "60 azn",
+                    "standard_round_trip": "120",
+                    "comfort": "80",
+                    "comfort_round_trip": "160",
+                    "vip": "100",
+                    "vip_round_trip": "200"
                 },
                 {
                     "start": "20:00",
                     "end": "00:00",
-                    "one_way": "80",
-                    "round_trip": "100"
+                    "standard": "80",
+                    "standard_round_trip": "100",
+                    "comfort": "100",
+                    "comfort_round_trip": "200",
+                    "vip": "120",
+                    "vip_round_trip": "240"
                 },
                 {
                     "start": "00:00",
                     "end": "06:00",
-                    "one_way": "",
-                    "round_trip": ""
+                    "standard": "",
+                    "standard_round_trip": "",
+                    "comfort": "120",
+                    "comfort_round_trip": "240",
+                    "vip": "150",
+                    "vip_round_trip": "300"
                 }
             ]
         },
@@ -35,20 +47,32 @@
                 {
                     "start": "06:00",
                     "end": "20:00",
-                    "one_way": "60 AZN",
-                    "round_trip": "120"
+                    "standard": "60 AZN",
+                    "standard_round_trip": "120",
+                    "comfort": "",
+                    "comfort_round_trip": "",
+                    "vip": "",
+                    "vip_round_trip": ""
                 },
                 {
                     "start": "20:00",
                     "end": "00:00",
-                    "one_way": "",
-                    "round_trip": ""
+                    "standard": "",
+                    "standard_round_trip": "",
+                    "comfort": "",
+                    "comfort_round_trip": "",
+                    "vip": "",
+                    "vip_round_trip": ""
                 },
                 {
                     "start": "00:00",
                     "end": "06:00",
-                    "one_way": "",
-                    "round_trip": ""
+                    "standard": "",
+                    "standard_round_trip": "",
+                    "comfort": "",
+                    "comfort_round_trip": "",
+                    "vip": "",
+                    "vip_round_trip": ""
                 }
             ]
         },
@@ -58,20 +82,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "55 AZN",
-                        "round_trip": "110"
+                        "standard": "55 AZN",
+                        "standard_round_trip": "110",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -80,20 +116,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "70 AZN",
-                        "round_trip": ""
+                        "standard": "70 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -102,20 +150,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "80 AZN",
-                        "round_trip": ""
+                        "standard": "80 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -124,20 +184,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "200 AZN",
-                        "round_trip": ""
+                        "standard": "200 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -146,20 +218,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "300 AZN",
-                        "round_trip": ""
+                        "standard": "300 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -168,20 +252,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "180 AZN",
-                        "round_trip": ""
+                        "standard": "180 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -190,20 +286,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "250 AZN",
-                        "round_trip": ""
+                        "standard": "250 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -212,20 +320,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -234,20 +354,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "60 AZN",
-                        "round_trip": ""
+                        "standard": "60 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -256,20 +388,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "180 AZN",
-                        "round_trip": ""
+                        "standard": "180 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -278,20 +422,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -300,20 +456,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -322,20 +490,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -344,20 +524,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "300 AZN",
-                        "round_trip": ""
+                        "standard": "300 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -366,20 +558,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -388,20 +592,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -410,20 +626,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "280 AZN",
-                        "round_trip": ""
+                        "standard": "280 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -432,20 +660,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -454,20 +694,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -476,20 +728,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "100 AZN",
-                        "round_trip": ""
+                        "standard": "100 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -498,20 +762,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "20 AZN",
-                        "round_trip": ""
+                        "standard": "20 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -520,20 +796,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -542,20 +830,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -564,20 +864,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -586,20 +898,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -608,20 +932,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -630,20 +966,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -652,20 +1000,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -674,20 +1034,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "15 AZN",
-                        "round_trip": ""
+                        "standard": "15 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -696,20 +1068,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -718,20 +1102,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -740,20 +1136,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -762,20 +1170,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -784,20 +1204,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -806,20 +1238,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -828,20 +1272,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -850,20 +1306,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -872,20 +1340,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -894,20 +1374,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -916,20 +1408,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "25 AZN",
-                        "round_trip": ""
+                        "standard": "25 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -938,20 +1442,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -960,20 +1476,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -982,20 +1510,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1004,20 +1544,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1026,20 +1578,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "60 AZN",
-                        "round_trip": ""
+                        "standard": "60 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1048,20 +1612,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1070,20 +1646,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1092,20 +1680,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1114,20 +1714,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1136,20 +1748,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1158,20 +1782,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1180,20 +1816,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1202,20 +1850,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             },
@@ -1224,20 +1884,32 @@
                     {
                         "start": "06:00",
                         "end": "20:00",
-                        "one_way": "0 AZN",
-                        "round_trip": ""
+                        "standard": "0 AZN",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "20:00",
                         "end": "00:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     },
                     {
                         "start": "00:00",
                         "end": "06:00",
-                        "one_way": "",
-                        "round_trip": ""
+                        "standard": "",
+                        "standard_round_trip": "",
+                        "comfort": "",
+                        "comfort_round_trip": "",
+                        "vip": "",
+                        "vip_round_trip": ""
                     }
                 ]
             }
