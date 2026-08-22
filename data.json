@@ -287,11 +287,11 @@
                         "start": "06:00",
                         "end": "20:00",
                         "standard": "250 AZN",
-                        "standard_round_trip": "",
-                        "comfort": "",
-                        "comfort_round_trip": "",
-                        "vip": "",
-                        "vip_round_trip": ""
+                        "standard_round_trip": "500",
+                        "comfort": "280",
+                        "comfort_round_trip": "560",
+                        "vip": "300",
+                        "vip_round_trip": "600"
                     },
                     {
                         "start": "20:00",
