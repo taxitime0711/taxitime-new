@@ -13,8 +13,8 @@ function ttSlotValue(slot, cls, trip){
 }
 function ttRouteTariff(data,from,to){
   const prices=data.prices||{};
-  if(from==='Quba'&&to==='Bakı') return prices.quba_baki;
-  if(from==='Bakı'&&to==='Quba') return prices.baki_quba;
+  // Quba ↔ Bakı uses one shared tariff table from admin panel.
+  if((from==='Quba'&&to==='Bakı')||(from==='Bakı'&&to==='Quba')) return prices.quba_baki;
   const regions=prices.regions||{};
   if(from==='Quba'&&regions[to]) return regions[to];
   if(to==='Quba'&&regions[from]) return regions[from];
@@ -65,13 +65,10 @@ function loadPrices(){
       const to=toOverride||toEl.value;
       const targetPrice=forOrder&&orderPrice?orderPrice:priceEl;
       const targetTime=forOrder&&orderPrice?null:timeEl;
-
       if(!from||!to){if(forOrder&&orderPrice)orderPrice.style.display='none';return;}
       if(from===to){targetPrice.textContent='Fərqli məntəqə seçin';if(targetTime)targetTime.textContent='';if(forOrder&&orderPrice)orderPrice.style.display='block';return;}
-
       if(forOrder&&orderPrice){orderPrice.style.display='block';orderPrice.textContent='Qiymət yoxlanılır...';}
       else priceEl.textContent='Qiymət yenilənir...';
-
       try{
         const fresh=await ttFetchData();
         const tariff=ttRouteTariff(fresh,from,to);
