@@ -355,11 +355,11 @@
                         "start": "06:00",
                         "end": "20:00",
                         "standard": "60 AZN",
-                        "standard_round_trip": "",
-                        "comfort": "",
-                        "comfort_round_trip": "",
-                        "vip": "",
-                        "vip_round_trip": ""
+                        "standard_round_trip": "120",
+                        "comfort": "80",
+                        "comfort_round_trip": "160",
+                        "vip": "100",
+                        "vip_round_trip": "200"
                     },
                     {
                         "start": "20:00",
