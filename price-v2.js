@@ -20,6 +20,13 @@ function ttRouteTariff(data,from,to){
   if(to==='Quba'&&regions[from]) return regions[from];
   return null;
 }
+function ttNorm(v){return String(v||'').toLocaleLowerCase('az').replace(/ı/g,'i').replace(/ə/g,'e').replace(/ş/g,'s').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ö/g,'o').replace(/ü/g,'u');}
+function ttDetectPlace(text,places){
+  const n=ttNorm(text);
+  let best='';
+  for(const p of places){const pn=ttNorm(p);if(n.includes(pn)&&pn.length>ttNorm(best).length)best=p;}
+  return best;
+}
 async function ttFetchData(){
   const r=await fetch('data.json?ts='+Date.now(),{cache:'no-store'});
   if(!r.ok) throw new Error('Tarif məlumatı alınmadı');
@@ -39,33 +46,62 @@ function loadPrices(){
     const tripEl=document.getElementById('ttTrip');
     const priceEl=document.getElementById('ttPrice');
     const timeEl=document.getElementById('ttTime');
+    const orderFrom=document.getElementById('from');
+    const orderTo=document.getElementById('to');
+
+    let orderPrice=document.getElementById('orderAutoPrice');
+    if(orderTo && !orderPrice){
+      orderPrice=document.createElement('div');
+      orderPrice.id='orderAutoPrice';
+      orderPrice.style.cssText='grid-column:1/-1;padding:12px 14px;border:1px solid #f5b400;border-radius:9px;background:#fff8e9;font-weight:800;color:#111;display:none';
+      orderTo.insertAdjacentElement('afterend',orderPrice);
+    }
 
     fromEl.value='Quba';
     toEl.value='Bakı';
 
-    async function show(){
-      const from=fromEl.value;
-      const to=toEl.value;
-      if(from===to){priceEl.textContent='Fərqli məntəqə seçin';timeEl.textContent='';return;}
-      priceEl.textContent='Qiymət yenilənir...';
+    async function show(fromOverride,toOverride,forOrder=false){
+      const from=fromOverride||fromEl.value;
+      const to=toOverride||toEl.value;
+      const targetPrice=forOrder&&orderPrice?orderPrice:priceEl;
+      const targetTime=forOrder&&orderPrice?null:timeEl;
+
+      if(!from||!to){if(forOrder&&orderPrice)orderPrice.style.display='none';return;}
+      if(from===to){targetPrice.textContent='Fərqli məntəqə seçin';if(targetTime)targetTime.textContent='';if(forOrder&&orderPrice)orderPrice.style.display='block';return;}
+
+      if(forOrder&&orderPrice){orderPrice.style.display='block';orderPrice.textContent='Qiymət yoxlanılır...';}
+      else priceEl.textContent='Qiymət yenilənir...';
+
       try{
         const fresh=await ttFetchData();
         const tariff=ttRouteTariff(fresh,from,to);
-        if(!tariff){priceEl.textContent='Bu marşrut üçün tarif yoxdur';timeEl.textContent='';return;}
+        if(!tariff){targetPrice.textContent='Bu marşrut üçün tarif yoxdur';if(targetTime)targetTime.textContent='';return;}
         const s=activeSlot(tariff);
         const val=ttSlotValue(s,classEl.value,tripEl.value);
-        priceEl.textContent=val||'Qiymət daxil edilməyib';
-        timeEl.textContent=slotLabel(s)?`Aktiv tarif: ${slotLabel(s)}`:'';
+        targetPrice.textContent=val?`Qiymət: ${val}`:'Qiymət daxil edilməyib';
+        if(targetTime)targetTime.textContent=slotLabel(s)?`Aktiv tarif: ${slotLabel(s)}`:'';
       }catch(e){
-        priceEl.textContent='Qiymət yenilənmədi';
-        timeEl.textContent='İnterneti yoxlayın';
+        targetPrice.textContent='Qiymət yenilənmədi';
+        if(targetTime)targetTime.textContent='İnterneti yoxlayın';
       }
     }
 
-    fromEl.addEventListener('change',show);
-    toEl.addEventListener('change',show);
-    classEl.addEventListener('change',show);
-    tripEl.addEventListener('change',show);
+    function syncOrderPrice(){
+      if(!orderFrom||!orderTo)return;
+      const f=ttDetectPlace(orderFrom.value,places);
+      const t=ttDetectPlace(orderTo.value,places);
+      if(!f||!t){if(orderPrice)orderPrice.style.display='none';return;}
+      fromEl.value=f;toEl.value=t;
+      show(f,t,true);
+      show(f,t,false);
+    }
+
+    fromEl.addEventListener('change',()=>show());
+    toEl.addEventListener('change',()=>show());
+    classEl.addEventListener('change',()=>{show();syncOrderPrice();});
+    tripEl.addEventListener('change',()=>{show();syncOrderPrice();});
+    if(orderFrom){orderFrom.addEventListener('input',syncOrderPrice);orderFrom.addEventListener('change',syncOrderPrice);}
+    if(orderTo){orderTo.addEventListener('input',syncOrderPrice);orderTo.addEventListener('change',syncOrderPrice);}
     show();
   }).catch(console.log);
 }
