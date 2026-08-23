@@ -2012,8 +2012,12 @@
       "durationMinutes": 129.13500000000002,
       "price": 100,
       "currency": "AZN",
-      "driverId": null,
-      "updatedAt": 1787522826796
+      "driverId": "DRV5721793",
+      "updatedAt": 1787522835367,
+      "driverName": "Bəxtiyar Əliyev",
+      "driverPhone": "+994553853131",
+      "driverCar": "Geely Galaxy A7",
+      "driverPlate": "77-ZB-645"
     },
     {
       "name": "Sahin",
