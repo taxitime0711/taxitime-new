@@ -2059,7 +2059,7 @@
       "carModel": "Geely Galaxy A7",
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
-      "active": false,
+      "active": true,
       "status": "offline",
       "createdAt": 1787435721797
     }
