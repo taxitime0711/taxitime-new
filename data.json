@@ -2017,13 +2017,13 @@
       "login": "Samir001",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435568712,
       "lat": 41.36707507,
       "lon": 48.52947828,
       "lng": 48.52947828,
-      "lastSeen": 1787456637748,
-      "updatedAt": 1787456637954
+      "lastSeen": 1787456639577,
+      "updatedAt": 1787456639577
     },
     {
       "id": "DRV5721793",
