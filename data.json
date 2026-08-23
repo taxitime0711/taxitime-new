@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787522799212-81e4a7",
       "createdAt": "2026-08-24T02:06:39+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Samir",
       "phone": "+994557126677",
@@ -2012,7 +2012,8 @@
       "durationMinutes": 129.13500000000002,
       "price": 100,
       "currency": "AZN",
-      "driverId": null
+      "driverId": null,
+      "updatedAt": 1787522826796
     },
     {
       "name": "Sahin",
