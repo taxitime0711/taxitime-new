@@ -1998,13 +1998,15 @@
       "phone": "+994505886677",
       "from": "Quba",
       "to": "Baki",
-      "status": "Qəbul edildi",
-      "updatedAt": 1787435736456,
+      "status": "Yoldadır",
+      "updatedAt": 1787456676382,
       "driverId": "DRV5568684",
       "driverName": "Samir Məmmədov",
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
-      "driverPlate": "10-GM-091"
+      "driverPlate": "10-GM-091",
+      "carModel": "Mercedes Bens S350",
+      "carPlate": "10-GM-091"
     }
   ],
   "drivers": [
