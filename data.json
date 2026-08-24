@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787608116938-cc7882",
       "createdAt": "2026-08-25T01:48:36+04:00",
-      "status": "Qəbul edildi",
+      "status": "Ləğv edildi",
       "source": "passenger_app",
       "name": "Shahin Musayev",
       "phone": "+994505886677",
@@ -2020,9 +2020,10 @@
       "driverPhone": "+994553853131",
       "carModel": "Mercedes Bens S350",
       "carPlate": "10-GM-091",
-      "updatedAt": 1787608175335,
+      "updatedAt": 1787608284167,
       "driverCar": "Geely Galaxy A7",
-      "driverPlate": "77-ZB-645"
+      "driverPlate": "77-ZB-645",
+      "cancelledAt": 1787608284167
     },
     {
       "id": "TT-1787573331188-f17c3e",
