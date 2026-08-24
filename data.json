@@ -2022,7 +2022,7 @@
     {
       "id": "TT-1787522799212-81e4a7",
       "createdAt": "2026-08-24T02:06:39+04:00",
-      "status": "Qəbul edildi",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Samir",
       "phone": "+994557126677",
@@ -2039,7 +2039,7 @@
       "price": 100,
       "currency": "AZN",
       "driverId": "DRV5721793",
-      "updatedAt": 1787523458795,
+      "updatedAt": 1787606797933,
       "driverName": "Bəxtiyar Əliyev",
       "driverPhone": "+994553853131",
       "driverCar": "Geely Galaxy A7",
