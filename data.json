@@ -2069,7 +2069,7 @@
       "carModel": "Mercedes Bens S350",
       "carPlate": "10-GM-091",
       "login": "Samir001",
-      "active": false,
+      "active": true,
       "status": "offline",
       "createdAt": 1787435568712,
       "lat": 41.36707507,
@@ -2090,8 +2090,8 @@
       "active": true,
       "status": "offline",
       "createdAt": 1787435721797,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
-      "passwordUpdatedAt": 1787607972461
+      "passwordUpdatedAt": 1787607972461,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
   ],
   "settings": {}
