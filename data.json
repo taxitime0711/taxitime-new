@@ -2074,13 +2074,14 @@
       "active": true,
       "status": "offline",
       "createdAt": 1787435568712,
-      "lat": 41.36707507,
-      "lon": 48.52947828,
-      "lng": 48.52947828,
-      "lastSeen": 1787456702929,
-      "updatedAt": 1787456703275,
+      "lat": 41.3669688,
+      "lon": 48.5294571,
+      "lng": 48.5294571,
+      "lastSeen": 1787608020926,
+      "updatedAt": 1787608020926,
       "passwordUpdatedAt": 1787607955266,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "offlineAt": 1787608020926
     },
     {
       "id": "DRV5721793",
