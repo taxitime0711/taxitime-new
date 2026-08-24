@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787573331188-f17c3e",
       "createdAt": "2026-08-24T16:08:51+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Samir",
       "phone": "557126677",
@@ -2012,7 +2012,12 @@
       "durationMinutes": 128.77333333333334,
       "price": 100,
       "currency": "AZN",
-      "driverId": null
+      "driverId": "DRV5568684",
+      "driverName": "Samir Məmmədov",
+      "driverPhone": "+994702883348",
+      "driverCar": "Mercedes Bens S350",
+      "driverPlate": "10-GM-091",
+      "updatedAt": 1787573350556
     },
     {
       "id": "TT-1787522799212-81e4a7",
