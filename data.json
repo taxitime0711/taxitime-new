@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787573331188-f17c3e",
       "createdAt": "2026-08-24T16:08:51+04:00",
-      "status": "Qəbul edildi",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Samir",
       "phone": "557126677",
@@ -2017,7 +2017,7 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1787573350556
+      "updatedAt": 1787606802345
     },
     {
       "id": "TT-1787522799212-81e4a7",
