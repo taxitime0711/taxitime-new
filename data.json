@@ -2076,7 +2076,9 @@
       "lon": 48.52947828,
       "lng": 48.52947828,
       "lastSeen": 1787456702929,
-      "updatedAt": 1787456703275
+      "updatedAt": 1787456703275,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "passwordUpdatedAt": 1787607955266
     },
     {
       "id": "DRV5721793",
