@@ -2017,7 +2017,9 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1787606802345
+      "updatedAt": 1787608016914,
+      "carModel": "Mercedes Bens S350",
+      "carPlate": "10-GM-091"
     },
     {
       "id": "TT-1787522799212-81e4a7",
