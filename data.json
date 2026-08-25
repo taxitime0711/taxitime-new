@@ -2157,12 +2157,12 @@
       "status": "online",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1787690162089,
-      "lastSeen": 1787690161256,
+      "updatedAt": 1787690166781,
+      "lastSeen": 1787690166256,
       "onlineAt": 1787689862805,
-      "lat": 41.3669615,
-      "lon": 48.5294604,
-      "lng": 48.5294604,
+      "lat": 41.3669623,
+      "lon": 48.5294603,
+      "lng": 48.5294603,
       "connectionState": "heartbeat_timeout",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
