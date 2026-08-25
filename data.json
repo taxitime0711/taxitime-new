@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787689458940-368cbf",
       "createdAt": "2026-08-26T00:24:18+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Rufat",
       "phone": "+994557126677",
@@ -2015,7 +2015,12 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": "DRV5721793",
+      "driverName": "Bəxtiyar Əliyev",
+      "driverPhone": "+994553853131",
+      "driverCar": "Geely Galaxy A7",
+      "driverPlate": "77-ZB-645",
+      "updatedAt": 1787689675737
     },
     {
       "id": "TT-1787608116938-cc7882",
@@ -2147,16 +2152,17 @@
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "updatedAt": 1787608327046,
       "lastSeen": 1787608326531,
       "onlineAt": 1787608233622,
       "lat": 41.3669688,
       "lon": 48.5294571,
-      "lng": 48.5294571
+      "lng": 48.5294571,
+      "connectionState": "heartbeat_timeout",
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
   ],
   "settings": {}
