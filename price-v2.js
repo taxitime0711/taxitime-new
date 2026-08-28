@@ -1,104 +1,18 @@
-// TAXI TIME unified route + class tariff UI
-function ttPriceKey(slot, cls, trip){
-  const c=cls||'standard';
-  if(c==='standard') return trip==='round_trip'?'standard_round_trip':'standard';
-  if(c==='comfort') return trip==='round_trip'?'comfort_round_trip':'comfort';
-  return trip==='round_trip'?'vip_round_trip':'vip';
-}
-function ttSlotValue(slot, cls, trip){
-  const key=ttPriceKey(slot,cls,trip);
-  if(slot && slot[key]) return slot[key];
-  if(cls==='standard') return trip==='round_trip'?(slot.round_trip||''):(slot.one_way||'');
-  return '';
-}
-function ttRouteTariff(data,from,to){
-  const prices=data.prices||{};
-  // Quba ↔ Bakı uses one shared tariff table from admin panel.
-  if((from==='Quba'&&to==='Bakı')||(from==='Bakı'&&to==='Quba')) return prices.quba_baki;
-  const regions=prices.regions||{};
-  if(from==='Quba'&&regions[to]) return regions[to];
-  if(to==='Quba'&&regions[from]) return regions[from];
-  return null;
-}
+// TAXI TIME public tariffs: Bakı + Azərbaycan rayonları
+function ttPriceKey(slot, cls, trip){const c=cls||'standard';if(c==='standard')return trip==='round_trip'?'standard_round_trip':'standard';if(c==='comfort')return trip==='round_trip'?'comfort_round_trip':'comfort';return trip==='round_trip'?'vip_round_trip':'vip';}
+function ttSlotValue(slot,cls,trip){const key=ttPriceKey(slot,cls,trip);if(slot&&slot[key])return slot[key];if(cls==='standard')return trip==='round_trip'?(slot.round_trip||''):(slot.one_way||'');return '';}
+function ttRouteTariff(data,from,to){const prices=data.prices||{};if((from==='Quba'&&to==='Bakı')||(from==='Bakı'&&to==='Quba'))return prices.quba_baki;const regions=prices.regions||{};if(from==='Quba'&&regions[to])return regions[to];if(to==='Quba'&&regions[from])return regions[from];return null;}
 function ttNorm(v){return String(v||'').toLocaleLowerCase('az').replace(/ı/g,'i').replace(/ə/g,'e').replace(/ş/g,'s').replace(/ç/g,'c').replace(/ğ/g,'g').replace(/ö/g,'o').replace(/ü/g,'u');}
-function ttDetectPlace(text,places){
-  const n=ttNorm(text);
-  let best='';
-  for(const p of places){const pn=ttNorm(p);if(n.includes(pn)&&pn.length>ttNorm(best).length)best=p;}
-  return best;
-}
-async function ttFetchData(){
-  const r=await fetch('data.json?ts='+Date.now(),{cache:'no-store'});
-  if(!r.ok) throw new Error('Tarif məlumatı alınmadı');
-  return r.json();
-}
-function loadPrices(){
-  const box=document.getElementById('priceList'); if(!box)return;
-  ttFetchData().then(data=>{
-    const regions=Object.keys(data.prices?.regions||{}).filter(x=>x!=='Bakı'&&x!=='Quba').sort((a,b)=>a.localeCompare(b,'az'));
-    const places=['Quba','Bakı',...regions];
-    const opts=places.map(x=>`<option value="${safeText(x)}">${safeText(x)}</option>`).join('');
-    box.innerHTML=`<div class="price-card" style="max-width:620px;margin:auto;grid-column:1/-1"><h3>🚕 Marşrut üzrə qiymət</h3><select id="ttFrom">${opts}</select><select id="ttTo">${opts}</select><select id="ttClass"><option value="standard">Standart</option><option value="comfort">Comfort</option><option value="vip">VIP</option></select><select id="ttTrip"><option value="one_way">Tək gediş</option><option value="round_trip">Gediş-dönüş</option></select><h2 id="ttPrice">Marşrut seçin</h2><p id="ttTime">Haradan və Hara seçdikdə istiqamət avtomatik müəyyən edilir</p></div>`;
-
-    const fromEl=document.getElementById('ttFrom');
-    const toEl=document.getElementById('ttTo');
-    const classEl=document.getElementById('ttClass');
-    const tripEl=document.getElementById('ttTrip');
-    const priceEl=document.getElementById('ttPrice');
-    const timeEl=document.getElementById('ttTime');
-    const orderFrom=document.getElementById('from');
-    const orderTo=document.getElementById('to');
-
-    let orderPrice=document.getElementById('orderAutoPrice');
-    if(orderTo && !orderPrice){
-      orderPrice=document.createElement('div');
-      orderPrice.id='orderAutoPrice';
-      orderPrice.style.cssText='grid-column:1/-1;padding:12px 14px;border:1px solid #f5b400;border-radius:9px;background:#fff8e9;font-weight:800;color:#111;display:none';
-      orderTo.insertAdjacentElement('afterend',orderPrice);
-    }
-
-    fromEl.value='Quba';
-    toEl.value='Bakı';
-
-    async function show(fromOverride,toOverride,forOrder=false){
-      const from=fromOverride||fromEl.value;
-      const to=toOverride||toEl.value;
-      const targetPrice=forOrder&&orderPrice?orderPrice:priceEl;
-      const targetTime=forOrder&&orderPrice?null:timeEl;
-      if(!from||!to){if(forOrder&&orderPrice)orderPrice.style.display='none';return;}
-      if(from===to){targetPrice.textContent='Fərqli məntəqə seçin';if(targetTime)targetTime.textContent='';if(forOrder&&orderPrice)orderPrice.style.display='block';return;}
-      if(forOrder&&orderPrice){orderPrice.style.display='block';orderPrice.textContent='Qiymət yoxlanılır...';}
-      else priceEl.textContent='Qiymət yenilənir...';
-      try{
-        const fresh=await ttFetchData();
-        const tariff=ttRouteTariff(fresh,from,to);
-        if(!tariff){targetPrice.textContent='Bu marşrut üçün tarif yoxdur';if(targetTime)targetTime.textContent='';return;}
-        const s=activeSlot(tariff);
-        const val=ttSlotValue(s,classEl.value,tripEl.value);
-        targetPrice.textContent=val?`Qiymət: ${val}`:'Qiymət daxil edilməyib';
-        if(targetTime)targetTime.textContent=slotLabel(s)?`Aktiv tarif: ${slotLabel(s)}`:'';
-      }catch(e){
-        targetPrice.textContent='Qiymət yenilənmədi';
-        if(targetTime)targetTime.textContent='İnterneti yoxlayın';
-      }
-    }
-
-    function syncOrderPrice(){
-      if(!orderFrom||!orderTo)return;
-      const f=ttDetectPlace(orderFrom.value,places);
-      const t=ttDetectPlace(orderTo.value,places);
-      if(!f||!t){if(orderPrice)orderPrice.style.display='none';return;}
-      fromEl.value=f;toEl.value=t;
-      show(f,t,true);
-      show(f,t,false);
-    }
-
-    fromEl.addEventListener('change',()=>show());
-    toEl.addEventListener('change',()=>show());
-    classEl.addEventListener('change',()=>{show();syncOrderPrice();});
-    tripEl.addEventListener('change',()=>{show();syncOrderPrice();});
-    if(orderFrom){orderFrom.addEventListener('input',syncOrderPrice);orderFrom.addEventListener('change',syncOrderPrice);}
-    if(orderTo){orderTo.addEventListener('input',syncOrderPrice);orderTo.addEventListener('change',syncOrderPrice);}
-    show();
-  }).catch(console.log);
-}
+function ttDetectPlace(text,places){const n=ttNorm(text);let best='';for(const p of places){const pn=ttNorm(p);if(n.includes(pn)&&pn.length>ttNorm(best).length)best=p;}return best;}
+async function ttFetchData(){const r=await fetch('data.json?ts='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error('Tarif məlumatı alınmadı');return r.json();}
+function ttBakuValue(x,cls,trip){if(!x)return '';if(trip==='round_trip'){if(cls==='standard')return x.standard_round||'';if(cls==='comfort')return x.comfort_round||'';return x.vip_round||'';}return x[cls]||'';}
+function loadPrices(){const box=document.getElementById('priceList');if(!box)return;ttFetchData().then(data=>{const regions=Object.keys(data.prices?.regions||{}).filter(x=>x!=='Bakı'&&x!=='Quba').sort((a,b)=>a.localeCompare(b,'az'));const baku=data.prices?.baku_locations||{};const districts=Object.keys(baku).sort((a,b)=>a.localeCompare(b,'az'));
+box.innerHTML=`
+<div class="price-card" style="max-width:620px;margin:auto;grid-column:1/-1"><h3>🏙️ Bakı</h3><p>Bakı rayonu və qəsəbə / məhəllə / küçə seçin</p><select id="ttBakuDistrict"></select><select id="ttBakuLocation"></select><select id="ttBakuClass"><option value="standard">Standart</option><option value="comfort">Comfort</option><option value="vip">VIP</option></select><select id="ttBakuTrip"><option value="one_way">Tək gediş</option><option value="round_trip">Gediş-dönüş</option></select><h2 id="ttBakuPrice">Ünvan seçin</h2></div>
+<div class="price-card" style="max-width:620px;margin:28px auto 0;grid-column:1/-1"><h3>🌍 Azərbaycanın rayonları</h3><p>Quba ilə digər rayonlar arasında tarif</p><select id="ttRegion"><option value="">Rayon seçin</option>${regions.map(x=>`<option value="${safeText(x)}">${safeText(x)}</option>`).join('')}</select><select id="ttRegionClass"><option value="standard">Standart</option><option value="comfort">Comfort</option><option value="vip">VIP</option></select><select id="ttRegionTrip"><option value="one_way">Tək gediş</option><option value="round_trip">Gediş-dönüş</option></select><h2 id="ttRegionPrice">Rayon seçin</h2><p id="ttRegionTime"></p></div>`;
+const bd=document.getElementById('ttBakuDistrict'),bl=document.getElementById('ttBakuLocation'),bc=document.getElementById('ttBakuClass'),bt=document.getElementById('ttBakuTrip'),bp=document.getElementById('ttBakuPrice');bd.innerHTML='<option value="">Bakı rayonu seçin</option>'+districts.map(x=>`<option value="${safeText(x)}">${safeText(x)}</option>`).join('');
+function loadLoc(){const d=bd.value;const a=d?(baku[d]?.locations||[]):[];bl.innerHTML='<option value="">Qəsəbə / məhəllə / küçə seçin</option>'+a.map((x,i)=>`<option value="${i}">${safeText(x.name||'')}</option>`).join('');bp.textContent='Ünvan seçin';}
+function showBaku(){const d=bd.value,i=bl.value;if(!d||i===''){bp.textContent='Ünvan seçin';return;}const x=baku[d]?.locations?.[Number(i)];const v=ttBakuValue(x,bc.value,bt.value);bp.textContent=v?`Qiymət: ${v}`:'Qiymət daxil edilməyib';}
+bd.addEventListener('change',loadLoc);bl.addEventListener('change',showBaku);bc.addEventListener('change',showBaku);bt.addEventListener('change',showBaku);loadLoc();
+const re=document.getElementById('ttRegion'),rc=document.getElementById('ttRegionClass'),rt=document.getElementById('ttRegionTrip'),rp=document.getElementById('ttRegionPrice'),rtime=document.getElementById('ttRegionTime');async function showRegion(){if(!re.value){rp.textContent='Rayon seçin';rtime.textContent='';return;}try{const fresh=await ttFetchData();const tariff=ttRouteTariff(fresh,'Quba',re.value);if(!tariff){rp.textContent='Bu marşrut üçün tarif yoxdur';rtime.textContent='';return;}const s=activeSlot(tariff),v=ttSlotValue(s,rc.value,rt.value);rp.textContent=v?`Qiymət: ${v}`:'Qiymət daxil edilməyib';rtime.textContent=slotLabel(s)?`Aktiv tarif: ${slotLabel(s)}`:'';}catch(e){rp.textContent='Qiymət yenilənmədi';rtime.textContent='İnterneti yoxlayın';}}re.addEventListener('change',showRegion);rc.addEventListener('change',showRegion);rt.addEventListener('change',showRegion);
+}).catch(console.log);}
