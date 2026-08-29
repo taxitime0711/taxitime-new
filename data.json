@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787986957408-a6d8c0",
       "createdAt": "2026-08-29T11:02:37+04:00",
-      "status": "Yeni",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Malik",
       "phone": "+994557126677",
@@ -2018,7 +2018,15 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": null,
+      "updatedAt": 1787994620014,
+      "audit": [
+        {
+          "time": 1787994620015,
+          "action": "STATUS",
+          "detail": "Yeni → Tamamlandı"
+        }
+      ]
     },
     {
       "id": "TT-1787757233045-917a6a",
@@ -2193,7 +2201,7 @@
       "carPlate": "10-GM-091",
       "login": "Samir001",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435568712,
       "lat": 41.3633392,
       "lon": 48.5241623,
@@ -2202,8 +2210,9 @@
       "updatedAt": 1787992458685,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1787689401961,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
-      "onlineAt": 1787757336486
+      "onlineAt": 1787757336486,
+      "connectionState": "heartbeat_timeout",
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
       "id": "DRV5721793",
@@ -2213,7 +2222,7 @@
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
       "updatedAt": 1787994572336,
