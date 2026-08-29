@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787996042256-70c7c2",
       "createdAt": "2026-08-29T13:34:02+04:00",
-      "status": "Yoldadır",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Farid",
       "phone": "+994505886677",
@@ -2023,12 +2023,17 @@
       "driverPhone": "+994553853131",
       "driverCar": "Geely Galaxy A7",
       "driverPlate": "77-ZB-645",
-      "updatedAt": 1787996337175,
+      "updatedAt": 1787996497450,
       "audit": [
         {
           "time": 1787996232224,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Bəxtiyar Əliyev"
+        },
+        {
+          "time": 1787996497450,
+          "action": "STATUS",
+          "detail": "Yoldadır → Qəbul edildi"
         }
       ],
       "carModel": "Geely Galaxy A7",
@@ -2268,16 +2273,16 @@
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
       "active": true,
-      "status": "online",
+      "status": "busy",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1787996483719,
+      "updatedAt": 1787996497450,
       "lastSeen": 1787996482880,
       "onlineAt": 1787996338815,
       "lat": 41.3669735,
       "lon": 48.5294596,
       "lng": 48.5294596,
-      "connectionState": "heartbeat_timeout",
+      "connectionState": "live",
       "offlineAt": 1787995980435,
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
