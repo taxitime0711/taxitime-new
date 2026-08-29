@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1787996042256-70c7c2",
       "createdAt": "2026-08-29T13:34:02+04:00",
-      "status": "Yoldadır",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Farid",
       "phone": "+994505886677",
@@ -2023,7 +2023,7 @@
       "driverPhone": "+994553853131",
       "driverCar": "Geely Galaxy A7",
       "driverPlate": "77-ZB-645",
-      "updatedAt": 1787996513183,
+      "updatedAt": 1788000837996,
       "audit": [
         {
           "time": 1787996232224,
@@ -2034,6 +2034,11 @@
           "time": 1787996497450,
           "action": "STATUS",
           "detail": "Yoldadır → Qəbul edildi"
+        },
+        {
+          "time": 1788000837996,
+          "action": "STATUS",
+          "detail": "Yoldadır → Tamamlandı"
         }
       ],
       "carModel": "Geely Galaxy A7",
@@ -2276,7 +2281,7 @@
       "status": "online",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1788000813186,
+      "updatedAt": 1788000837996,
       "lastSeen": 1788000812383,
       "onlineAt": 1787996338815,
       "lat": 41.34832544,
