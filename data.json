@@ -2019,12 +2019,17 @@
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
       "driverId": null,
-      "updatedAt": 1787994620014,
+      "updatedAt": 1787994631996,
       "audit": [
         {
           "time": 1787994620015,
           "action": "STATUS",
           "detail": "Yeni → Tamamlandı"
+        },
+        {
+          "time": 1787994631996,
+          "action": "STATUS",
+          "detail": "Tamamlandı → Tamamlandı"
         }
       ]
     },
