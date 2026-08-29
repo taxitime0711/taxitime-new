@@ -2227,17 +2227,18 @@
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1787995977252,
-      "lastSeen": 1787995976499,
+      "updatedAt": 1787995978778,
+      "lastSeen": 1787995978778,
       "onlineAt": 1787994461007,
       "lat": 41.3669735,
       "lon": 48.5294596,
       "lng": 48.5294596,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "offlineAt": 1787995978778
     }
   ],
   "settings": {}
