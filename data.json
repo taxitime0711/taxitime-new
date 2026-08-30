@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788071047823-b2c910",
       "createdAt": "2026-08-30T10:24:07+04:00",
-      "status": "Səfər başladı",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Farid",
       "phone": "+994557126677",
@@ -2023,7 +2023,7 @@
       "driverPhone": "+994 51 772 34 64",
       "driverCar": "BYD QIN PLUS",
       "driverPlate": "99-QJ-711",
-      "updatedAt": 1788071310178,
+      "updatedAt": 1788071354253,
       "audit": [
         {
           "time": 1788071098123,
