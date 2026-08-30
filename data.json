@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788071047823-b2c910",
       "createdAt": "2026-08-30T10:24:07+04:00",
-      "status": "Qəbul edildi",
+      "status": "Yoldadır",
       "source": "passenger_app",
       "name": "Farid",
       "phone": "+994557126677",
@@ -2023,14 +2023,16 @@
       "driverPhone": "+994 51 772 34 64",
       "driverCar": "BYD QIN PLUS",
       "driverPlate": "99-QJ-711",
-      "updatedAt": 1788071098123,
+      "updatedAt": 1788071154385,
       "audit": [
         {
           "time": 1788071098123,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Rövşən Aqamov"
         }
-      ]
+      ],
+      "carModel": "BYD QIN PLUS",
+      "carPlate": "99-QJ-711"
     },
     {
       "id": "TT-1787996042256-70c7c2",
