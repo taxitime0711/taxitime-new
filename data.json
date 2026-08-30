@@ -2381,12 +2381,13 @@
       "active": true,
       "status": "online",
       "createdAt": 1788070517197,
-      "updatedAt": 1788071151099,
+      "updatedAt": 1788071156937,
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "lat": 41.3670023,
       "lon": 48.52939717,
       "lng": 48.52939717,
-      "lastSeen": 1788071150176
+      "lastSeen": 1788071156937,
+      "onlineAt": 1788071156937
     }
   ],
   "settings": {}
