@@ -2299,9 +2299,15 @@
       "carPlate": "90-YC-711",
       "login": "Resad004",
       "active": true,
-      "status": "offline",
+      "status": "online",
       "createdAt": 1788070158050,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "updatedAt": 1788070893446,
+      "lastSeen": 1788070893446,
+      "onlineAt": 1788070893446,
+      "lat": 41.366977,
+      "lon": 48.529462,
+      "lng": 48.529462
     },
     {
       "id": "DRV0298252",
