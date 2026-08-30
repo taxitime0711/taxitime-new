@@ -2128,7 +2128,7 @@
     {
       "id": "TT-1787757233045-917a6a",
       "createdAt": "2026-08-26T19:13:53+04:00",
-      "status": "Yoldadır",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Samir",
       "phone": "+994505886677",
@@ -2152,9 +2152,16 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1787757311947,
+      "updatedAt": 1788071211893,
       "carModel": "Mercedes Bens S350",
-      "carPlate": "10-GM-091"
+      "carPlate": "10-GM-091",
+      "audit": [
+        {
+          "time": 1788071211893,
+          "action": "STATUS",
+          "detail": "Yoldadır → Tamamlandı"
+        }
+      ]
     },
     {
       "id": "TT-1787689458940-368cbf",
@@ -2298,13 +2305,13 @@
       "carPlate": "10-GM-091",
       "login": "Samir001",
       "active": true,
-      "status": "offline",
+      "status": "online",
       "createdAt": 1787435568712,
       "lat": 41.3633392,
       "lon": 48.5241623,
       "lng": 48.5241623,
       "lastSeen": 1787992457969,
-      "updatedAt": 1787992458685,
+      "updatedAt": 1788071211893,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1787689401961,
       "onlineAt": 1787757336486,
@@ -2368,8 +2375,8 @@
       "lon": 48.529462,
       "lng": 48.529462,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
-      "offlineAt": 1788071121139
+      "offlineAt": 1788071121139,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
       "id": "DRV0517194",
@@ -2379,15 +2386,16 @@
       "carPlate": "99-QJ-711",
       "login": "Rovsan005",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1788070517197,
       "updatedAt": 1788071166033,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "lat": 41.3670023,
       "lon": 48.52939717,
       "lng": 48.52939717,
       "lastSeen": 1788071165246,
-      "onlineAt": 1788071156937
+      "onlineAt": 1788071156937,
+      "connectionState": "heartbeat_timeout",
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
   ],
   "settings": {}
