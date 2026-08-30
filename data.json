@@ -2032,7 +2032,9 @@
         }
       ],
       "carModel": "BYD QIN PLUS",
-      "carPlate": "99-QJ-711"
+      "carPlate": "99-QJ-711",
+      "rating": 5,
+      "ratedAt": 1788071364317
     },
     {
       "id": "TT-1787996042256-70c7c2",
