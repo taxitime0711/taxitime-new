@@ -2298,10 +2298,22 @@
       "carModel": "BYD destroyer 05",
       "carPlate": "90-YC-711",
       "login": "Resad004",
+      "active": true,
+      "status": "offline",
+      "createdAt": 1788070158050,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+    },
+    {
+      "id": "DRV0298252",
+      "name": "Kamal Məmmədov",
+      "phone": "+994558499599",
+      "carModel": "Geely Galaxy A7",
+      "carPlate": "99-QK-711",
+      "login": "Kamal003",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "active": true,
       "status": "offline",
-      "createdAt": 1788070158050
+      "createdAt": 1788070298257
     }
   ],
   "settings": {}
