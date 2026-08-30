@@ -2388,11 +2388,11 @@
       "active": true,
       "status": "online",
       "createdAt": 1788070517197,
-      "updatedAt": 1788071317725,
+      "updatedAt": 1788071337432,
       "lat": 41.3670023,
       "lon": 48.52939717,
       "lng": 48.52939717,
-      "lastSeen": 1788071316984,
+      "lastSeen": 1788071336562,
       "onlineAt": 1788071311773,
       "connectionState": "heartbeat_timeout",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
