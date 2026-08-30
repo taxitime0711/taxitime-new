@@ -2310,10 +2310,22 @@
       "carModel": "Geely Galaxy A7",
       "carPlate": "99-QK-711",
       "login": "Kamal003",
+      "active": true,
+      "status": "offline",
+      "createdAt": 1788070298257,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+    },
+    {
+      "id": "DRV0517194",
+      "name": "Rövşən Aqamov",
+      "phone": "+994 51 772 34 64",
+      "carModel": "BYD QIN PLUS",
+      "carPlate": "99-QJ-711",
+      "login": "Rovsan005",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "active": true,
       "status": "offline",
-      "createdAt": 1788070298257
+      "createdAt": 1788070517197
     }
   ],
   "settings": {}
