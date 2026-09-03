@@ -2429,14 +2429,15 @@
       "active": true,
       "status": "offline",
       "createdAt": 1788070517197,
-      "updatedAt": 1788071362390,
+      "updatedAt": 1788452611497,
       "lat": 41.36687927,
       "lon": 48.52950778,
       "lng": 48.52950778,
-      "lastSeen": 1788071361596,
+      "lastSeen": 1788452611497,
       "onlineAt": 1788071355668,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "offlineAt": 1788452611497
     }
   ],
   "settings": {}
