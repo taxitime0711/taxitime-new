@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788452544599-52be4a",
       "createdAt": "2026-09-03T20:22:24+04:00",
-      "status": "Yoldadır",
+      "status": "Çatdı",
       "source": "passenger_app",
       "name": "Teymur",
       "phone": "+994557126677",
@@ -2023,7 +2023,7 @@
       "driverPhone": "+994553853131",
       "driverCar": "Geely Galaxy A7",
       "driverPlate": "77-ZB-645",
-      "updatedAt": 1788452742631,
+      "updatedAt": 1788452776756,
       "audit": [
         {
           "time": 1788452579531,
