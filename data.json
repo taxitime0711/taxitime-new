@@ -2018,17 +2018,22 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": "DRV0298252",
-      "driverName": "Kamal Məmmədov",
-      "driverPhone": "+994558499599",
+      "driverId": "DRV5721793",
+      "driverName": "Bəxtiyar Əliyev",
+      "driverPhone": "+994553853131",
       "driverCar": "Geely Galaxy A7",
-      "driverPlate": "99-QK-711",
-      "updatedAt": 1788452579530,
+      "driverPlate": "77-ZB-645",
+      "updatedAt": 1788452677727,
       "audit": [
         {
           "time": 1788452579531,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Kamal Məmmədov"
+        },
+        {
+          "time": 1788452677727,
+          "action": "SÜRÜCÜ DƏYİŞDİRİLDİ",
+          "detail": "Bəxtiyar Əliyev"
         }
       ]
     },
@@ -2367,10 +2372,10 @@
       "carPlate": "77-ZB-645",
       "login": "Baxtiyar002",
       "active": true,
-      "status": "offline",
+      "status": "busy",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1788000837996,
+      "updatedAt": 1788452677727,
       "lastSeen": 1788000812383,
       "onlineAt": 1787996338815,
       "lat": 41.34832544,
@@ -2407,9 +2412,9 @@
       "carPlate": "99-QK-711",
       "login": "Kamal003",
       "active": true,
-      "status": "busy",
+      "status": "online",
       "createdAt": 1788070298257,
-      "updatedAt": 1788452579531,
+      "updatedAt": 1788452677727,
       "lastSeen": 1788071121139,
       "onlineAt": 1788070938014,
       "lat": 41.366977,
@@ -2436,8 +2441,8 @@
       "lastSeen": 1788452611497,
       "onlineAt": 1788071355668,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
-      "offlineAt": 1788452611497
+      "offlineAt": 1788452611497,
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     }
   ],
   "settings": {}
