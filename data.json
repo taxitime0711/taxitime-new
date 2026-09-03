@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788452544599-52be4a",
       "createdAt": "2026-09-03T20:22:24+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Teymur",
       "phone": "+994557126677",
@@ -2018,7 +2018,19 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": "DRV0298252",
+      "driverName": "Kamal Məmmədov",
+      "driverPhone": "+994558499599",
+      "driverCar": "Geely Galaxy A7",
+      "driverPlate": "99-QK-711",
+      "updatedAt": 1788452579530,
+      "audit": [
+        {
+          "time": 1788452579531,
+          "action": "SÜRÜCÜ TƏYİN EDİLDİ",
+          "detail": "Kamal Məmmədov"
+        }
+      ]
     },
     {
       "id": "TT-1788071047823-b2c910",
@@ -2334,7 +2346,7 @@
       "carPlate": "10-GM-091",
       "login": "Samir001",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435568712,
       "lat": 41.3633392,
       "lon": 48.5241623,
@@ -2395,9 +2407,9 @@
       "carPlate": "99-QK-711",
       "login": "Kamal003",
       "active": true,
-      "status": "offline",
+      "status": "busy",
       "createdAt": 1788070298257,
-      "updatedAt": 1788071121139,
+      "updatedAt": 1788452579531,
       "lastSeen": 1788071121139,
       "onlineAt": 1788070938014,
       "lat": 41.366977,
@@ -2415,7 +2427,7 @@
       "carPlate": "99-QJ-711",
       "login": "Rovsan005",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1788070517197,
       "updatedAt": 1788071362390,
       "lat": 41.36687927,
