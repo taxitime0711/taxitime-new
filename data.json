@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788969100105-9f791f",
       "createdAt": "2026-09-09T19:51:40+04:00",
-      "status": "Çatdı",
+      "status": "Səfər başladı",
       "source": "passenger_app",
       "name": "elsen",
       "phone": "0702701830",
@@ -2023,7 +2023,7 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1788975387970,
+      "updatedAt": 1788976341032,
       "audit": [
         {
           "time": 1788972245305,
