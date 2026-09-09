@@ -2032,7 +2032,9 @@
         }
       ],
       "carModel": "Mercedes Bens S350",
-      "carPlate": "10-GM-091"
+      "carPlate": "10-GM-091",
+      "rating": 5,
+      "ratedAt": 1788982664091
     },
     {
       "id": "TT-1788452544599-52be4a",
