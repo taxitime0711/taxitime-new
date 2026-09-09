@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1788969100105-9f791f",
       "createdAt": "2026-09-09T19:51:40+04:00",
-      "status": "Qəbul edildi",
+      "status": "Yoldadır",
       "source": "passenger_app",
       "name": "elsen",
       "phone": "0702701830",
@@ -2023,14 +2023,16 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1788972245305,
+      "updatedAt": 1788974951087,
       "audit": [
         {
           "time": 1788972245305,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Samir Məmmədov"
         }
-      ]
+      ],
+      "carModel": "Mercedes Bens S350",
+      "carPlate": "10-GM-091"
     },
     {
       "id": "TT-1788452544599-52be4a",
