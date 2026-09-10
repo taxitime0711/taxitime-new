@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1789070115957-786e7c",
       "createdAt": "2026-09-10T23:55:15+04:00",
-      "status": "Qəbul edildi",
+      "status": "Yoldadır",
       "source": "passenger_app",
       "name": "Sahin",
       "phone": "0505886677",
@@ -2024,7 +2024,7 @@
       "driverPhone": "+994702883348",
       "carModel": "Mercedes Bens S350",
       "carPlate": "10-GM-091",
-      "updatedAt": 1789070163402
+      "updatedAt": 1789070215093
     },
     {
       "id": "TT-1788969100105-9f791f",
