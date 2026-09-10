@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1789070115957-786e7c",
       "createdAt": "2026-09-10T23:55:15+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "Sahin",
       "phone": "0505886677",
@@ -2019,7 +2019,12 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": "DRV5568684",
+      "driverName": "Samir Məmmədov",
+      "driverPhone": "+994702883348",
+      "carModel": "Mercedes Bens S350",
+      "carPlate": "10-GM-091",
+      "updatedAt": 1789070163402
     },
     {
       "id": "TT-1788969100105-9f791f",
