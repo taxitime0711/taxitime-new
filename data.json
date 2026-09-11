@@ -1996,7 +1996,7 @@
     {
       "id": "TT-1789146862350-a377a1",
       "createdAt": "2026-09-11T21:14:22+04:00",
-      "status": "Yoldadır",
+      "status": "Tamamlandı",
       "source": "passenger_app",
       "name": "Elşən",
       "phone": "0702701830",
@@ -2024,12 +2024,17 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1789148398367,
+      "updatedAt": 1789153863517,
       "audit": [
         {
           "time": 1789148331588,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Samir Məmmədov"
+        },
+        {
+          "time": 1789153863517,
+          "action": "STATUS",
+          "detail": "Yoldadır → Tamamlandı"
         }
       ],
       "carModel": "Mercedes Bens S350",
@@ -2479,7 +2484,7 @@
       "lon": 48.52130466140807,
       "lng": 48.52130466140807,
       "lastSeen": 1789153858088,
-      "updatedAt": 1789153858605,
+      "updatedAt": 1789153863517,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1789148240753,
       "onlineAt": 1789070280378,
@@ -2584,6 +2589,12 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1789153864729-3x2ken",
+      "timestamp": 1789153864729,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
     {
       "id": "AUD-1789148414283-udgg2i",
       "timestamp": 1789148414283,
