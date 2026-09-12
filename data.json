@@ -2984,14 +2984,14 @@
       "status": "offline",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1788525294433,
-      "lastSeen": 1788525294433,
+      "updatedAt": 1789206626100,
+      "lastSeen": 1789206626100,
       "onlineAt": 1788452841040,
       "lat": 41.3669412,
       "lon": 48.5294373,
       "lng": 48.5294373,
       "connectionState": "heartbeat_timeout",
-      "offlineAt": 1788525294433,
+      "offlineAt": 1789206626100,
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
