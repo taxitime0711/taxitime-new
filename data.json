@@ -24,7 +24,7 @@
           "start": "20:00",
           "end": "00:00",
           "standard": "80",
-          "standard_round_trip": "100",
+          "standard_round_trip": "160",
           "comfort": "100",
           "comfort_round_trip": "200",
           "vip": "120",
@@ -1913,6 +1913,488 @@
           }
         ]
       }
+    },
+    "baku_locations": {
+      "Binəqədi": {
+        "locations": [
+          {
+            "name": "Biləcəri",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Binəqədi qəsəbəsi",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "6-cı mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "7-ci mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "8-ci mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "9-cu mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Qaradağ": {
+        "locations": [
+          {
+            "name": "Lökbatan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Sahil",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ələt",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Puta",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Xəzər": {
+        "locations": [
+          {
+            "name": "Mərdəkan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Buzovna",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Şüvəlan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Türkan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Qala",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zirə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Səbail": {
+        "locations": [
+          {
+            "name": "İçərişəhər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bayıl",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Badamdar",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Sabunçu": {
+        "locations": [
+          {
+            "name": "Bakıxanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zabrat",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ramana",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Maştağa",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bilgəh",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Nardaran",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Pirşağı",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Suraxanı": {
+        "locations": [
+          {
+            "name": "Hövsan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Yeni Günəşli",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Əmircan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bülbülə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zığ",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Xətai": {
+        "locations": [
+          {
+            "name": "Əhmədli",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Həzi Aslanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ağ Şəhər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nizami": {
+        "locations": [
+          {
+            "name": "8-ci kilometr",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Qara Qarayev",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Neftçilər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Keşlə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nərimanov": {
+        "locations": [
+          {
+            "name": "Gənclik",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Montin",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Böyükşor",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Nərimanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nəsimi": {
+        "locations": [
+          {
+            "name": "28 May",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "3-cü mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Yasamal": {
+        "locations": [
+          {
+            "name": "Yasamal",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Yeni Yasamal",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Elmlər Akademiyası",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Pirallahı": {
+        "locations": [
+          {
+            "name": "Pirallahı",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      }
     }
   },
   "services": [
@@ -2480,11 +2962,11 @@
       "active": true,
       "status": "online",
       "createdAt": 1787435568712,
-      "lat": 40.4489922,
-      "lon": 49.766907,
-      "lng": 49.766907,
-      "lastSeen": 1789195592253,
-      "updatedAt": 1789195592635,
+      "lat": 40.44659128412604,
+      "lon": 49.768782556056976,
+      "lng": 49.768782556056976,
+      "lastSeen": 1789195565910,
+      "updatedAt": 1789195566320,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1789148240753,
       "onlineAt": 1789070280378,
@@ -2590,6 +3072,12 @@
   "driverRatings": [],
   "audit": [
     {
+      "id": "AUD-1789195599135-caj64f",
+      "timestamp": 1789195599135,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
+    {
       "id": "AUD-1789153864729-3x2ken",
       "timestamp": 1789153864729,
       "type": "legacyAdminFullSave",
@@ -2607,5 +3095,10 @@
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     }
-  ]
+  ],
+  "_adminSession": {
+    "ok": true,
+    "adminUser": "admin_taxitime",
+    "legacyBasic": true
+  }
 }
