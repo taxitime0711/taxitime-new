@@ -2962,11 +2962,11 @@
       "active": true,
       "status": "online",
       "createdAt": 1787435568712,
-      "lat": 40.452920752577484,
-      "lon": 49.76190579123795,
-      "lng": 49.76190579123795,
-      "lastSeen": 1789195611873,
-      "updatedAt": 1789195612302,
+      "lat": 40.44659128412604,
+      "lon": 49.768782556056976,
+      "lng": 49.768782556056976,
+      "lastSeen": 1789195565910,
+      "updatedAt": 1789195566320,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1789148240753,
       "onlineAt": 1789070280378,
@@ -3072,8 +3072,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1789195599135-caj64f",
-      "timestamp": 1789195599135,
+      "id": "AUD-1789195614217-b2mc5q",
+      "timestamp": 1789195614217,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
