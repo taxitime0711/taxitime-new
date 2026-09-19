@@ -1,9 +1,14 @@
 BEGIN:VCARD
 VERSION:3.0
+N:;TAXI TIME;;;
 FN:TAXI TIME
 ORG:TAXI TIME
-TEL;TYPE=CELL:+994507119711
-EMAIL:taxitime0711@gmail.com
-ADR:;;;Quba;;;Azerbaijan
-NOTE:QUBA - BAKI - QUBA transfer xidməti
+TEL;TYPE=CELL,VOICE:+994507119711
+TEL;TYPE=WORK,VOICE:+994507119711
+EMAIL;TYPE=INTERNET:taxitime0711@gmail.com
+URL:https://taxitime.az/
+ADR;TYPE=WORK:;;Quba;;;Azerbaijan
+NOTE:Quba-Bakı-Quba və digər bölgələrə sərnişin daşıma xidməti. 24/7 xidmət. WhatsApp: +994 50 711 97 11
+X-SOCIALPROFILE;TYPE=instagram:https://www.instagram.com/taxi_time_guba/
+X-SOCIALPROFILE;TYPE=tiktok:https://www.tiktok.com/@taxitime.az
 END:VCARD
