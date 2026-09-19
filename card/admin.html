@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TAXI TIME Admin Panel</title>
+<link rel="stylesheet" href="admin.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+#loginGate{position:fixed;inset:0;background:#0b0b0b;z-index:99999;display:flex;align-items:center;justify-content:center;padding:20px}.login-box{width:min(420px,100%);background:#151515;border:1px solid #333;border-radius:18px;padding:30px;box-shadow:0 20px 60px rgba(0,0,0,.45);color:#fff}.login-box h1{margin:0 0 8px;color:#e0b72f}.login-box p{margin:0 0 22px;color:#aaa}.login-box input{width:100%;box-sizing:border-box;margin:8px 0;padding:14px;border-radius:10px;border:1px solid #444;background:#0e0e0e;color:#fff;font-size:16px}.login-box button{width:100%;margin-top:12px;padding:14px;border:0;border-radius:10px;background:#e0b72f;color:#111;font-weight:800;font-size:16px;cursor:pointer}.login-error{min-height:22px;color:#ff6b6b;margin-top:10px}.admin-layout.locked{display:none}.logout-btn{background:#2a2a2a!important;color:#fff!important;border:1px solid #444!important;margin-left:12px;padding:8px 13px!important;border-radius:8px!important}
+.full-car-note{margin:0 0 18px;padding:14px 16px;border:1px solid #e0b72f;border-radius:12px;background:#17140b;color:#eee;line-height:1.55}.full-car-note strong{color:#e0b72f}.full-car-note small{display:block;margin-top:5px;color:#aaa}.tariff-row.full-car-row{align-items:flex-end;gap:10px;flex-wrap:wrap}.tariff-row.full-car-row>div{min-width:145px;flex:1 1 145px}.tariff-row.full-car-row .time-box{min-width:120px;flex:0 1 130px}.tariff-row.full-car-row label{display:block;font-size:12px;margin-bottom:5px}.tariff-row.full-car-row input{width:100%;box-sizing:border-box}.tariff-row.full-car-row .delete{align-self:flex-end}.price-class-title{width:100%;font-weight:800;color:#e0b72f;margin:4px 0 -2px}.price-mode-badge{display:inline-block;margin-left:8px;padding:4px 9px;border-radius:999px;background:#e0b72f;color:#111;font-size:12px;font-weight:900;vertical-align:middle}
+@media(max-width:760px){.tariff-row.full-car-row>div,.tariff-row.full-car-row .time-box{flex:1 1 100%;min-width:100%}.tariff-row.full-car-row .delete{width:100%}}
+</style>
+</head>
+<body>
+<div id="loginGate">
+  <div class="login-box">
+    <h1>🚖 TAXI TIME</h1>
+    <p>Admin panelə giriş</p>
+    <input id="adminUser" autocomplete="username" placeholder="İstifadəçi adı">
+    <input id="adminPass" type="password" autocomplete="current-password" placeholder="Parol">
+    <button onclick="adminLogin()">Daxil ol</button>
+    <div id="loginError" class="login-error"></div>
+  </div>
+</div>
+<div id="adminLayout" class="admin-layout locked">
+<aside class="sidebar">
+  <div class="brand"><h2>🚖 TAXI TIME</h2><p>Administrator Panel</p></div>
+  <nav>
+    <button class="nav-btn active" data-page="company">🏢 Şirkət</button>
+    <button class="nav-btn" data-page="prices">💰 Qiymətlər</button>
+    <button class="nav-btn" data-page="services">🛠 Xidmətlər</button>
+    <button class="nav-btn" data-page="cars">🚗 Avtopark</button>
+    <button class="nav-btn" data-page="gallery">🖼️ Qalereya</button>
+    <button class="nav-btn" data-page="reviews">⭐ Rəylər</button>
+    <button class="nav-btn" data-page="settings">⚙️ Parametrlər</button>
+  </nav>
+</aside>
+<main class="content">
+<header class="topbar"><div><h1>TAXI TIME ADMIN PANEL</h1><small>Secure Worker Connected • Full Car Unified Pricing</small></div><button class="logout-btn" onclick="adminLogout()">Çıxış</button></header>
+<section id="company" class="page active-page"><div class="card"><h2>🏢 Şirkət Məlumatları</h2><input id="companyName" placeholder="Şirkət adı"><input id="city" placeholder="Şəhər"><input id="phone" placeholder="Telefon"><input id="whatsapp" placeholder="WhatsApp"><div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="prices" class="page">
+  <div class="card">
+    <h2>🚕 Tam maşın — vahid qiymətlər <span class="price-mode-badge">VAHİD TARİF</span></h2>
+    <div class="full-car-note"><strong>Sərnişin sayı və oturacaq qiyməti yoxdur.</strong> Aşağıdakı hər məbləğ bir tam avtomobil üçündür. Standart, Comfort və VIP üçün Tək gediş və Gediş-dönüş qiymətini ayrıca yazın.<small>Məsələn: Standart Tək gediş = 60 yazılıbsa, sifarişin yekun qiyməti 60 AZN-dir; adam sayına vurulmur.</small></div>
+  </div>
+  <div class="card"><h2>💰 Quba → Bakı — Tam maşın tarifləri</h2><div id="qubaBakiSlots"></div><div class="actions"><button class="add" onclick="addSlot('quba_baki')">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
+  <div class="card"><h2>💰 Bakı → Quba — Tam maşın tarifləri</h2><div id="bakiQubaSlots"></div><div class="actions"><button class="add" onclick="addSlot('baki_quba')">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
+  <div class="card"><h2>🌍 Rayon — Tam maşın qiymətləri</h2><div class="region-picker"><select id="regionSelect" onchange="selectRegion()"></select><button class="add" onclick="addRegion()">➕ Rayon əlavə et</button><button class="delete" onclick="deleteSelectedRegion()">🗑️ Rayon sil</button></div><div id="regionSlots"></div><div class="actions"><button class="add" onclick="addRegionSlot()">➕ Saat aralığı əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div>
+</section>
+<section id="services" class="page"><div class="card"><h2>🛠 Xidmətlər</h2><div id="servicesList"></div><div class="actions"><button class="add" onclick="addService()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="cars" class="page"><div class="card"><h2>🚗 Avtomobillər</h2><div id="carsList"></div><div class="actions"><button class="add" onclick="addCar()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="gallery" class="page"><div class="card"><h2>🖼️ Qalereya</h2><div id="galleryList"></div><div class="actions"><button class="add" onclick="addGallery()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="reviews" class="page"><div class="card"><h2>⭐ Müştəri Rəyləri</h2><div id="reviewsList"></div><div class="actions"><button class="add" onclick="addReview()">➕ Əlavə et</button><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+<section id="settings" class="page"><div class="card"><h2>⚙️ Parametrlər</h2><p>Parametrlər bölməsi.</p><div class="actions"><button class="save" onclick="saveData()">💾 Yadda saxla</button></div></div></section>
+</main>
+</div>
+<script src="admin.js?v=fullcar-unified-1"></script>
+</body>
+</html>
