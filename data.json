@@ -2478,7 +2478,7 @@
     {
       "id": "TT-1789851112025-12c807",
       "createdAt": "2026-09-20T00:51:52+04:00",
-      "status": "Yoldadır",
+      "status": "Çatdı",
       "source": "passenger_app",
       "name": "sahin",
       "phone": "123456789",
@@ -2512,7 +2512,7 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1789853310395,
+      "updatedAt": 1789853316781,
       "audit": [
         {
           "time": 1789853294213,
