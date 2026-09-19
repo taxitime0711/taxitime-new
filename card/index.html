@@ -84,9 +84,54 @@ body{min-height:100vh}
   .logo{width:105px;height:105px}
   .wrap{margin-top:-18px}
 }
+
+.splash{
+  position:fixed; inset:0; z-index:9999;
+  background:#050505;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:center;
+  transition:opacity .45s ease, visibility .45s ease;
+}
+.splash.hide{opacity:0;visibility:hidden;pointer-events:none}
+.splash-logo{
+  width:150px;height:150px;border-radius:50%;
+  object-fit:cover;
+  border:4px solid #f2b400;
+  box-shadow:0 0 35px rgba(242,180,0,.65);
+  animation:pop .7s ease both;
+}
+.splash-title{
+  margin-top:22px;
+  font-size:40px;font-weight:900;letter-spacing:2px;
+  color:#fff;
+}
+.splash-title span{color:#f2b400}
+.splash-sub{
+  margin-top:10px;
+  font-size:13px;
+  letter-spacing:3px;
+  color:#d6aa31;
+}
+.splash-line{
+  width:190px;height:3px;margin-top:20px;
+  background:linear-gradient(90deg,transparent,#f2b400,transparent);
+}
+@keyframes pop{
+  0%{transform:scale(.7);opacity:0}
+  100%{transform:scale(1);opacity:1}
+}
+
 </style>
 </head>
 <body>
+
+<div id="splash" class="splash" aria-hidden="true">
+  <img class="splash-logo" src="taxitime-logo.png" alt="TAXI TIME">
+  <div class="splash-title"><span>TAXI</span> TIME</div>
+  <div class="splash-sub">QUBA • BAKI • QUBA</div>
+  <div class="splash-line"></div>
+</div>
+
 
 <section class="hero">
   <img class="logo" src="taxitime-logo.png" alt="TAXI TIME">
@@ -152,11 +197,31 @@ body{min-height:100vh}
       <div class="arrow">›</div>
     </a>
 
+
+    <a href="https://www.youtube.com/@TaxiTimeGUBA">
+      <div class="si">YT</div>
+      <div>
+        <div class="name">YouTube</div>
+        <div class="user">@TaxiTimeGUBA</div>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+
     <a href="https://www.instagram.com/taxi_time_guba/">
       <div class="si">IG</div>
       <div>
         <div class="name">Instagram</div>
         <div class="user">@taxi_time_guba</div>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+
+
+    <a href="https://www.facebook.com/profile.php?id=61590529763953">
+      <div class="si">f</div>
+      <div>
+        <div class="name">Facebook</div>
+        <div class="user">TAXI TIME</div>
       </div>
       <div class="arrow">›</div>
     </a>
@@ -173,6 +238,16 @@ body{min-height:100vh}
 
   <div class="footer">© 2026 TAXI TIME</div>
 </main>
+
+
+<script>
+window.addEventListener('load', function () {
+  setTimeout(function () {
+    var s = document.getElementById('splash');
+    if (s) s.classList.add('hide');
+  }, 1800);
+});
+</script>
 
 </body>
 </html>
