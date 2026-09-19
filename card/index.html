@@ -3,48 +3,176 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#050505">
+<meta name="theme-color" content="#070707">
 <title>TAXI TIME</title>
 <style>
-:root{--gold:#f5c400;--gold2:#ffdf5c;--bg:#050505;--card:#111;--text:#fff;--muted:#bdbdbd}
-*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif}
-body{min-height:100vh;background:radial-gradient(circle at top,#2a2100 0,#090909 35%,#000 100%);padding:24px 14px 40px}
-.wrap{max-width:520px;margin:auto}.hero{text-align:center;margin-bottom:18px}.logo{width:150px;height:150px;object-fit:cover;border-radius:50%;border:3px solid var(--gold);box-shadow:0 0 26px rgba(245,196,0,.35)}
-h1{margin:14px 0 4px;font-size:34px;letter-spacing:1px}.sub{color:var(--muted);font-size:15px;line-height:1.4}
-.quick{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0}.btn,.row{display:flex;align-items:center;justify-content:center;text-decoration:none;color:#fff;border:1px solid #343434;background:#101010;border-radius:16px;min-height:56px;padding:12px 14px;font-weight:700}.btn.gold{background:linear-gradient(135deg,#ffd92f,#d6a900);color:#090909;border-color:#ffe77d}.btn:active,.row:active{transform:scale(.99)}
-.card{background:rgba(16,16,16,.92);border:1px solid #292929;border-radius:22px;padding:14px;box-shadow:0 10px 35px rgba(0,0,0,.35)}.label{font-size:12px;color:#888;text-transform:uppercase;letter-spacing:.9px;margin:6px 6px 8px}.links{display:grid;gap:9px}.row{justify-content:space-between;font-weight:600}.row span:last-child{color:var(--gold2)}
-.footer{text-align:center;color:#777;font-size:12px;margin-top:18px}.direct{word-break:break-all;color:var(--gold2);font-size:13px;text-align:center;margin-top:12px}.direct a{color:inherit}
+:root{
+  --gold:#f2b400;
+  --gold2:#ffd044;
+  --bg:#070707;
+  --panel:#111111;
+  --line:#2b2412;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--gold)}
+body{min-height:100vh}
+.hero{
+  width:100%;
+  height:245px;
+  background:linear-gradient(180deg,#5e4000 0%,#f0aa00 72%,#f2b400 100%);
+  text-align:center;
+  padding-top:34px;
+}
+.logo{
+  width:116px;height:116px;border-radius:50%;
+  border:4px solid var(--gold2);
+  background:#111;object-fit:cover;
+  box-shadow:0 0 22px rgba(242,180,0,.55)
+}
+.hero h1{font-size:22px;margin:15px 0 0;color:#111;letter-spacing:.5px}
+.wrap{max-width:470px;margin:-20px auto 0;padding:0 18px 40px}
+.quick{display:flex;justify-content:center;gap:14px;margin-bottom:14px}
+.quick a{
+  width:54px;height:54px;border-radius:50%;
+  background:linear-gradient(180deg,#ffd44b,#e6a900);
+  box-shadow:0 5px 18px rgba(0,0,0,.5);
+  display:grid;place-items:center;
+  text-decoration:none;color:#090909;
+  font-size:22px;border:1px solid #ffdc65
+}
+.add{
+  display:block;background:linear-gradient(180deg,#ffc21a,#f0a900);
+  color:#111;text-decoration:none;text-align:center;
+  padding:15px;border-radius:4px;font-size:14px;font-weight:700;
+  margin:10px 0 20px
+}
+.tag{
+  text-align:center;color:#e4b52f;font-size:13px;
+  line-height:1.45;margin:0 0 20px;text-transform:uppercase
+}
+.info{background:var(--panel);box-shadow:0 4px 18px rgba(0,0,0,.55)}
+.row{
+  display:flex;align-items:center;gap:14px;
+  padding:14px;border-bottom:1px solid var(--line);
+  text-decoration:none;color:var(--gold)
+}
+.row:last-child{border-bottom:0}
+.ico{
+  flex:0 0 38px;width:38px;height:38px;border-radius:50%;
+  background:#191919;display:grid;place-items:center;
+  color:var(--gold);font-size:17px
+}
+.small{font-size:10px;color:#d0a83e;margin-bottom:3px}
+.big{font-size:14px;color:#ffc21a}
+.social-title{font-size:15px;margin:22px 0 10px;color:#ffc21a}
+.social a{
+  display:flex;align-items:center;text-decoration:none;color:var(--gold);
+  padding:12px 8px;border-bottom:1px solid var(--line);gap:13px
+}
+.si{
+  width:43px;height:43px;border-radius:50%;
+  display:grid;place-items:center;
+  background:linear-gradient(180deg,#ffd244,#e5a800);
+  color:#080808;font-size:11px;font-weight:bold
+}
+.name{font-size:15px;color:#ffc21a}
+.user{font-size:11px;color:#b99a4a;margin-top:3px}
+.arrow{margin-left:auto;color:#d3aa36;font-size:22px}
+.footer{text-align:center;color:#756430;font-size:11px;margin-top:22px}
+@media (max-width:520px){
+  .hero{height:225px;padding-top:28px}
+  .logo{width:105px;height:105px}
+  .wrap{margin-top:-18px}
+}
 </style>
 </head>
 <body>
+
+<section class="hero">
+  <img class="logo" src="taxitime-logo.png" alt="TAXI TIME">
+  <h1>TAXI TIME</h1>
+</section>
+
 <main class="wrap">
-  <section class="hero">
-    <img class="logo" src="taxitime-logo.png" alt="TAXI TIME">
-    <h1>TAXI TIME</h1>
-    <div class="sub">QUBA ⇄ BAKI · digər bölgələr · 24/7 xidmət</div>
-  </section>
 
-  <section class="quick">
-    <a class="btn gold" href="tel:+994507119711">☎ Zəng et</a>
-    <a class="btn gold" href="https://wa.me/994507119711">💬 WhatsApp</a>
-    <a class="btn" href="taxitime.vcf">＋ Kontakta əlavə et</a>
-    <a class="btn" href="https://taxitime.az/">🌐 Saytı aç</a>
-  </section>
+  <div class="quick">
+    <a href="tel:+994507119711" aria-label="Zəng et">☎</a>
+    <a href="https://wa.me/994507119711" aria-label="WhatsApp">💬</a>
+  </div>
 
-  <section class="card">
-    <div class="label">Keçidlər</div>
-    <div class="links">
-      <a class="row" href="https://taxitime.az/"><span>🌐 Vebsayt</span><span>www.taxitime.az ›</span></a>
-      <a class="row" href="https://www.instagram.com/taxi_time_guba/"><span>◎ Instagram</span><span>@taxi_time_guba ›</span></a>
-      <a class="row" href="https://www.tiktok.com/@taxitime.az"><span>♪ TikTok</span><span>@taxitime.az ›</span></a>
-      <a class="row" href="https://wa.me/994507119711"><span>💬 WhatsApp</span><span>+994 50 711 97 11 ›</span></a>
-      <a class="row" href="tel:+994507119711"><span>☎ Telefon</span><span>+994 50 711 97 11 ›</span></a>
-      <a class="row" href="mailto:taxitime0711@gmail.com"><span>✉ E-mail</span><span>taxitime0711@gmail.com ›</span></a>
-      <a class="row" href="taxitime.vcf"><span>＋ vCard</span><span>Kontakta əlavə et ›</span></a>
-    </div>
-  </section>
-  <div class="direct">QR ünvanı: <a href="https://taxitime.az/card/">https://taxitime.az/card/</a></div>
+  <a class="add" href="taxitime.vcf" download>＋ Kontakta əlavə et</a>
+
+  <div class="tag">
+    QUBA–BAKI–QUBA və DİGƏR BÖLGƏLƏRƏ SƏRNİŞİN DAŞIMA XİDMƏTİ!
+  </div>
+
+  <div class="info">
+    <a class="row" href="tel:+994507119711">
+      <div class="ico">☎</div>
+      <div>
+        <div class="small">Telefon / WhatsApp</div>
+        <div class="big">+994 50 711 97 11</div>
+      </div>
+    </a>
+
+    <a class="row" href="mailto:taxitime0711@gmail.com">
+      <div class="ico">✉</div>
+      <div>
+        <div class="small">E-mail</div>
+        <div class="big">taxitime0711@gmail.com</div>
+      </div>
+    </a>
+
+    <a class="row" href="https://taxitime.az/">
+      <div class="ico">◎</div>
+      <div>
+        <div class="small">Vebsayt</div>
+        <div class="big">www.taxitime.az</div>
+      </div>
+    </a>
+
+    <a class="row" href="taxitime.vcf" download>
+      <div class="ico">▣</div>
+      <div>
+        <div class="small">vCard</div>
+        <div class="big">TAXI TIME</div>
+      </div>
+    </a>
+  </div>
+
+  <div class="social-title">Bizi burada tapın</div>
+
+  <div class="social">
+    <a href="https://www.tiktok.com/@taxitime.az">
+      <div class="si">TT</div>
+      <div>
+        <div class="name">TikTok</div>
+        <div class="user">@taxitime.az</div>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+
+    <a href="https://www.instagram.com/taxi_time_guba/">
+      <div class="si">IG</div>
+      <div>
+        <div class="name">Instagram</div>
+        <div class="user">@taxi_time_guba</div>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+
+    <a href="https://wa.me/994507119711">
+      <div class="si">WA</div>
+      <div>
+        <div class="name">WhatsApp</div>
+        <div class="user">+994 50 711 97 11</div>
+      </div>
+      <div class="arrow">›</div>
+    </a>
+  </div>
+
   <div class="footer">© 2026 TAXI TIME</div>
 </main>
+
 </body>
 </html>
