@@ -2478,7 +2478,7 @@
     {
       "id": "TT-1789851112025-12c807",
       "createdAt": "2026-09-20T00:51:52+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "sahin",
       "phone": "123456789",
@@ -2507,7 +2507,19 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Nağd",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": "DRV5568684",
+      "driverName": "Samir Məmmədov",
+      "driverPhone": "+994702883348",
+      "driverCar": "Mercedes Bens S350",
+      "driverPlate": "10-GM-091",
+      "updatedAt": 1789853294213,
+      "audit": [
+        {
+          "time": 1789853294213,
+          "action": "SÜRÜCÜ TƏYİN EDİLDİ",
+          "detail": "Samir Məmmədov"
+        }
+      ]
     },
     {
       "id": "TT-1789146862350-a377a1",
@@ -2994,17 +3006,17 @@
       "carPlate": "10-GM-091",
       "login": "Samir001",
       "active": true,
-      "status": "online",
+      "status": "busy",
       "createdAt": 1787435568712,
       "lat": 41.3623334,
       "lon": 48.5130937,
       "lng": 48.5130937,
       "lastSeen": 1789840605786,
-      "updatedAt": 1789840606117,
+      "updatedAt": 1789853294213,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1789840579788,
       "onlineAt": 1789840570298,
-      "connectionState": "live",
+      "connectionState": "heartbeat_timeout",
       "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
@@ -3105,6 +3117,12 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1789853293913-pzdw0z",
+      "timestamp": 1789853293913,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
     {
       "id": "AUD-1789195614217-b2mc5q",
       "timestamp": 1789195614217,
