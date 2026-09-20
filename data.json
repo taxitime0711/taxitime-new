@@ -3009,7 +3009,7 @@
       "phone": "+994702883348",
       "carModel": "Mercedes Bens S350",
       "carPlate": "10-GM-091",
-      "login": "Samir001",
+      "login": "Samir0001",
       "active": true,
       "status": "online",
       "createdAt": 1787435568712,
@@ -3017,12 +3017,18 @@
       "lon": 48.5130937,
       "lng": 48.5130937,
       "lastSeen": 1789879226606,
-      "updatedAt": 1789882430087,
+      "updatedAt": 1789882519748,
       "passwordUpdatedAt": 1787607955266,
       "offlineAt": 1789879226606,
       "onlineAt": 1789853318563,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "registrationNo": "Samir0001",
+      "driverLoginChangedAt": 1789882519748,
+      "previousDriverLogin": "Samir001",
+      "driverName": "Samir Məmmədov",
+      "car": "Mercedes Bens S350",
+      "plate": "10-GM-091"
     },
     {
       "id": "DRV5721793",
@@ -3122,6 +3128,25 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1789882519748-f70cw3",
+      "timestamp": 1789882519748,
+      "type": "updateDriver",
+      "admin": "admin_taxitime",
+      "driverId": "DRV5568684",
+      "oldLogin": "Samir001"
+    },
+    {
+      "id": "AUD-1789882519748-bqyjkt",
+      "timestamp": 1789882519748,
+      "type": "changeDriverLogin",
+      "admin": "admin_taxitime",
+      "driverId": "DRV5568684",
+      "oldLogin": "Samir001",
+      "newLogin": "Samir0001",
+      "remappedRefs": 0,
+      "reloginRequired": true
+    },
     {
       "id": "AUD-1789882429385-bgf7xl",
       "timestamp": 1789882429385,
