@@ -2524,7 +2524,9 @@
           "action": "STATUS",
           "detail": "Çatdı → Tamamlandı"
         }
-      ]
+      ],
+      "rating": 5,
+      "ratedAt": 1789882546287
     },
     {
       "id": "TT-1789146862350-a377a1",
