@@ -18,7 +18,9 @@
           "comfort": "80",
           "comfort_round_trip": "160",
           "vip": "100",
-          "vip_round_trip": "200"
+          "vip_round_trip": "200",
+          "one_way": "60 azn",
+          "round_trip": "120"
         },
         {
           "start": "20:00",
@@ -28,7 +30,9 @@
           "comfort": "100",
           "comfort_round_trip": "200",
           "vip": "120",
-          "vip_round_trip": "240"
+          "vip_round_trip": "240",
+          "one_way": "80",
+          "round_trip": "160"
         },
         {
           "start": "00:00",
@@ -38,7 +42,9 @@
           "comfort": "120",
           "comfort_round_trip": "240",
           "vip": "150",
-          "vip_round_trip": "300"
+          "vip_round_trip": "300",
+          "one_way": "100",
+          "round_trip": "200"
         }
       ]
     },
@@ -52,7 +58,9 @@
           "comfort": "",
           "comfort_round_trip": "",
           "vip": "",
-          "vip_round_trip": ""
+          "vip_round_trip": "",
+          "one_way": "60 AZN",
+          "round_trip": "120"
         },
         {
           "start": "20:00",
@@ -62,7 +70,9 @@
           "comfort": "",
           "comfort_round_trip": "",
           "vip": "",
-          "vip_round_trip": ""
+          "vip_round_trip": "",
+          "one_way": "",
+          "round_trip": ""
         },
         {
           "start": "00:00",
@@ -72,7 +82,9 @@
           "comfort": "",
           "comfort_round_trip": "",
           "vip": "",
-          "vip_round_trip": ""
+          "vip_round_trip": "",
+          "one_way": "",
+          "round_trip": ""
         }
       ]
     },
@@ -87,7 +99,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "55 AZN",
+            "round_trip": "110"
           },
           {
             "start": "20:00",
@@ -97,7 +111,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -107,7 +123,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -121,7 +139,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "70 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -131,7 +151,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -141,7 +163,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -155,7 +179,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "80 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -165,7 +191,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -175,7 +203,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -189,7 +219,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "200 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -199,7 +231,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -209,7 +243,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -223,7 +259,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "300 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -233,7 +271,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -243,7 +283,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -257,7 +299,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "180 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -267,7 +311,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -277,7 +323,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -291,7 +339,9 @@
             "comfort": "280",
             "comfort_round_trip": "560",
             "vip": "300",
-            "vip_round_trip": "600"
+            "vip_round_trip": "600",
+            "one_way": "250 AZN",
+            "round_trip": "500"
           },
           {
             "start": "20:00",
@@ -301,7 +351,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -311,7 +363,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -325,7 +379,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -335,7 +391,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -345,7 +403,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -359,7 +419,9 @@
             "comfort": "80",
             "comfort_round_trip": "160",
             "vip": "100",
-            "vip_round_trip": "200"
+            "vip_round_trip": "200",
+            "one_way": "60 AZN",
+            "round_trip": "120"
           },
           {
             "start": "20:00",
@@ -369,7 +431,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -379,7 +443,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -393,7 +459,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "180 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -403,7 +471,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -413,7 +483,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -427,7 +499,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -437,7 +511,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -447,7 +523,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -461,7 +539,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -471,7 +551,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -481,7 +563,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -495,7 +579,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -505,7 +591,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -515,7 +603,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -529,7 +619,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "300 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -539,7 +631,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -549,7 +643,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -563,7 +659,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -573,7 +671,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -583,7 +683,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -597,7 +699,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -607,7 +711,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -617,7 +723,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -631,7 +739,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "280 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -641,7 +751,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -651,7 +763,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -665,7 +779,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -675,7 +791,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -685,7 +803,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -699,7 +819,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -709,7 +831,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -719,7 +843,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -733,7 +859,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "100 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -743,7 +871,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -753,7 +883,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -767,7 +899,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "20 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -777,7 +911,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -787,7 +923,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -801,7 +939,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -811,7 +951,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -821,7 +963,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -835,7 +979,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -845,7 +991,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -855,7 +1003,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -869,7 +1019,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -879,7 +1031,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -889,7 +1043,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -903,7 +1059,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -913,7 +1071,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -923,7 +1083,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -937,7 +1099,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -947,7 +1111,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -957,7 +1123,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -971,7 +1139,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -981,7 +1151,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -991,7 +1163,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1005,7 +1179,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1015,7 +1191,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1025,7 +1203,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1035,31 +1215,37 @@
             "start": "06:00",
             "end": "20:00",
             "standard": "15 AZN",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": ""
+            "standard_round_trip": "25",
+            "comfort": "20",
+            "comfort_round_trip": "30",
+            "vip": "25",
+            "vip_round_trip": "35",
+            "one_way": "15 AZN",
+            "round_trip": "25"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": ""
+            "standard": "20",
+            "standard_round_trip": "30",
+            "comfort": "35",
+            "comfort_round_trip": "45",
+            "vip": "40",
+            "vip_round_trip": "50",
+            "one_way": "20",
+            "round_trip": "30"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": ""
+            "standard": "25",
+            "standard_round_trip": "35",
+            "comfort": "40",
+            "comfort_round_trip": "50",
+            "vip": "55",
+            "vip_round_trip": "65",
+            "one_way": "25",
+            "round_trip": "35"
           }
         ]
       },
@@ -1073,7 +1259,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1083,7 +1271,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1093,7 +1283,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1107,7 +1299,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1117,7 +1311,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1127,7 +1323,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1141,7 +1339,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1151,7 +1351,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1161,7 +1363,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1175,7 +1379,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1185,7 +1391,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1195,7 +1403,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1209,7 +1419,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1219,7 +1431,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1229,7 +1443,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1243,7 +1459,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1253,7 +1471,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1263,7 +1483,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1277,7 +1499,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1287,7 +1511,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1297,7 +1523,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1311,7 +1539,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1321,7 +1551,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1331,7 +1563,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1345,7 +1579,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1355,7 +1591,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1365,7 +1603,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1379,7 +1619,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1389,7 +1631,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1399,7 +1643,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1413,7 +1659,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "25 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1423,7 +1671,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1433,7 +1683,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1447,7 +1699,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1457,7 +1711,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1467,7 +1723,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1481,7 +1739,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1491,7 +1751,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1501,7 +1763,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1515,7 +1779,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1525,7 +1791,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1535,7 +1803,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1549,7 +1819,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1559,7 +1831,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1569,7 +1843,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1583,7 +1859,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "60 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1593,7 +1871,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1603,7 +1883,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1617,7 +1899,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1627,7 +1911,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1637,7 +1923,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1651,7 +1939,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1661,7 +1951,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1671,7 +1963,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1685,7 +1979,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1695,7 +1991,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1705,7 +2003,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1719,7 +2019,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1729,7 +2031,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1739,7 +2043,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1753,7 +2059,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1763,7 +2071,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1773,7 +2083,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1787,7 +2099,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1797,7 +2111,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1807,7 +2123,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1821,7 +2139,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1831,7 +2151,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1841,7 +2163,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1855,7 +2179,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1865,7 +2191,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1875,7 +2203,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       },
@@ -1889,7 +2219,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
           },
           {
             "start": "20:00",
@@ -1899,7 +2231,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           },
           {
             "start": "00:00",
@@ -1909,7 +2243,9 @@
             "comfort": "",
             "comfort_round_trip": "",
             "vip": "",
-            "vip_round_trip": ""
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
           }
         ]
       }
@@ -3224,6 +3560,12 @@
   "driverRatings": [],
   "audit": [
     {
+      "id": "AUD-1789930751746-wo8nue",
+      "timestamp": 1789930751746,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
+    {
       "id": "AUD-1789905589270-ipjudk",
       "timestamp": 1789905589270,
       "type": "legacyAdminFullSave",
@@ -3295,5 +3637,2733 @@
     "ok": true,
     "adminUser": "admin_taxitime",
     "legacyBasic": true
-  }
+  },
+  "pricingMode": "full_car_unified",
+  "fullCarPrices": {
+    "quba_baki": {
+      "slots": [
+        {
+          "start": "06:00",
+          "end": "20:00",
+          "standard": "60 azn",
+          "standard_round_trip": "120",
+          "comfort": "80",
+          "comfort_round_trip": "160",
+          "vip": "100",
+          "vip_round_trip": "200",
+          "one_way": "60 azn",
+          "round_trip": "120"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "standard": "80",
+          "standard_round_trip": "160",
+          "comfort": "100",
+          "comfort_round_trip": "200",
+          "vip": "120",
+          "vip_round_trip": "240",
+          "one_way": "80",
+          "round_trip": "160"
+        },
+        {
+          "start": "00:00",
+          "end": "06:00",
+          "standard": "100",
+          "standard_round_trip": "200",
+          "comfort": "120",
+          "comfort_round_trip": "240",
+          "vip": "150",
+          "vip_round_trip": "300",
+          "one_way": "100",
+          "round_trip": "200"
+        }
+      ]
+    },
+    "baki_quba": {
+      "slots": [
+        {
+          "start": "06:00",
+          "end": "20:00",
+          "standard": "60 AZN",
+          "standard_round_trip": "120",
+          "comfort": "",
+          "comfort_round_trip": "",
+          "vip": "",
+          "vip_round_trip": "",
+          "one_way": "60 AZN",
+          "round_trip": "120"
+        },
+        {
+          "start": "20:00",
+          "end": "00:00",
+          "standard": "",
+          "standard_round_trip": "",
+          "comfort": "",
+          "comfort_round_trip": "",
+          "vip": "",
+          "vip_round_trip": "",
+          "one_way": "",
+          "round_trip": ""
+        },
+        {
+          "start": "00:00",
+          "end": "06:00",
+          "standard": "",
+          "standard_round_trip": "",
+          "comfort": "",
+          "comfort_round_trip": "",
+          "vip": "",
+          "vip_round_trip": "",
+          "one_way": "",
+          "round_trip": ""
+        }
+      ]
+    },
+    "regions": {
+      "Abşeron": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "55 AZN",
+            "standard_round_trip": "110",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "55 AZN",
+            "round_trip": "110"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ağcabədi": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "70 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "70 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ağdam": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "80 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "80 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ağdaş": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "200 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "200 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ağstafa": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "300 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "300 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ağsu": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "180 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "180 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Astara": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "250 AZN",
+            "standard_round_trip": "500",
+            "comfort": "280",
+            "comfort_round_trip": "560",
+            "vip": "300",
+            "vip_round_trip": "600",
+            "one_way": "250 AZN",
+            "round_trip": "500"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Babək": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Bakı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "60 AZN",
+            "standard_round_trip": "120",
+            "comfort": "80",
+            "comfort_round_trip": "160",
+            "vip": "100",
+            "vip_round_trip": "200",
+            "one_way": "60 AZN",
+            "round_trip": "120"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Balakən": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "180 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "180 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Bərdə": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Biləsuvar": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Cəlilabad": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Daşkəsən": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "300 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "300 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Füzuli": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Gədəbəy": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Goranboy": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "280 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "280 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Göyçay": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Göygöl": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Hacıqabul": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "100 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "100 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Xaçmaz": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "20 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "20 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Xızı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "İmişli": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "İsmayıllı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Kürdəmir": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Qəbələ": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Qax": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Qazax": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Qusar": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "15 AZN",
+            "standard_round_trip": "25",
+            "comfort": "20",
+            "comfort_round_trip": "30",
+            "vip": "25",
+            "vip_round_trip": "35",
+            "one_way": "15 AZN",
+            "round_trip": "25"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "20",
+            "standard_round_trip": "30",
+            "comfort": "35",
+            "comfort_round_trip": "45",
+            "vip": "40",
+            "vip_round_trip": "50",
+            "one_way": "20",
+            "round_trip": "30"
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "25",
+            "standard_round_trip": "35",
+            "comfort": "40",
+            "comfort_round_trip": "50",
+            "vip": "55",
+            "vip_round_trip": "65",
+            "one_way": "25",
+            "round_trip": "35"
+          }
+        ]
+      },
+      "Lerik": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Lənkəran": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Masallı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Mingəçevir": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Neftçala": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Oğuz": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Saatlı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Sabirabad": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Salyan": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Samux": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Şabran": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "25 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "25 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Şamaxı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Şəki": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Şəmkir": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Şirvan": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Sumqayıt": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "60 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "60 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Siyəzən": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Tərtər": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Tovuz": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Ucar": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Yardımlı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Yevlax": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Zaqatala": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Zərdab": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      },
+      "Quba": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "0 AZN",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "0 AZN",
+            "round_trip": ""
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "",
+            "standard_round_trip": "",
+            "comfort": "",
+            "comfort_round_trip": "",
+            "vip": "",
+            "vip_round_trip": "",
+            "one_way": "",
+            "round_trip": ""
+          }
+        ]
+      }
+    },
+    "baku_locations": {
+      "Binəqədi": {
+        "locations": [
+          {
+            "name": "Biləcəri",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Binəqədi qəsəbəsi",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "6-cı mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "7-ci mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "8-ci mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "9-cu mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Qaradağ": {
+        "locations": [
+          {
+            "name": "Lökbatan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Sahil",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ələt",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Puta",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Xəzər": {
+        "locations": [
+          {
+            "name": "Mərdəkan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Buzovna",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Şüvəlan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Türkan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Qala",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zirə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Səbail": {
+        "locations": [
+          {
+            "name": "İçərişəhər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bayıl",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Badamdar",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Sabunçu": {
+        "locations": [
+          {
+            "name": "Bakıxanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zabrat",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ramana",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Maştağa",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bilgəh",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Nardaran",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Pirşağı",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Suraxanı": {
+        "locations": [
+          {
+            "name": "Hövsan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Yeni Günəşli",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Əmircan",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Bülbülə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Zığ",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Xətai": {
+        "locations": [
+          {
+            "name": "Əhmədli",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Həzi Aslanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Ağ Şəhər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nizami": {
+        "locations": [
+          {
+            "name": "8-ci kilometr",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Qara Qarayev",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Neftçilər",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Keşlə",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nərimanov": {
+        "locations": [
+          {
+            "name": "Gənclik",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Montin",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Böyükşor",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Nərimanov",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Nəsimi": {
+        "locations": [
+          {
+            "name": "28 May",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "3-cü mikrorayon",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Yasamal": {
+        "locations": [
+          {
+            "name": "Yasamal",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Yeni Yasamal",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          },
+          {
+            "name": "Elmlər Akademiyası",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      },
+      "Pirallahı": {
+        "locations": [
+          {
+            "name": "Pirallahı",
+            "standard": "",
+            "comfort": "",
+            "vip": "",
+            "standard_round": "",
+            "comfort_round": "",
+            "vip_round": ""
+          }
+        ]
+      }
+    }
+  },
+  "pricesUpdatedAt": 1789930750955
 }
