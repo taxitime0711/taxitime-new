@@ -2478,7 +2478,7 @@
     {
       "id": "TT-1789882904965-dfe998",
       "createdAt": "2026-09-20T09:41:44+04:00",
-      "status": "Yeni",
+      "status": "Qəbul edildi",
       "source": "passenger_app",
       "name": "sahin",
       "phone": "123456789",
@@ -2507,7 +2507,19 @@
       "paymentMethod": "cash",
       "paymentMethodLabel": "Cash",
       "paymentStatus": "cash_on_ride",
-      "driverId": null
+      "driverId": "DRV0298252",
+      "driverName": "Kamal Məmmədov",
+      "driverPhone": "+994558499599",
+      "driverCar": "Geely Galaxy A7",
+      "driverPlate": "99-QK-711",
+      "updatedAt": 1789882931779,
+      "audit": [
+        {
+          "time": 1789882931779,
+          "action": "SÜRÜCÜ TƏYİN EDİLDİ",
+          "detail": "Kamal Məmmədov"
+        }
+      ]
     },
     {
       "id": "TT-1789851112025-12c807",
@@ -3047,7 +3059,7 @@
       "carPlate": "10-GM-091",
       "login": "Samir0001",
       "active": true,
-      "status": "online",
+      "status": "offline",
       "createdAt": 1787435568712,
       "lat": 41.3623334,
       "lon": 48.5130937,
@@ -3058,13 +3070,13 @@
       "offlineAt": 1789879226606,
       "onlineAt": 1789853318563,
       "connectionState": "heartbeat_timeout",
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "registrationNo": "Samir0001",
       "driverLoginChangedAt": 1789882519748,
       "previousDriverLogin": "Samir001",
       "driverName": "Samir Məmmədov",
       "car": "Mercedes Bens S350",
-      "plate": "10-GM-091"
+      "plate": "10-GM-091",
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
       "id": "DRV5721793",
@@ -3114,9 +3126,9 @@
       "carPlate": "99-QK-711",
       "login": "Kamal003",
       "active": true,
-      "status": "offline",
+      "status": "busy",
       "createdAt": 1788070298257,
-      "updatedAt": 1788452677727,
+      "updatedAt": 1789882931779,
       "lastSeen": 1788071121139,
       "onlineAt": 1788070938014,
       "lat": 41.366977,
@@ -3164,6 +3176,12 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1789882931111-gqqjvq",
+      "timestamp": 1789882931111,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
     {
       "id": "AUD-1789882519748-f70cw3",
       "timestamp": 1789882519748,
