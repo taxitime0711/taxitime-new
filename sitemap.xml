@@ -2,8 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://taxitime.az/</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://taxitime.az/quba-taksi.html</loc>
+  </url>
+  <url>
+    <loc>https://taxitime.az/quba-baki-taksi.html</loc>
+  </url>
+  <url>
+    <loc>https://taxitime.az/quba-qusar-taksi.html</loc>
+  </url>
+  <url>
+    <loc>https://taxitime.az/quba-xacmaz-taksi.html</loc>
+  </url>
+  <url>
+    <loc>https://taxitime.az/hava-limani-transfer.html</loc>
   </url>
 </urlset>
