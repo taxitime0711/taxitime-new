@@ -2478,7 +2478,7 @@
     {
       "id": "TT-1789882904965-dfe998",
       "createdAt": "2026-09-20T09:41:44+04:00",
-      "status": "Qəbul edildi",
+      "status": "Ləğv edildi",
       "source": "passenger_app",
       "name": "sahin",
       "phone": "123456789",
@@ -2512,14 +2512,15 @@
       "driverPhone": "+994558499599",
       "driverCar": "Geely Galaxy A7",
       "driverPlate": "99-QK-711",
-      "updatedAt": 1789882931779,
+      "updatedAt": 1789882962740,
       "audit": [
         {
           "time": 1789882931779,
           "action": "SÜRÜCÜ TƏYİN EDİLDİ",
           "detail": "Kamal Məmmədov"
         }
-      ]
+      ],
+      "cancelledAt": 1789882962740
     },
     {
       "id": "TT-1789851112025-12c807",
