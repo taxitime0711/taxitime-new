@@ -2478,7 +2478,7 @@
     {
       "id": "TT-1789905187922-bced63",
       "createdAt": "2026-09-20T15:53:07+04:00",
-      "status": "Çatdı",
+      "status": "Səfər başladı",
       "source": "passenger_app",
       "name": "Elşən",
       "phone": "0702701830",
@@ -2512,7 +2512,7 @@
       "driverPhone": "+994702883348",
       "driverCar": "Mercedes Bens S350",
       "driverPlate": "10-GM-091",
-      "updatedAt": 1789907204935,
+      "updatedAt": 1789907216821,
       "audit": [
         {
           "time": 1789905589230,
