@@ -96,36 +96,36 @@
             "end": "20:00",
             "standard": "55 AZN",
             "standard_round_trip": "110",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
+            "comfort": "60",
+            "comfort_round_trip": "120",
+            "vip": "65",
+            "vip_round_trip": "130",
             "one_way": "55 AZN",
             "round_trip": "110"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "60",
+            "standard_round_trip": "120",
+            "comfort": "70",
+            "comfort_round_trip": "140",
+            "vip": "80",
+            "vip_round_trip": "160",
+            "one_way": "60",
+            "round_trip": "120"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "80",
+            "standard_round_trip": "160",
+            "comfort": "80",
+            "comfort_round_trip": "160",
+            "vip": "100",
+            "vip_round_trip": "200",
+            "one_way": "80",
+            "round_trip": "160"
           }
         ]
       },
@@ -3560,8 +3560,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1790062364245-ro86r8",
-      "timestamp": 1790062364245,
+      "id": "AUD-1790062524029-8kpy74",
+      "timestamp": 1790062524029,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -3734,36 +3734,36 @@
             "end": "20:00",
             "standard": "55 AZN",
             "standard_round_trip": "110",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
+            "comfort": "60",
+            "comfort_round_trip": "120",
+            "vip": "65",
+            "vip_round_trip": "130",
             "one_way": "55 AZN",
             "round_trip": "110"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "60",
+            "standard_round_trip": "120",
+            "comfort": "70",
+            "comfort_round_trip": "140",
+            "vip": "80",
+            "vip_round_trip": "160",
+            "one_way": "60",
+            "round_trip": "120"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "80",
+            "standard_round_trip": "160",
+            "comfort": "80",
+            "comfort_round_trip": "160",
+            "vip": "100",
+            "vip_round_trip": "200",
+            "one_way": "80",
+            "round_trip": "160"
           }
         ]
       },
@@ -6371,5 +6371,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1790062294796
+  "pricesUpdatedAt": 1790062454379
 }
