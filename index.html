@@ -81,7 +81,7 @@
 </script>
 <!-- /TAXI TIME SEO -->
 <style id="order-baku-style">
-.order-box-v2 .order-route-field{display:flex;flex-direction:column;gap:7px;width:100%}.order-box-v2 .order-route-field>label{font-weight:700;font-size:14px}.order-box-v2 .order-route-field select,.order-box-v2 .order-route-field input{width:100%;box-sizing:border-box}.order-baku-panel,.order-region-panel{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order-baku-panel input,.order-region-panel input{grid-column:1/-1}.order-address-summary{grid-column:1/-1;font-size:13px;line-height:1.5;padding:10px 12px;border-radius:10px;background:rgba(0,0,0,.04);min-height:20px}.order-address-summary strong{font-weight:800}@media(max-width:720px){.order-baku-panel,.order-region-panel{grid-template-columns:1fr}.order-baku-panel input,.order-region-panel input{grid-column:auto}}
+.order-box-v2{gap:12px}.order-route-choice-grid{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:stretch}.order-route-card{border:2px solid #e4e4e4;border-radius:14px;padding:16px;background:#fff;display:flex;flex-direction:column;gap:10px;transition:.18s ease;cursor:pointer}.order-route-card.active{border-color:#f4b400;box-shadow:0 0 0 3px rgba(244,180,0,.10)}.order-route-card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}.order-route-card h3{margin:0;font-size:18px;line-height:1.3}.order-route-card small{display:block;color:#666;margin-top:4px}.order-route-radio{display:flex;align-items:center;gap:6px;font-weight:700;font-size:13px;white-space:nowrap}.order-route-radio input{width:auto!important;margin:0}.order-route-card label.field-label{font-weight:700;font-size:13px;margin-top:2px}.order-route-card select,.order-route-card input[type=text]{width:100%;box-sizing:border-box}.order-route-subgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.order-route-subgrid .full{grid-column:1/-1}.order-address-summary{grid-column:1/-1;font-size:13px;line-height:1.5;padding:10px 12px;border-radius:10px;background:rgba(0,0,0,.04);min-height:20px;border-left:4px solid #f4b400}.order-common-label{grid-column:1/-1;font-weight:800;font-size:14px;margin-top:2px}.order-route-card:not(.active){opacity:.72}.order-route-card:not(.active):hover{opacity:1}.order-route-card.active select,.order-route-card.active input{pointer-events:auto}@media(max-width:900px){.order-route-choice-grid{grid-template-columns:1fr}}@media(max-width:720px){.order-route-subgrid{grid-template-columns:1fr}.order-route-subgrid .full{grid-column:auto}.order-route-card-header{flex-direction:column}.order-route-radio{white-space:normal}}
 </style></head><body>
 <div id="lightbox" class="lightbox"><span class="close">&times;</span><img class="lightbox-content" id="lightbox-img"></div>
 <header id="top"><div class="logo"><img src="logo.png" alt="TAXI TIME Quba taksi və transfer xidməti" width="auto" height="auto"></div><nav><a href="#home">Ana səhifə</a><a href="#order">Sifariş</a><a href="#services">Xidmətlər</a><a href="#prices">Tariflər</a><a href="#fleet">Avtopark</a><a href="#gallery">Qalereya</a><a href="#contact">Əlaqə</a></nav><a class="header-phone" href="tel:+994507119711">☎ +994 50 711 97 11</a></header>
@@ -97,24 +97,40 @@
 <section class="order" id="order"><h2>Online Sifariş</h2><div class="order-box order-box-v2">
 <input id="name" placeholder="Adınız"><input id="phone" type="tel" placeholder="Telefon nömrəsi">
 
-<div class="order-route-field">
-<label for="orderFromPlace">Haradan</label>
-<select id="orderFromPlace" class="order-route-select"><option value="quba">Quba</option><option value="baku">Bakı</option><option value="region">Azərbaycanın rayonu / başqa ünvan</option></select>
-<div id="orderFromBaku" class="order-baku-panel" hidden><select id="orderFromBakuDistrict" aria-label="Haradan Bakı rayonu"></select><select id="orderFromBakuLocation" aria-label="Haradan qəsəbə və ya küçə"></select><input id="orderFromBakuExact" placeholder="Dəqiq ünvan (küçə, bina, ev) — istəyə görə"></div>
-<div id="orderFromRegion" class="order-region-panel" hidden><select id="orderFromRegionName" aria-label="Haradan rayon"></select><input id="orderFromRegionExact" placeholder="Qəsəbə / kənd / küçə / dəqiq ünvan"></div>
-</div>
+<div class="order-route-choice-grid">
+  <div class="order-route-card active" id="bakuRouteCard" data-route="baku">
+    <div class="order-route-card-header">
+      <div><h3>🚕 Quba ↔ Bakı</h3><small>Bakı rayonu, qəsəbə və küçə ilə sifariş</small></div>
+      <label class="order-route-radio"><input type="radio" name="orderRouteType" id="routeTypeBaku" value="baku" checked> Bu marşrut</label>
+    </div>
+    <label class="field-label" for="bakuDirection">İstiqamət</label>
+    <select id="bakuDirection"><option value="q2b">Quba → Bakı</option><option value="b2q">Bakı → Quba</option></select>
+    <div class="order-route-subgrid">
+      <div><label class="field-label" for="orderBakuDistrict">Bakı rayonu</label><select id="orderBakuDistrict"></select></div>
+      <div><label class="field-label" for="orderBakuLocation">Qəsəbə / küçə</label><select id="orderBakuLocation"></select></div>
+      <div class="full"><label class="field-label" for="orderBakuExact">Dəqiq ünvan</label><input id="orderBakuExact" type="text" placeholder="Küçə, bina, ev — istəyə görə"></div>
+    </div>
+  </div>
 
-<div class="order-route-field">
-<label for="orderToPlace">Hara</label>
-<select id="orderToPlace" class="order-route-select"><option value="baku">Bakı</option><option value="quba">Quba</option><option value="region">Azərbaycanın rayonu / başqa ünvan</option></select>
-<div id="orderToBaku" class="order-baku-panel"><select id="orderToBakuDistrict" aria-label="Hara Bakı rayonu"></select><select id="orderToBakuLocation" aria-label="Hara qəsəbə və ya küçə"></select><input id="orderToBakuExact" placeholder="Dəqiq ünvan (küçə, bina, ev) — istəyə görə"></div>
-<div id="orderToRegion" class="order-region-panel" hidden><select id="orderToRegionName" aria-label="Hara rayon"></select><input id="orderToRegionExact" placeholder="Qəsəbə / kənd / küçə / dəqiq ünvan"></div>
+  <div class="order-route-card" id="regionRouteCard" data-route="region">
+    <div class="order-route-card-header">
+      <div><h3>🌍 Quba ↔ Azərbaycanın rayonları</h3><small>Quba ilə digər rayonlar arasında sifariş</small></div>
+      <label class="order-route-radio"><input type="radio" name="orderRouteType" id="routeTypeRegion" value="region"> Bu marşrut</label>
+    </div>
+    <label class="field-label" for="regionDirection">İstiqamət</label>
+    <select id="regionDirection"><option value="q2r">Quba → Rayon</option><option value="r2q">Rayon → Quba</option></select>
+    <div class="order-route-subgrid">
+      <div class="full"><label class="field-label" for="orderRegionName">Azərbaycan rayonu</label><select id="orderRegionName"></select></div>
+      <div class="full"><label class="field-label" for="orderRegionExact">Qəsəbə / kənd / küçə / dəqiq ünvan</label><input id="orderRegionExact" type="text" placeholder="İstəyə görə dəqiq ünvan"></div>
+    </div>
+  </div>
 </div>
 
 <input id="from" type="hidden" value="Quba"><input id="to" type="hidden" value="Bakı">
+<div class="order-common-label">Səfər məlumatları</div>
 <input id="date" type="date"><input id="time" type="time"><select id="person"><option>1 nəfər</option><option>2 nəfər</option><option>3 nəfər</option><option>4 nəfər</option></select><select id="car"><option value="">Avtomobil seçin</option></select><button onclick="sendOrder()">Sifariş Göndər</button>
 <div id="orderAddressSummary" class="order-address-summary" aria-live="polite"></div>
 </div></section>
 <section class="reviews"><h2>Müştəri rəyləri</h2><div class="review-cards" id="reviewsBox"></div></section>
 <section class="gallery" id="gallery"><h2>Foto Qalereya</h2><div class="gallery-grid" id="galleryBox"></div></section>
-<section class="map-section"><h2>Bizi Xəritədə Tapın</h2><div class="map-box"><iframe src="https://www.google.com/maps?q=Quba,Azerbaijan&output=embed" width="100%" height="420" style="border:0" loading="lazy" title="TAXI TIME xəritəsi"></iframe></div></section><section class="contact" id="contact"><h2>Bizimlə Əlaqə</h2><div class="contact-item">📍 Quba şəhəri</div><div class="contact-item">📞 <a href="tel:+994507119711">+994 50 711 97 11</a></div><div class="contact-item">🕒 24/7 xidmət</div></section><a class="whatsapp" href="https://wa.me/994507119711" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a><footer>© 2026 TAXI TIME | Quba - Bakı</footer><script src="script.js?v=20260821-fix1"></script><script src="order-baku.js?v=20260922-1"></script><script src="price-v2.js?v=20260828-baku-district-fix2"></script><script src="image-fix.js?v=20260822-1"></script><script src="info-widgets.js?v=20260822-1"></script></body></html>
+<section class="map-section"><h2>Bizi Xəritədə Tapın</h2><div class="map-box"><iframe src="https://www.google.com/maps?q=Quba,Azerbaijan&output=embed" width="100%" height="420" style="border:0" loading="lazy" title="TAXI TIME xəritəsi"></iframe></div></section><section class="contact" id="contact"><h2>Bizimlə Əlaqə</h2><div class="contact-item">📍 Quba şəhəri</div><div class="contact-item">📞 <a href="tel:+994507119711">+994 50 711 97 11</a></div><div class="contact-item">🕒 24/7 xidmət</div></section><a class="whatsapp" href="https://wa.me/994507119711" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a><footer>© 2026 TAXI TIME | Quba - Bakı</footer><script src="script.js?v=20260821-fix1"></script><script src="order-baku.js?v=20260922-2"></script><script src="price-v2.js?v=20260828-baku-district-fix2"></script><script src="image-fix.js?v=20260822-1"></script><script src="info-widgets.js?v=20260822-1"></script></body></html>
