@@ -426,26 +426,26 @@
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "80",
+            "standard_round_trip": "160",
+            "comfort": "100",
+            "comfort_round_trip": "200",
+            "vip": "120",
+            "vip_round_trip": "240",
+            "one_way": "80",
+            "round_trip": "160"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "100",
+            "standard_round_trip": "200",
+            "comfort": "120",
+            "comfort_round_trip": "240",
+            "vip": "140",
+            "vip_round_trip": "280",
+            "one_way": "100",
+            "round_trip": "200"
           }
         ]
       },
@@ -3608,8 +3608,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1791447590572-atpxsy",
-      "timestamp": 1791447590572,
+      "id": "AUD-1791447708355-sy15vo",
+      "timestamp": 1791447708355,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -4118,26 +4118,26 @@
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "80",
+            "standard_round_trip": "160",
+            "comfort": "100",
+            "comfort_round_trip": "200",
+            "vip": "120",
+            "vip_round_trip": "240",
+            "one_way": "80",
+            "round_trip": "160"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "100",
+            "standard_round_trip": "200",
+            "comfort": "120",
+            "comfort_round_trip": "240",
+            "vip": "140",
+            "vip_round_trip": "280",
+            "one_way": "100",
+            "round_trip": "200"
           }
         ]
       },
@@ -6473,5 +6473,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1791447513517
+  "pricesUpdatedAt": 1791447631412
 }
