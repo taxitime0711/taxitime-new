@@ -256,36 +256,36 @@
             "end": "20:00",
             "standard": "275  AZN",
             "standard_round_trip": "425 AZN",
-            "comfort": "300",
-            "comfort_round_trip": "450",
-            "vip": "320",
-            "vip_round_trip": "470",
+            "comfort": "300 AZN",
+            "comfort_round_trip": "450 AZN",
+            "vip": "320 AZN",
+            "vip_round_trip": "470 AZN",
             "one_way": "275  AZN",
             "round_trip": "425 AZN"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "290",
-            "standard_round_trip": "440",
-            "comfort": "320",
-            "comfort_round_trip": "470",
-            "vip": "350",
-            "vip_round_trip": "480",
-            "one_way": "290",
-            "round_trip": "440"
+            "standard": "290 AZN",
+            "standard_round_trip": "440 AZN",
+            "comfort": "320 AZN",
+            "comfort_round_trip": "470 AZN",
+            "vip": "350 AZN",
+            "vip_round_trip": "480 AZN",
+            "one_way": "290 AZN",
+            "round_trip": "440 AZN"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "300",
-            "standard_round_trip": "450",
-            "comfort": "350",
-            "comfort_round_trip": "500",
-            "vip": "380",
-            "vip_round_trip": "500",
-            "one_way": "300",
-            "round_trip": "450"
+            "standard": "300 AZN",
+            "standard_round_trip": "450 AZN",
+            "comfort": "350 AZN",
+            "comfort_round_trip": "500 AZN",
+            "vip": "380 AZN",
+            "vip_round_trip": "500 AZN",
+            "one_way": "300 AZN",
+            "round_trip": "450 AZN"
           }
         ]
       },
@@ -3608,8 +3608,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1791448101584-ho0ty1",
-      "timestamp": 1791448101584,
+      "id": "AUD-1791448153321-nwv1qm",
+      "timestamp": 1791448153321,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -3948,36 +3948,36 @@
             "end": "20:00",
             "standard": "275  AZN",
             "standard_round_trip": "425 AZN",
-            "comfort": "300",
-            "comfort_round_trip": "450",
-            "vip": "320",
-            "vip_round_trip": "470",
+            "comfort": "300 AZN",
+            "comfort_round_trip": "450 AZN",
+            "vip": "320 AZN",
+            "vip_round_trip": "470 AZN",
             "one_way": "275  AZN",
             "round_trip": "425 AZN"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "290",
-            "standard_round_trip": "440",
-            "comfort": "320",
-            "comfort_round_trip": "470",
-            "vip": "350",
-            "vip_round_trip": "480",
-            "one_way": "290",
-            "round_trip": "440"
+            "standard": "290 AZN",
+            "standard_round_trip": "440 AZN",
+            "comfort": "320 AZN",
+            "comfort_round_trip": "470 AZN",
+            "vip": "350 AZN",
+            "vip_round_trip": "480 AZN",
+            "one_way": "290 AZN",
+            "round_trip": "440 AZN"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "300",
-            "standard_round_trip": "450",
-            "comfort": "350",
-            "comfort_round_trip": "500",
-            "vip": "380",
-            "vip_round_trip": "500",
-            "one_way": "300",
-            "round_trip": "450"
+            "standard": "300 AZN",
+            "standard_round_trip": "450 AZN",
+            "comfort": "350 AZN",
+            "comfort_round_trip": "500 AZN",
+            "vip": "380 AZN",
+            "vip_round_trip": "500 AZN",
+            "one_way": "300 AZN",
+            "round_trip": "450 AZN"
           }
         ]
       },
@@ -6473,5 +6473,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1791448024593
+  "pricesUpdatedAt": 1791448076281
 }
