@@ -694,38 +694,38 @@
           {
             "start": "06:00",
             "end": "20:00",
-            "standard": "0 AZN",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "0 AZN",
-            "round_trip": ""
+            "standard": "270 AZN",
+            "standard_round_trip": "415 AZN",
+            "comfort": "290 AZN",
+            "comfort_round_trip": "425 AZN",
+            "vip": "300 AZN",
+            "vip_round_trip": "450 AZN",
+            "one_way": "270 AZN",
+            "round_trip": "415 AZN"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "290 AZN",
+            "standard_round_trip": "425 AZN",
+            "comfort": "300 AZN",
+            "comfort_round_trip": "440 AZN",
+            "vip": "320 AZN",
+            "vip_round_trip": "470 AZN",
+            "one_way": "290 AZN",
+            "round_trip": "425 AZN"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "300 AZN",
+            "standard_round_trip": "435 AZN",
+            "comfort": "310 AZN",
+            "comfort_round_trip": "450 AZN",
+            "vip": "330 AZN",
+            "vip_round_trip": "480 AZN",
+            "one_way": "300 AZN",
+            "round_trip": "435 AZN"
           }
         ]
       },
@@ -3648,8 +3648,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1791456530107-j98ykh",
-      "timestamp": 1791456530107,
+      "id": "AUD-1791456682117-avzj1x",
+      "timestamp": 1791456682117,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -4426,38 +4426,38 @@
           {
             "start": "06:00",
             "end": "20:00",
-            "standard": "0 AZN",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "0 AZN",
-            "round_trip": ""
+            "standard": "270 AZN",
+            "standard_round_trip": "415 AZN",
+            "comfort": "290 AZN",
+            "comfort_round_trip": "425 AZN",
+            "vip": "300 AZN",
+            "vip_round_trip": "450 AZN",
+            "one_way": "270 AZN",
+            "round_trip": "415 AZN"
           },
           {
             "start": "20:00",
             "end": "00:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "290 AZN",
+            "standard_round_trip": "425 AZN",
+            "comfort": "300 AZN",
+            "comfort_round_trip": "440 AZN",
+            "vip": "320 AZN",
+            "vip_round_trip": "470 AZN",
+            "one_way": "290 AZN",
+            "round_trip": "425 AZN"
           },
           {
             "start": "00:00",
             "end": "06:00",
-            "standard": "",
-            "standard_round_trip": "",
-            "comfort": "",
-            "comfort_round_trip": "",
-            "vip": "",
-            "vip_round_trip": "",
-            "one_way": "",
-            "round_trip": ""
+            "standard": "300 AZN",
+            "standard_round_trip": "435 AZN",
+            "comfort": "310 AZN",
+            "comfort_round_trip": "450 AZN",
+            "vip": "330 AZN",
+            "vip_round_trip": "480 AZN",
+            "one_way": "300 AZN",
+            "round_trip": "435 AZN"
           }
         ]
       },
@@ -6553,5 +6553,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1791456453344
+  "pricesUpdatedAt": 1791456605503
 }
