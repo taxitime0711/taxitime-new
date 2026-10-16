@@ -2608,6 +2608,46 @@
             "round_trip": "390 AZN"
           }
         ]
+      },
+      "Xocalı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "235 AZN",
+            "standard_round_trip": "365 AZN",
+            "comfort": "255 AZN",
+            "comfort_round_trip": "385 AZN",
+            "vip": "270 AZN",
+            "vip_round_trip": "400 AZN",
+            "one_way": "235 AZN",
+            "round_trip": "365 AZN"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "255 AZN",
+            "standard_round_trip": "375 AZN",
+            "comfort": "275 AZN",
+            "comfort_round_trip": "410 AZN",
+            "vip": "290 AZN",
+            "vip_round_trip": "420 AZN",
+            "one_way": "255 AZN",
+            "round_trip": "375 AZN"
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "275 AZN",
+            "standard_round_trip": "385 AZN",
+            "comfort": "285 AZN",
+            "comfort_round_trip": "420 AZN",
+            "vip": "310 AZN",
+            "vip_round_trip": "450 AZN",
+            "one_way": "275 AZN",
+            "round_trip": "385 AZN"
+          }
+        ]
       }
     },
     "baku_locations": {
@@ -3968,8 +4008,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1792155502624-7wybt4",
-      "timestamp": 1792155502624,
+      "id": "AUD-1792155636353-ni446i",
+      "timestamp": 1792155636353,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -6684,6 +6724,46 @@
             "round_trip": "390 AZN"
           }
         ]
+      },
+      "Xocalı": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "235 AZN",
+            "standard_round_trip": "365 AZN",
+            "comfort": "255 AZN",
+            "comfort_round_trip": "385 AZN",
+            "vip": "270 AZN",
+            "vip_round_trip": "400 AZN",
+            "one_way": "235 AZN",
+            "round_trip": "365 AZN"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "255 AZN",
+            "standard_round_trip": "375 AZN",
+            "comfort": "275 AZN",
+            "comfort_round_trip": "410 AZN",
+            "vip": "290 AZN",
+            "vip_round_trip": "420 AZN",
+            "one_way": "255 AZN",
+            "round_trip": "375 AZN"
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "275 AZN",
+            "standard_round_trip": "385 AZN",
+            "comfort": "285 AZN",
+            "comfort_round_trip": "420 AZN",
+            "vip": "310 AZN",
+            "vip_round_trip": "450 AZN",
+            "one_way": "275 AZN",
+            "round_trip": "385 AZN"
+          }
+        ]
       }
     },
     "baku_locations": {
@@ -7217,5 +7297,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1792155422003
+  "pricesUpdatedAt": 1792155556001
 }
