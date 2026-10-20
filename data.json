@@ -3995,12 +3995,12 @@
       "phone": "+994553853131",
       "carModel": "Geely Galaxy A7",
       "carPlate": "77-ZB-645",
-      "login": "Baxtiyar002",
+      "login": "Baxtiyar0002",
       "active": true,
       "status": "offline",
       "createdAt": 1787435721797,
       "passwordUpdatedAt": 1787607972461,
-      "updatedAt": 1789206626100,
+      "updatedAt": 1792494126118,
       "lastSeen": 1789206626100,
       "onlineAt": 1788452841040,
       "lat": 41.3669412,
@@ -4008,7 +4008,13 @@
       "lng": 48.5294373,
       "connectionState": "heartbeat_timeout",
       "offlineAt": 1789206626100,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
+      "registrationNo": "Baxtiyar0002",
+      "driverLoginChangedAt": 1792494126118,
+      "previousDriverLogin": "Baxtiyar002",
+      "driverName": "Bəxtiyar Əliyev",
+      "car": "Geely Galaxy A7",
+      "plate": "77-ZB-645"
     },
     {
       "id": "DRV0158050",
@@ -4087,6 +4093,25 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1792494126118-9zyf8p",
+      "timestamp": 1792494126118,
+      "type": "updateDriver",
+      "admin": "admin_taxitime",
+      "driverId": "DRV5721793",
+      "oldLogin": "Baxtiyar002"
+    },
+    {
+      "id": "AUD-1792494126118-llv2qe",
+      "timestamp": 1792494126118,
+      "type": "changeDriverLogin",
+      "admin": "admin_taxitime",
+      "driverId": "DRV5721793",
+      "oldLogin": "Baxtiyar002",
+      "newLogin": "Baxtiyar0002",
+      "remappedRefs": 0,
+      "reloginRequired": true
+    },
     {
       "id": "AUD-1792156593249-4isoio",
       "timestamp": 1792156593249,
