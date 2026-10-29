@@ -2728,6 +2728,46 @@
             "round_trip": "430 AZN"
           }
         ]
+      },
+      "Beyləqan": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "180 AZN",
+            "standard_round_trip": "340 AZN",
+            "comfort": "200 AZN",
+            "comfort_round_trip": "340 AZN",
+            "vip": "220 AZN",
+            "vip_round_trip": "360 AZN",
+            "one_way": "180 AZN",
+            "round_trip": "340 AZN"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "190 AZN",
+            "standard_round_trip": "350 AZN",
+            "comfort": "210 AZN",
+            "comfort_round_trip": "350 AZN",
+            "vip": "230 AZN",
+            "vip_round_trip": "370 AZN",
+            "one_way": "190 AZN",
+            "round_trip": "350 AZN"
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "200 AZN",
+            "standard_round_trip": "360 AZN",
+            "comfort": "220 AZN",
+            "comfort_round_trip": "360 AZN",
+            "vip": "240 AZN",
+            "vip_round_trip": "380 AZN",
+            "one_way": "200 AZN",
+            "round_trip": "360 AZN"
+          }
+        ]
       }
     },
     "baku_locations": {
@@ -4008,13 +4048,13 @@
       "lng": 48.5294373,
       "connectionState": "heartbeat_timeout",
       "offlineAt": 1789206626100,
-      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783",
       "registrationNo": "Baxtiyar0002",
       "driverLoginChangedAt": 1792494126118,
       "previousDriverLogin": "Baxtiyar002",
       "driverName": "Bəxtiyar Əliyev",
       "car": "Geely Galaxy A7",
-      "plate": "77-ZB-645"
+      "plate": "77-ZB-645",
+      "passwordHash": "5bcff53cb784de4df7834c78792721c1de4e90080638f3f202f51cc346938783"
     },
     {
       "id": "DRV0158050",
@@ -4093,6 +4133,12 @@
   "ratings": [],
   "driverRatings": [],
   "audit": [
+    {
+      "id": "AUD-1793269309537-e18a8b",
+      "timestamp": 1793269309537,
+      "type": "legacyAdminFullSave",
+      "admin": "admin_taxitime"
+    },
     {
       "id": "AUD-1792494126118-9zyf8p",
       "timestamp": 1792494126118,
@@ -6949,6 +6995,46 @@
             "round_trip": "430 AZN"
           }
         ]
+      },
+      "Beyləqan": {
+        "slots": [
+          {
+            "start": "06:00",
+            "end": "20:00",
+            "standard": "180 AZN",
+            "standard_round_trip": "340 AZN",
+            "comfort": "200 AZN",
+            "comfort_round_trip": "340 AZN",
+            "vip": "220 AZN",
+            "vip_round_trip": "360 AZN",
+            "one_way": "180 AZN",
+            "round_trip": "340 AZN"
+          },
+          {
+            "start": "20:00",
+            "end": "00:00",
+            "standard": "190 AZN",
+            "standard_round_trip": "350 AZN",
+            "comfort": "210 AZN",
+            "comfort_round_trip": "350 AZN",
+            "vip": "230 AZN",
+            "vip_round_trip": "370 AZN",
+            "one_way": "190 AZN",
+            "round_trip": "350 AZN"
+          },
+          {
+            "start": "00:00",
+            "end": "06:00",
+            "standard": "200 AZN",
+            "standard_round_trip": "360 AZN",
+            "comfort": "220 AZN",
+            "comfort_round_trip": "360 AZN",
+            "vip": "240 AZN",
+            "vip_round_trip": "380 AZN",
+            "one_way": "200 AZN",
+            "round_trip": "360 AZN"
+          }
+        ]
       }
     },
     "baku_locations": {
@@ -7482,5 +7568,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1792156512871
+  "pricesUpdatedAt": 1793269223571
 }
