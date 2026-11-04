@@ -2785,12 +2785,12 @@
           },
           {
             "name": "Binəqədi qəsəbəsi",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "60 AZN",
+            "comfort": "70 AZN",
+            "vip": "80 AZN",
+            "standard_round": "120 AZN",
+            "comfort_round": "130 AZN",
+            "vip_round": "160 AZN",
             "type": "Digər"
           },
           {
@@ -4134,8 +4134,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1793797444561-e57293",
-      "timestamp": 1793797444561,
+      "id": "AUD-1793797660701-zrdsj5",
+      "timestamp": 1793797660701,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -7058,12 +7058,12 @@
           },
           {
             "name": "Binəqədi qəsəbəsi",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "60 AZN",
+            "comfort": "70 AZN",
+            "vip": "80 AZN",
+            "standard_round": "120 AZN",
+            "comfort_round": "130 AZN",
+            "vip_round": "160 AZN",
             "type": "Digər"
           },
           {
@@ -7574,5 +7574,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1793797355322
+  "pricesUpdatedAt": 1793797571799
 }
