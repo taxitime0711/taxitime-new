@@ -2805,12 +2805,12 @@
           },
           {
             "name": "7-ci mikrorayon",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "60 AZN",
+            "comfort": "70 AZN",
+            "vip": "80 AZN",
+            "standard_round": "120 AZN",
+            "comfort_round": "140 AZN",
+            "vip_round": "160 AZN",
             "type": "Digər"
           },
           {
@@ -4134,8 +4134,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1793797695891-ihc9g3",
-      "timestamp": 1793797695891,
+      "id": "AUD-1793797729712-1sp4ee",
+      "timestamp": 1793797729712,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -7078,12 +7078,12 @@
           },
           {
             "name": "7-ci mikrorayon",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "60 AZN",
+            "comfort": "70 AZN",
+            "vip": "80 AZN",
+            "standard_round": "120 AZN",
+            "comfort_round": "140 AZN",
+            "vip_round": "160 AZN",
             "type": "Digər"
           },
           {
@@ -7574,5 +7574,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1793797607126
+  "pricesUpdatedAt": 1793797640854
 }
