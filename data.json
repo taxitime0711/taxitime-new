@@ -3129,12 +3129,12 @@
           },
           {
             "name": "Ağ Şəhər",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "80 AZN",
+            "comfort": "90 AZN",
+            "vip": "100 AZN",
+            "standard_round": "160 AZN",
+            "comfort_round": "180 AZN",
+            "vip_round": "200 AZN",
             "type": "Digər"
           }
         ]
@@ -4134,8 +4134,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1793797216504-vo79ht",
-      "timestamp": 1793797216504,
+      "id": "AUD-1793797297778-j3xzax",
+      "timestamp": 1793797297778,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -7402,12 +7402,12 @@
           },
           {
             "name": "Ağ Şəhər",
-            "standard": "",
-            "comfort": "",
-            "vip": "",
-            "standard_round": "",
-            "comfort_round": "",
-            "vip_round": "",
+            "standard": "80 AZN",
+            "comfort": "90 AZN",
+            "vip": "100 AZN",
+            "standard_round": "160 AZN",
+            "comfort_round": "180 AZN",
+            "vip_round": "200 AZN",
             "type": "Digər"
           }
         ]
@@ -7574,5 +7574,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1793797127476
+  "pricesUpdatedAt": 1793797208443
 }
