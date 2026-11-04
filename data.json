@@ -3109,12 +3109,12 @@
         "locations": [
           {
             "name": "Əhmədli",
-            "standard": "80",
-            "comfort": "90",
-            "vip": "100",
-            "standard_round": "160",
-            "comfort_round": "170",
-            "vip_round": "200",
+            "standard": "80 AZN",
+            "comfort": "90 AZN",
+            "vip": "100 AZN",
+            "standard_round": "160 AZN",
+            "comfort_round": "170 AZN",
+            "vip_round": "200 AZN",
             "type": "Digər"
           },
           {
@@ -4134,8 +4134,8 @@
   "driverRatings": [],
   "audit": [
     {
-      "id": "AUD-1793797304903-1h9del",
-      "timestamp": 1793797304903,
+      "id": "AUD-1793797319770-em6xys",
+      "timestamp": 1793797319770,
       "type": "legacyAdminFullSave",
       "admin": "admin_taxitime"
     },
@@ -7382,12 +7382,12 @@
         "locations": [
           {
             "name": "Əhmədli",
-            "standard": "80",
-            "comfort": "90",
-            "vip": "100",
-            "standard_round": "160",
-            "comfort_round": "170",
-            "vip_round": "200",
+            "standard": "80 AZN",
+            "comfort": "90 AZN",
+            "vip": "100 AZN",
+            "standard_round": "160 AZN",
+            "comfort_round": "170 AZN",
+            "vip_round": "200 AZN",
             "type": "Digər"
           },
           {
@@ -7574,5 +7574,5 @@
       }
     }
   },
-  "pricesUpdatedAt": 1793797215739
+  "pricesUpdatedAt": 1793797230859
 }
