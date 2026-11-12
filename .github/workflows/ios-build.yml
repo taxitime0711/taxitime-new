@@ -25,7 +25,7 @@ jobs:
       - name: Check iOS source files
         run: |
           test -f ios/project.yml
-          test -f ios/Sources/TaxiTimeApp.swift
+          test -f ios/TaxiTimeApp.swift
 
       - name: Generate Xcode project
         working-directory: ios
