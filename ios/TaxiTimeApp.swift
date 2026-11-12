@@ -74,7 +74,6 @@ struct MainScreen: View {
     @State private var role: Role = .passenger
     @State private var departure = ""
     @State private var destination = ""
-    @State private var passengerCount = 1
     @State private var login = ""
     @State private var password = ""
     @State private var token: String? = nil // Memory only: do not persist sensitive session credentials.
@@ -121,7 +120,6 @@ struct MainScreen: View {
                     Section("Marşrut seçimi") {
                         TextField("Haradan? Məsələn: Bakı", text: $departure)
                         TextField("Haraya? Məsələn: Quba", text: $destination)
-                        Stepper("Sərnişin sayı: \(passengerCount)", value: $passengerCount, in: 1...4)
                     }
                     Section("Sifariş məlumatları") {
                         if departure.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ||
@@ -129,9 +127,9 @@ struct MainScreen: View {
                             Text("Marşrutu daxil edin").foregroundStyle(.secondary)
                         } else {
                             Text("\(departure) → \(destination)").font(.headline)
-                            Text("Sərnişin: \(passengerCount)")
+                            Text("Sifariş növü: Bütöv avtomobil")
                         }
-                        Text("Qiymət serverdən hesablanacaq").foregroundStyle(.secondary)
+                        Text("Qiymət Admin tarifinə əsasən hesablanacaq").foregroundStyle(.secondary)
                         Button("Qiyməti hesabla") {}.disabled(true)
                         Button("Sifariş yarat") {}.disabled(true)
                     }
