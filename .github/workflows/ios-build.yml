@@ -1,0 +1,44 @@
+
+name: TAXI TIME iOS Build
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ios-build:
+    name: iOS Simulator Build
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Show Xcode version
+        run: xcodebuild -version
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Check iOS source files
+        run: |
+          test -f ios/project.yml
+          test -f ios/Sources/TaxiTimeApp.swift
+
+      - name: Generate Xcode project
+        working-directory: ios
+        run: xcodegen generate
+
+      - name: Build iOS Simulator app
+        working-directory: ios
+        run: |
+          xcodebuild \
+            -project TaxiTimeIOS.xcodeproj \
+            -scheme TaxiTimeIOS \
+            -configuration Debug \
+            -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO \
+            build
