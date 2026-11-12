@@ -8,7 +8,7 @@ targets:
     type: application
     platform: iOS
     sources:
-      - Sources
+      - TaxiTimeApp.swift
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: az.taxitime.ios
